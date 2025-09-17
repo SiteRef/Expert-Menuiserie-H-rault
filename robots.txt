@@ -1,0 +1,37 @@
+User-agent: *
+Allow: /
+
+# Important pages
+Allow: /secteur/
+Allow: /services/
+Allow: /urgence/
+Allow: /devis-gratuit/
+Allow: /contact/
+
+# Main cities - Priority crawling
+Allow: /secteur/montpellier/
+Allow: /secteur/beziers/
+Allow: /secteur/sete/
+Allow: /secteur/lunel/
+Allow: /secteur/agde/
+
+# Main services - Priority crawling
+Allow: /services/fenetres-sur-mesure-herault/
+Allow: /services/volets-sur-mesure-herault/
+Allow: /services/portes-entree-sur-mesure-herault/
+
+# Urgency services - High priority
+Allow: /urgence/reparation-menuiserie-urgence-herault/
+Allow: /urgence/depannage-volet-roulant-herault/
+
+# Block admin/temp directories if any
+Disallow: /admin/
+Disallow: /temp/
+Disallow: /*.tmp
+Disallow: /private/
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://expert-menuiserie-herault.fr/sitemap.xml
