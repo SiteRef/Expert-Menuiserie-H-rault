@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menuisier Sète | Fenêtres Portes Volets Marine | Expert Menuiserie Hérault</title>
+    <meta name="description" content="Menuisier Qualibat RGE à Sète. Menuiseries marines anti-corrosion résistantes aux embruns. Installation fenêtres, portes, volets. Devis gratuit.">
+    <meta name="keywords" content="menuisier sète, fenêtres sète, portes sète, volets roulants sète, menuiserie marine, anti-corrosion">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://expert-menuiserie-herault.fr/secteur/sete/">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/responsive.css">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Expert Menuiserie Hérault - Sète",
+        "image": "https://expert-menuiserie-herault.fr/assets/images/menuisier-sete.jpg",
+        "description": "Menuisier spécialisé à Sète pour menuiseries marines anti-corrosion résistantes aux embruns",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Sète",
+            "postalCode": "34200",
+            "addressRegion": "Hérault",
+            "addressCountry": "FR"
+        },
+        "telephone": "+33759627463",
+        "priceRange": "€€",
+        "hasCredential": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Qualibat RGE"
+        },
+        "areaServed": {
+            "@type": "City",
+            "name": "Sète"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- HEADER NAVIGATION -->
+    <header class="header-main">
+        <div class="container">
+            <!-- Top Bar: Logo + Contact -->
+            <div class="header-top">
+                <div class="logo-section">
+                    <a href="../../" class="logo-link">
+                        <img src="../../Images/Expert Menuiserie Hérault.png" alt="Expert Menuiserie Hérault - Logo" class="company-logo">
+                        <span class="company-name">Expert Menuiserie Hérault</span>
+                    </a>
+                </div>
+
+                <div class="header-contact">
+                    <a href="tel:+33759627463" class="btn btn-secondary phone-btn">07 59 62 74 63</a>
+                    <a href="../../devis-gratuit/" class="btn btn-primary">DEVIS GRATUIT 24H</a>
+                </div>
+            </div>
+
+            <!-- Navigation Bar -->
+            <nav class="main-nav">
+                <div class="container">
+                    <ul class="nav-menu">
+                        <li><a href="../../">Accueil</a></li>
+                        <li class="dropdown">
+                            <span class="dropdown-trigger">Services</span>
+                            <ul class="submenu">
+                                <li><a href="../../services/fenetres-sur-mesure-herault/">Fenêtres</a></li>
+                                <li><a href="../../services/portes-entree-sur-mesure-herault/">Portes d'Entrée</a></li>
+                                <li><a href="../../services/volets-sur-mesure-herault/">Volets</a></li>
+                                <li><a href="../../services/portes-garage-herault/">Portes de Garage</a></li>
+                                <li><a href="../../services/portails-clotures-herault/">Portails & Clôtures</a></li>
+                                <li><a href="../../services/amenagements-exterieurs-herault/">Aménagements Extérieurs</a></li>
+                                <li><a href="../../services/amenagements-interieurs-herault/">Aménagements Intérieurs</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../">Nos Secteurs</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            Menuisier à Sète
+                            <span class="subtitle">Expert Qualibat RGE - Menuiserie Marine</span>
+                        </h1>
+                        <p class="hero-description">
+                            Installation menuiseries marines à Sète. Fenêtres, portes, volets anti-corrosion résistants aux embruns salés.
+                            <strong>Spécialiste de l'Île Singulière et des quais du port</strong>.
+                        </p>
+
+                        <div class="hero-cta">
+                            <a href="../../devis-gratuit/" class="btn btn-primary btn-large" style="min-width: 280px; height: 60px; display: flex; align-items: center; justify-content: center;">Devis Gratuit Marine</a>
+                            <a href="tel:+33759627463" class="btn btn-secondary btn-large" style="white-space: nowrap; min-width: 280px; height: 60px; display: flex; align-items: center; justify-content: center;">⚓&nbsp;07&nbsp;59&nbsp;62&nbsp;74&nbsp;63</a>
+                        </div>
+                    </div>
+
+                    <div class="hero-visual">
+                        <div class="hero-carousel-container">
+                            <div class="hero-carousel-track" id="heroCarouselTrack">
+                                <div class="hero-slide">
+                                    <img src="../../Images/fenetres-sur-mesure-herault.jpg" alt="Fenêtres marines anti-corrosion Sète">
+                                    <div class="hero-slide-caption">
+                                        <h3>Fenêtres Marines</h3>
+                                        <p>Résistantes aux embruns salés</p>
+                                    </div>
+                                </div>
+                                <div class="hero-slide">
+                                    <img src="../../Images/portes-entree-sur-mesure-herault.jpg" alt="Portes d'entrée étanches Sète">
+                                    <div class="hero-slide-caption">
+                                        <h3>Portes Étanches</h3>
+                                        <p>Protection maximale contre l'humidité</p>
+                                    </div>
+                                </div>
+                                <div class="hero-slide">
+                                    <img src="../../Images/volets-sur-mesure-herault.jpg" alt="Volets anti-tempête Sète">
+                                    <div class="hero-slide-caption">
+                                        <h3>Volets Anti-Tempête</h3>
+                                        <p>Résistance aux vents marins</p>
+                                    </div>
+                                </div>
+                                <div class="hero-slide">
+                                    <img src="../../Images/porte-garage-sectionnelle-herault.jpg" alt="Portes garage marines Sète">
+                                    <div class="hero-slide-caption">
+                                        <h3>Portes Garage Marines</h3>
+                                        <p>Étanchéité et motorisation protégée</p>
+                                    </div>
+                                </div>
+                                <div class="hero-slide">
+                                    <img src="../../Images/Portails Aluminium herault.jpg" alt="Portails aluminium marine Sète">
+                                    <div class="hero-slide-caption">
+                                        <h3>Portails Marine</h3>
+                                        <p>Aluminium grade maritime</p>
+                                    </div>
+                                </div>
+                                <div class="hero-slide">
+                                    <img src="../../Images/pergola-bioclimatique-herault.jpg" alt="Pergola vue étang Thau Sète">
+                                    <div class="hero-slide-caption">
+                                        <h3>Pergolas Vue Mer</h3>
+                                        <p>Face à l'étang de Thau</p>
+                                    </div>
+                                </div>
+                                <div class="hero-slide">
+                                    <img src="../../Images/dressing-sur-mesure-herault.jpg" alt="Aménagements anti-humidité Sète">
+                                    <div class="hero-slide-caption">
+                                        <h3>Aménagements Marines</h3>
+                                        <p>Traitement anti-humidité</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="hero-carousel-nav hero-carousel-prev" onclick="moveHeroCarousel(-1)">‹</button>
+                            <button class="hero-carousel-nav hero-carousel-next" onclick="moveHeroCarousel(1)">›</button>
+                            <div class="hero-carousel-indicators">
+                                <button class="hero-indicator active" onclick="goToHeroSlide(0)"></button>
+                                <button class="hero-indicator" onclick="goToHeroSlide(1)"></button>
+                                <button class="hero-indicator" onclick="goToHeroSlide(2)"></button>
+                                <button class="hero-indicator" onclick="goToHeroSlide(3)"></button>
+                                <button class="hero-indicator" onclick="goToHeroSlide(4)"></button>
+                                <button class="hero-indicator" onclick="goToHeroSlide(5)"></button>
+                                <button class="hero-indicator" onclick="goToHeroSlide(6)"></button>
+                            </div>
+                        </div>
+
+                        <div class="floating-badge">
+                            <span class="badge-text">MARINE</span>
+                            <span class="badge-subtext">spécialiste littorale</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES SECTION -->
+        <section class="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Nos Services de Menuiserie Marine à Sète</h2>
+                    <p class="section-subtitle">Notre équipe d'experts intervient à Sète pour tous vos projets de menuiserie résistante aux embruns</p>
+                </div>
+
+                <div class="services-grid">
+                    <a href="../../services/fenetres-sur-mesure-herault/" class="service-card">
+                        <div class="service-image">
+                            <img src="../../Images/fenetres-sur-mesure-herault.jpg" alt="Fenêtres marines Sète">
+                        </div>
+                        <div class="service-content">
+                            <h3>Fenêtres Marines</h3>
+                            <p>PVC, Aluminium grade marine. Traitement anti-corrosion pour résister aux embruns salés de l'étang de Thau.</p>
+                            <ul class="service-features">
+                                <li>Traitement anti-sel</li>
+                                <li>Étanchéité renforcée</li>
+                                <li>Isolation acoustique mer</li>
+                            </ul>
+                            <div class="btn btn-outline" style="margin-top: auto;">Fenêtres Marines</div>
+                        </div>
+                    </a>
+
+                    <a href="../../services/portes-entree-sur-mesure-herault/" class="service-card">
+                        <div class="service-image">
+                            <img src="../../Images/portes-entree-sur-mesure-herault.jpg" alt="Portes d'entrée maritimes Sète">
+                        </div>
+                        <div class="service-content">
+                            <h3>Portes d'Entrée Maritimes</h3>
+                            <p>Sécurisées et étanches, conçues pour l'environnement maritime sétois. Style authentique des maisons de pêcheurs.</p>
+                            <ul class="service-features">
+                                <li>Résistance saline</li>
+                                <li>Sécurité portuaire</li>
+                                <li>Esthétique maritime</li>
+                            </ul>
+                            <div class="btn btn-outline" style="margin-top: auto;">Portes Maritimes</div>
+                        </div>
+                    </a>
+
+                    <a href="../../services/volets-sur-mesure-herault/" class="service-card">
+                        <div class="service-image">
+                            <img src="../../Images/volets-sur-mesure-herault.jpg" alt="Volets anti-tempête Sète">
+                        </div>
+                        <div class="service-content">
+                            <h3>Volets Anti-Tempête</h3>
+                            <p>Protection maximale contre les tempêtes méditerranéennes et les vents du large. Motorisation marine.</p>
+                            <ul class="service-features">
+                                <li>Résistance cyclonique</li>
+                                <li>Motorisation IP65</li>
+                                <li>Protection embruns</li>
+                            </ul>
+                            <div class="btn btn-outline" style="margin-top: auto;">Volets Anti-Tempête</div>
+                        </div>
+                    </a>
+
+                    <a href="../../services/portes-garage-herault/" class="service-card">
+                        <div class="service-image">
+                            <img src="../../Images/porte-garage-sectionnelle-herault.jpg" alt="Portes garage marines Sète">
+                        </div>
+                        <div class="service-content">
+                            <h3>Portes de Garage Marines</h3>
+                            <p>Sectionnelles étanches pour garages en bord de mer. Motorisation protégée contre l'humidité saline.</p>
+                            <ul class="service-features">
+                                <li>Étanchéité totale</li>
+                                <li>Moteur étanche</li>
+                                <li>Anti-corrosion garantie</li>
+                            </ul>
+                            <div class="btn btn-outline" style="margin-top: auto;">Portes Garage Marines</div>
+                        </div>
+                    </a>
+
+                    <a href="../../services/portails-clotures-herault/" class="service-card">
+                        <div class="service-image">
+                            <img src="../../Images/Portails Aluminium herault.jpg" alt="Portails aluminium marine Sète">
+                        </div>
+                        <div class="service-content">
+                            <h3>Portails & Clôtures Marines</h3>
+                            <p>Aluminium grade maritime et acier galvanisé pour résister à l'environnement salin sétois.</p>
+                            <ul class="service-features">
+                                <li>Grade maritime A6</li>
+                                <li>Motorisation étanche</li>
+                                <li>Garantie anti-rouille</li>
+                            </ul>
+                            <div class="btn btn-outline" style="margin-top: auto;">Portails Marines</div>
+                        </div>
+                    </a>
+
+                    <a href="../../services/amenagements-exterieurs-herault/" class="service-card">
+                        <div class="service-image">
+                            <img src="../../Images/amenagements-exterieurs-herault.jpg" alt="Pergolas marines Sète">
+                        </div>
+                        <div class="service-content">
+                            <h3>Aménagements Extérieurs</h3>
+                            <p>Pergolas et terrasses avec vue sur l'étang de Thau. Résistance maximale aux embruns et tempêtes.</p>
+                            <ul class="service-features">
+                                <li>Vue panoramique</li>
+                                <li>Anti-corrosion marine</li>
+                                <li>Évacuation optimisée</li>
+                            </ul>
+                            <div class="btn btn-outline" style="margin-top: auto;">Aménagements Marine</div>
+                        </div>
+                    </a>
+
+                    <a href="../../services/amenagements-interieurs-herault/" class="service-card">
+                        <div class="service-image">
+                            <img src="../../Images/dressing-sur-mesure-herault.jpg" alt="Aménagements intérieurs anti-humidité Sète">
+                        </div>
+                        <div class="service-content">
+                            <h3>Aménagements Intérieurs</h3>
+                            <p>Dressing et placards adaptés à l'humidité maritime. Traitement anti-moisissures spécialisé bord de mer.</p>
+                            <ul class="service-features">
+                                <li>Anti-humidité saline</li>
+                                <li>Ventilation marine</li>
+                                <li>Matériaux imputrescibles</li>
+                            </ul>
+                            <div class="btn btn-outline" style="margin-top: auto;">Aménagements Marine</div>
+                        </div>
+                    </a>
+
+                    <a href="../../services/amenagements-exterieurs-herault/" class="service-card">
+                        <div class="service-image">
+                            <img src="../../Images/pergola-bioclimatique-herault.jpg" alt="Pergola vue mer Sète">
+                        </div>
+                        <div class="service-content">
+                            <h3>Pergolas Vue Mer</h3>
+                            <p>Bioclimatiques avec orientation optimale face à la Méditerranée. Résistance aux vents marins certifiée.</p>
+                            <ul class="service-features">
+                                <li>Orientation marine</li>
+                                <li>Anti-tempête renforcé</li>
+                                <li>Drainage salé optimisé</li>
+                            </ul>
+                            <div class="btn btn-outline" style="margin-top: auto;">Pergolas Vue Mer</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="section-header" style="margin-top: var(--spacing-2xl);">
+                    <h2>Types de Menuiseries Marines à Sète</h2>
+                    <p class="section-subtitle">Solutions spécialisées pour l'environnement maritime et la corrosion saline</p>
+                </div>
+
+                <div class="grid grid-2">
+                    <!-- Colonne 1: Types de Matériaux Marines -->
+                    <div>
+                        <h3 style="color: var(--primary-blue); margin-bottom: var(--spacing-lg);">Matériaux Marines</h3>
+                        <div class="grid grid-2" style="gap: var(--spacing-md);">
+                            <div class="card">
+                                <h4>PVC Marine</h4>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>✓ Traitement anti-UV salin</li>
+                                    <li>✓ Résistance corrosion</li>
+                                    <li>✓ Étanchéité renforcée</li>
+                                    <li>✓ Coloris marines</li>
+                                </ul>
+                            </div>
+                            <div class="card">
+                                <h4>Aluminium Grade Maritime</h4>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>✓ Alliage 6063-T6</li>
+                                    <li>✓ Anodisation marine</li>
+                                    <li>✓ Anti-corrosion saline</li>
+                                    <li>✓ Garantie littorale</li>
+                                </ul>
+                            </div>
+                            <div class="card">
+                                <h4>Bois Exotique</h4>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>✓ Teck maritime</li>
+                                    <li>✓ Iroko traité</li>
+                                    <li>✓ Imputrescible naturel</li>
+                                    <li>✓ Style traditionnel</li>
+                                </ul>
+                            </div>
+                            <div class="card">
+                                <h4>Composite Marine</h4>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>✓ Fibre verre + résine</li>
+                                    <li>✓ Zéro entretien</li>
+                                    <li>✓ Résistance maximale</li>
+                                    <li>✓ Durée vie illimitée</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Colonne 2: Types d'Installations Marines -->
+                    <div>
+                        <h3 style="color: var(--primary-blue); margin-bottom: var(--spacing-lg);">Installations Marines</h3>
+                        <div class="grid grid-2" style="gap: var(--spacing-md);">
+                            <div class="card">
+                                <h4>Pose Étanche Renforcée</h4>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>✓ Membrane anti-humidité</li>
+                                    <li>✓ Joints marines</li>
+                                    <li>✓ Drainage intégré</li>
+                                    <li>✓ Pare-vapeur salin</li>
+                                </ul>
+                            </div>
+                            <div class="card">
+                                <h4>Rénovation Maritime</h4>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>✓ Traitement corrosion</li>
+                                    <li>✓ Isolation humidité</li>
+                                    <li>✓ Ventilation marine</li>
+                                    <li>✓ Conservation cachet</li>
+                                </ul>
+                            </div>
+                            <div class="card">
+                                <h4>Neuf Bord de Mer</h4>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>✓ Normes littorales</li>
+                                    <li>✓ RT 2020 marine</li>
+                                    <li>✓ Étanchéité absolue</li>
+                                    <li>✓ Performance cyclonique</li>
+                                </ul>
+                            </div>
+                            <div class="card">
+                                <h4>Patrimoine Portuaire</h4>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>✓ Respect architecture</li>
+                                    <li>✓ Matériaux authentiques</li>
+                                    <li>✓ Style pêcheur</li>
+                                    <li>✓ ABF compatible</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Options Marines Spécialisées -->
+                <div style="margin-top: var(--spacing-2xl);">
+                    <h3 style="color: var(--primary-blue); text-align: center; margin-bottom: var(--spacing-lg);">Options Marines Spécialisées Sète</h3>
+                    <div class="grid grid-4">
+                        <div class="card text-center">
+                            <h4>Protection Cyclonique</h4>
+                            <p>Verres feuilletés renforcés, volets anti-tempête, ancrage cyclonique pour résistance maximale</p>
+                        </div>
+                        <div class="card text-center">
+                            <h4>Étanchéité Marine</h4>
+                            <p>Joints néoprène, drainage intégré, membrane étanche anti-remontée saline</p>
+                        </div>
+                        <div class="card text-center">
+                            <h4>Domotique Étanche</h4>
+                            <p>Motorisation IP65, capteurs marine, contrôle météo automatique anti-tempête</p>
+                        </div>
+                        <div class="card text-center">
+                            <h4>Acoustique Maritime</h4>
+                            <p>Isolation phonique renforcée contre les bruits portuaires et la houle de l'étang</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RÉALISATIONS SECTION -->
+        <section class="gallery-carousel-section">
+            <div class="container">
+                <div class="gallery-carousel-container">
+                    <div class="gallery-carousel">
+                        <div class="carousel-track" id="galleryCarouselTrack">
+                            <div class="carousel-slide">
+                                <img src="../../Images/fenetres-sur-mesure-herault.jpg" alt="Fenêtres marines PVC Sète">
+                                <div class="carousel-caption">Fenêtres marines anti-corrosion</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="../../Images/portes-entree-sur-mesure-herault.jpg" alt="Porte d'entrée étanche Sète">
+                                <div class="carousel-caption">Porte d'entrée marine étanche</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="../../Images/volets-sur-mesure-herault.jpg" alt="Volets anti-tempête Sète">
+                                <div class="carousel-caption">Volets anti-tempête maritimes</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="../../Images/porte-garage-sectionnelle-herault.jpg" alt="Porte garage marine Sète">
+                                <div class="carousel-caption">Porte garage marine étanche</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="../../Images/Portails Aluminium herault.jpg" alt="Portail aluminium marine Sète">
+                                <div class="carousel-caption">Portail aluminium grade maritime</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="../../Images/pergola-bioclimatique-herault.jpg" alt="Pergola vue étang Thau">
+                                <div class="carousel-caption">Pergola vue étang de Thau</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="../../Images/dressing-sur-mesure-herault.jpg" alt="Dressing anti-humidité marine">
+                                <div class="carousel-caption">Dressing anti-humidité marine</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="../../Images/fenetres-pvc-herault.jpg" alt="Fenêtres PVC marines">
+                                <div class="carousel-caption">Fenêtres PVC traitement salin</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="../../Images/porte-entree-aluminium-herault.jpg" alt="Porte aluminium marine">
+                                <div class="carousel-caption">Porte d'entrée aluminium marine</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="../../Images/volet-roulant-herault.jpg" alt="Volet roulant étanche">
+                                <div class="carousel-caption">Volet roulant étanchéité renforcée</div>
+                            </div>
+                        </div>
+                        <button class="carousel-nav carousel-nav-prev" onclick="moveGalleryCarousel(-1)">‹</button>
+                        <button class="carousel-nav carousel-nav-next" onclick="moveGalleryCarousel(1)">›</button>
+                    </div>
+                    <div class="carousel-indicators">
+                        <button class="indicator active" onclick="goToGallerySlide(0)"></button>
+                        <button class="indicator" onclick="goToGallerySlide(1)"></button>
+                        <button class="indicator" onclick="goToGallerySlide(2)"></button>
+                        <button class="indicator" onclick="goToGallerySlide(3)"></button>
+                        <button class="indicator" onclick="goToGallerySlide(4)"></button>
+                        <button class="indicator" onclick="goToGallerySlide(5)"></button>
+                        <button class="indicator" onclick="goToGallerySlide(6)"></button>
+                        <button class="indicator" onclick="goToGallerySlide(7)"></button>
+                        <button class="indicator" onclick="goToGallerySlide(8)"></button>
+                        <button class="indicator" onclick="goToGallerySlide(9)"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TÉMOIGNAGES SECTION -->
+        <section class="testimonials-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Témoignages Clients Sète</h2>
+                    <p class="section-subtitle">L'avis de nos clients sétois sur nos menuiseries marines</p>
+                </div>
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">★★★★★</div>
+                            <p>"Remplacement complet des menuiseries de notre maison de pêcheur au Môle. Parfaite résistance aux embruns après 3 ans. Travail impeccable !"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <strong>Captain Dubois</strong>
+                            <span>Le Môle - Sète</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">★★★★★</div>
+                            <p>"Fenêtres marines sur la Corniche face à l'étang. Aucune trace de corrosion après 2 hivers. Isolation phonique parfaite contre le mistral !"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <strong>Marina L.</strong>
+                            <span>Corniche de Neuburg - Sète</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">★★★★★</div>
+                            <p>"Pergola bioclimatique avec vue panoramique sur la mer. Résistance exceptionnelle aux tempêtes. Un vrai plaisir toute l'année !"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <strong>Philippe M.</strong>
+                            <span>Quartier Haut - Sète</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ZONES COUVERTES SECTION -->
+        <section class="zones-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Zones d'Intervention à Sète</h2>
+                    <p class="section-subtitle">Expert Menuiserie Hérault intervient dans tous les quartiers de Sète et sa région littorale</p>
+                </div>
+
+                <div class="zones-content">
+                    <div class="zones-info">
+                        <img src="../../Images/Nos%20Zones%20d'Intervention%20dans%20l'Hérault.jpg" alt="Carte intervention Sète" class="intervention-map">
+
+                        <div class="zones-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">15+</span>
+                                <span class="stat-label">Quartiers couverts</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">24h</span>
+                                <span class="stat-label">Délai intervention</span>
+                            </div>
+                        </div>
+
+                        <!-- Communes Littorales Section -->
+                        <div class="city-zone" style="margin-top: var(--spacing-xl);">
+                            <h4 class="zone-title">Communes Littorales</h4>
+                            <div class="cities-grid" style="grid-template-columns: repeat(2, 1fr);">
+                                <div class="city-item">
+                                    <a href="../frontignan/">
+                                        <strong>Frontignan</strong>
+                                        <span class="city-code">34110</span>
+                                    </a>
+                                </div>
+                                <div class="city-item">
+                                    <a href="../marseillan/">
+                                        <strong>Marseillan</strong>
+                                        <span class="city-code">34340</span>
+                                    </a>
+                                </div>
+                                <div class="city-item">
+                                    <a href="../meze/">
+                                        <strong>Mèze</strong>
+                                        <span class="city-code">34140</span>
+                                    </a>
+                                </div>
+                                <div class="city-item">
+                                    <a href="../balaruc-les-bains/">
+                                        <strong>Balaruc-les-Bains</strong>
+                                        <span class="city-code">34540</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="zones-cities">
+                        <h3>Quartiers & Zones Couvertes</h3>
+
+                        <div class="city-zone">
+                            <h4 class="zone-title">Centre Maritime</h4>
+                            <div class="cities-grid">
+                                <div class="city-item">
+                                    <div style="display: block; padding: var(--spacing-sm) var(--spacing-md); text-decoration: none; color: var(--text-dark);">
+                                        <strong>Le Môle</strong>
+                                        <span class="city-code">Quartier des pêcheurs</span>
+                                    </div>
+                                </div>
+                                <div class="city-item">
+                                    <div style="display: block; padding: var(--spacing-sm) var(--spacing-md); text-decoration: none; color: var(--text-dark);">
+                                        <strong>Port de Plaisance</strong>
+                                        <span class="city-code">Marina moderne</span>
+                                    </div>
+                                </div>
+                                <div class="city-item">
+                                    <div style="display: block; padding: var(--spacing-sm) var(--spacing-md); text-decoration: none; color: var(--text-dark);">
+                                        <strong>Quai de la Marine</strong>
+                                        <span class="city-code">Front de mer</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="city-zone">
+                            <h4 class="zone-title">Quartiers Résidentiels</h4>
+                            <div class="cities-grid">
+                                <div class="city-item">
+                                    <div style="display: block; padding: var(--spacing-sm) var(--spacing-md); text-decoration: none; color: var(--text-dark);">
+                                        <strong>Quartier Haut</strong>
+                                        <span class="city-code">Vue panoramique</span>
+                                    </div>
+                                </div>
+                                <div class="city-item">
+                                    <div style="display: block; padding: var(--spacing-sm) var(--spacing-md); text-decoration: none; color: var(--text-dark);">
+                                        <strong>Corniche de Neuburg</strong>
+                                        <span class="city-code">Face étang Thau</span>
+                                    </div>
+                                </div>
+                                <div class="city-item">
+                                    <div style="display: block; padding: var(--spacing-sm) var(--spacing-md); text-decoration: none; color: var(--text-dark);">
+                                        <strong>Les Quilles</strong>
+                                        <span class="city-code">Résidentiel moderne</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="city-zone">
+                            <h4 class="zone-title">Zones Littorales</h4>
+                            <div class="cities-grid" style="grid-template-columns: repeat(2, 1fr);">
+                                <div class="city-item">
+                                    <div style="display: block; padding: var(--spacing-sm) var(--spacing-md); text-decoration: none; color: var(--text-dark);">
+                                        <strong>La Plagette</strong>
+                                        <span class="city-code">Plage urbaine</span>
+                                    </div>
+                                </div>
+                                <div class="city-item">
+                                    <div style="display: block; padding: var(--spacing-sm) var(--spacing-md); text-decoration: none; color: var(--text-dark);">
+                                        <strong>Îlot Saint-Clair</strong>
+                                        <span class="city-code">Zone portuaire</span>
+                                    </div>
+                                </div>
+                                <div class="city-item">
+                                    <div style="display: block; padding: var(--spacing-sm) var(--spacing-md); text-decoration: none; color: var(--text-dark);">
+                                        <strong>La Pointe Courte</strong>
+                                        <span class="city-code">Village pêcheurs</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CTA FINAL SECTION -->
+        <section class="final-cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Votre Projet Menuiserie Marine à Sète</h2>
+                    <p>Devis gratuit sous 24h • Déplacement gratuit à Sète • Spécialiste menuiserie marine Qualibat RGE</p>
+
+                    <div class="cta-actions">
+                        <div class="cta-phone">
+                            <a href="tel:+33759627463" class="phone-cta">⚓ 07 59 62 74 63</a>
+                            <span>Lun-Ven 8h-18h, Sam 8h-12h</span>
+                        </div>
+                        <a href="../../devis-gratuit/" class="btn btn-secondary btn-large">Demander un Devis Marine</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-main">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Colonne 1 : Entreprise -->
+                <div class="footer-column">
+                    <h3>Expert Menuiserie Hérault</h3>
+                    <p>Votre spécialiste menuiserie marine Qualibat RGE dans l'Hérault. Installation, réparation, dépannage 24h/7j.</p>
+                    <div class="certifications">
+                        <span class="cert-badge">🏆 Qualibat</span>
+                        <span class="cert-badge">⚡ RGE</span>
+                        <span class="cert-badge">⚓ Marine</span>
+                    </div>
+                </div>
+
+                <!-- Colonne 2 : Services -->
+                <div class="footer-column">
+                    <h4>Nos Services Marines</h4>
+                    <ul>
+                        <li><a href="../../services/fenetres-sur-mesure-herault/">Fenêtres Marines</a></li>
+                        <li><a href="../../services/portes-entree-sur-mesure-herault/">Portes Étanches</a></li>
+                        <li><a href="../../services/volets-sur-mesure-herault/">Volets Anti-Tempête</a></li>
+                        <li><a href="../../services/portes-garage-herault/">Portes Garage Marines</a></li>
+                        <li><a href="../../services/portails-clotures-herault/">Portails & Clôtures</a></li>
+                        <li><a href="../../services/amenagements-exterieurs-herault/">Pergolas Vue Mer</a></li>
+                        <li><a href="../../services/amenagements-interieurs-herault/">Aménagements Marines</a></li>
+                    </ul>
+                </div>
+
+                <!-- Colonne 3 : Zones -->
+                <div class="footer-column">
+                    <h4>Secteur Littoral</h4>
+                    <ul>
+                        <li><a href="../../secteur/sete/">Sète</a></li>
+                        <li><a href="../../secteur/frontignan/">Frontignan</a></li>
+                        <li><a href="../../secteur/marseillan/">Marseillan</a></li>
+                        <li><a href="../../secteur/meze/">Mèze</a></li>
+                        <li><a href="../../secteur/balaruc-les-bains/">Balaruc-les-Bains</a></li>
+                        <li><a href="../../secteur/">Toutes nos zones</a></li>
+                    </ul>
+                </div>
+
+                <!-- Colonne 4 : Contact -->
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <div class="contact-info">
+                        <p><a href="tel:+33759627463">⚓ 07 59 62 74 63</a></p>
+                        <p>📍 Sète & Littoral Hérault (34)</p>
+                    </div>
+                    <a href="../../devis-gratuit/" class="btn btn-primary">Devis Marine Gratuit</a>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; 2024 Expert Menuiserie Hérault. Tous droits réservés.</p>
+                <div class="footer-links">
+                    <a href="../../sitemap.xml">Plan du Site</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Hero Carousel
+        let heroCurrentSlide = 0;
+        const heroSlides = document.querySelectorAll('.hero-slide');
+        const heroIndicators = document.querySelectorAll('.hero-indicator');
+
+        function moveHeroCarousel(direction) {
+            heroCurrentSlide += direction;
+            if (heroCurrentSlide >= heroSlides.length) heroCurrentSlide = 0;
+            if (heroCurrentSlide < 0) heroCurrentSlide = heroSlides.length - 1;
+            updateHeroCarousel();
+        }
+
+        function goToHeroSlide(index) {
+            heroCurrentSlide = index;
+            updateHeroCarousel();
+        }
+
+        function updateHeroCarousel() {
+            const track = document.getElementById('heroCarouselTrack');
+            track.style.transform = `translateX(-${heroCurrentSlide * 100}%)`;
+
+            heroIndicators.forEach((indicator, index) => {
+                indicator.classList.toggle('active', index === heroCurrentSlide);
+            });
+        }
+
+
+        // Gallery Carousel
+        let galleryCurrentSlide = 0;
+        const gallerySlides = document.querySelectorAll('.carousel-slide');
+        const galleryIndicators = document.querySelectorAll('.indicator');
+
+        function moveGalleryCarousel(direction) {
+            galleryCurrentSlide += direction;
+            if (galleryCurrentSlide >= gallerySlides.length) galleryCurrentSlide = 0;
+            if (galleryCurrentSlide < 0) galleryCurrentSlide = gallerySlides.length - 1;
+            updateGalleryCarousel();
+        }
+
+        function goToGallerySlide(index) {
+            galleryCurrentSlide = index;
+            updateGalleryCarousel();
+        }
+
+        function updateGalleryCarousel() {
+            const track = document.getElementById('galleryCarouselTrack');
+            track.style.transform = `translateX(-${galleryCurrentSlide * 100}%)`;
+
+            galleryIndicators.forEach((indicator, index) => {
+                indicator.classList.toggle('active', index === galleryCurrentSlide);
+            });
+        }
+
+        // Auto-advance carousels
+        setInterval(() => {
+            moveHeroCarousel(1);
+        }, 5000);
+
+        setInterval(() => {
+            moveGalleryCarousel(1);
+        }, 4000);
+    </script>
+</body>
+</html>

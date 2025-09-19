@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menuisier Béziers | Fenêtres Portes Volets | Expert Menuiserie Hérault</title>
+    <meta name="description" content="Menuisier Qualibat RGE à Béziers. Installation fenêtres, portes, volets sur mesure. Adaptation à l'architecture biterroise. Devis gratuit.">
+    <meta name="keywords" content="menuisier béziers, fenêtres béziers, portes béziers, volets roulants béziers, pergola béziers">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://expert-menuiserie-herault.fr/secteur/beziers/">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/responsive.css">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Expert Menuiserie Hérault - Béziers",
+        "image": "https://expert-menuiserie-herault.fr/assets/images/menuisier-beziers.jpg",
+        "description": "Menuisier spécialisé à Béziers pour fenêtres, portes, volets sur mesure",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Béziers",
+            "postalCode": "34500",
+            "addressRegion": "Hérault",
+            "addressCountry": "FR"
+        },
+        "telephone": "+33759627463",
+        "priceRange": "€€",
+        "hasCredential": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Qualibat RGE"
+        },
+        "areaServed": {
+            "@type": "City",
+            "name": "Béziers"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- HEADER NAVIGATION -->
+    <header class="header-main">
+        <div class="container">
+            <!-- Top Bar: Logo + Contact -->
+            <div class="header-top">
+                <div class="logo-section">
+                    <a href="../../" class="logo-link">
+                        <img src="../../Images/Expert Menuiserie Hérault.png" alt="Expert Menuiserie Hérault - Logo" class="company-logo">
+                        <span class="company-name">Expert Menuiserie Hérault</span>
+                    </a>
+                </div>
+
+                <div class="header-contact">
+                    <a href="tel:+33759627463" class="btn btn-secondary phone-btn">07 59 62 74 63</a>
+                    <a href="../../devis-gratuit/" class="btn btn-primary">DEVIS GRATUIT 24H</a>
+                </div>
+            </div>
+
+            <!-- Navigation Bar -->
+            <nav class="main-nav">
+                <div class="container">
+                    <ul class="nav-menu">
+                        <li><a href="../../">Accueil</a></li>
+                        <li class="dropdown">
+                            <span class="dropdown-trigger">Services</span>
+                            <ul class="submenu">
+                                <li><a href="../../services/fenetres-sur-mesure-herault/">Fenêtres</a></li>
+                                <li><a href="../../services/portes-entree-sur-mesure-herault/">Portes d'Entrée</a></li>
+                                <li><a href="../../services/volets-sur-mesure-herault/">Volets</a></li>
+                                <li><a href="../../services/portes-garage-herault/">Portes de Garage</a></li>
+                                <li><a href="../../services/portails-clotures-herault/">Portails & Clôtures</a></li>
+                                <li><a href="../../services/amenagements-exterieurs-herault/">Aménagements Extérieurs</a></li>
+                                <li><a href="../../services/amenagements-interieurs-herault/">Aménagements Intérieurs</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../">Nos Secteurs</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            Menuisier à Béziers
+                            <span class="subtitle">Expert Qualibat RGE - Devis Gratuit 24h</span>
+                        </h1>
+                        <p class="hero-description">
+                            Installation menuiseries sur mesure à Béziers et sa région. Fenêtres, portes, volets, pergolas adaptés au patrimoine biterrois et au climat méditerranéen.
+                            <strong>Spécialiste du centre historique et des quartiers viticoles</strong>.
+                        </p>
+
+                        <div class="hero-cta">
+                            <a href="../../devis-gratuit/" class="btn btn-primary btn-large" style="min-width: 280px; height: 60px; display: flex; align-items: center; justify-content: center;">Devis Gratuit Béziers</a>
+                            <a href="tel:+33759627463" class="btn btn-secondary btn-large" style="white-space: nowrap; min-width: 280px; height: 60px; display: flex; align-items: center; justify-content: center;">📞&nbsp;07&nbsp;59&nbsp;62&nbsp;74&nbsp;63</a>
+                        </div>
+                    </div>
+
+                    <div class="hero-visual">
+                        <div class="hero-carousel-container">
+                            <div class="hero-carousel-track" id="heroCarouselTrack">
+                                <div class="hero-slide">
+                                    <img src="../../Images/fenetres-sur-mesure-herault.jpg" alt="Fenêtres sur mesure Béziers">
+                                    <div class="hero-slide-caption">
+                                        <h3>Fenêtres Sur Mesure</h3>
+                                        <p>Adaptées au patrimoine biterrois</p>
+                                    </div>
+                                </div>
+                                <div class="hero-slide">
+                                    <img src="../../Images/portes-entree-sur-mesure-herault.jpg" alt="Portes d'entrée Béziers">
+                                    <div class="hero-slide-caption">
+                                        <h3>Portes d'Entrée</h3>
+                                        <p>Sécurité et style méditerranéen</p>
+                                    </div>
+                                </div>
+                                <div class="hero-slide">
+                                    <img src="../../Images/volets-sur-mesure-herault.jpg" alt="Volets roulants Béziers">
+                                    <div class="hero-slide-caption">
+                                        <h3>Volets Roulants</h3>
+                                        <p>Protection contre la tramontane</p>
+                                    </div>
+                                </div>
+                                <div class="hero-slide">
+                                    <img src="../../Images/porte-garage-sectionnelle-herault.jpg" alt="Portes de garage Béziers">
+                                    <div class="hero-slide-caption">
+                                        <h3>Portes de Garage</h3>
+                                        <p>Motorisées et sécurisées</p>
+                                    </div>
+                                </div>
+                                <div class="hero-slide">
+                                    <img src="../../Images/Portails Aluminium herault.jpg" alt="Portails Béziers">
+                                    <div class="hero-slide-caption">
+                                        <h3>Portails & Clôtures</h3>
+                                        <p>Élégance et sécurité</p>
+                                    </div>
+                                </div>
+                                <div class="hero-slide">
+                                    <img src="../../Images/pergola-bioclimatique-herault.jpg" alt="Pergola Béziers">
+                                    <div class="hero-slide-caption">
+                                        <h3>Pergolas</h3>
+                                        <p>Confort viticole méditerranéen</p>
+                                    </div>
+                                </div>
+                                <div class="hero-slide">
+                                    <img src="../../Images/dressing-sur-mesure-herault.jpg" alt="Aménagements intérieurs Béziers">
+                                    <div class="hero-slide-caption">
+                                        <h3>Aménagements Intérieurs</h3>
+                                        <p>Optimisation de l'espace</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="hero-carousel-nav hero-carousel-prev" onclick="moveHeroCarousel(-1)">‹</button>
+                            <button class="hero-carousel-nav hero-carousel-next" onclick="moveHeroCarousel(1)">›</button>
+                            <div class="hero-carousel-indicators">
+                                <button class="hero-indicator active" onclick="goToHeroSlide(0)"></button>
+                                <button class="hero-indicator" onclick="goToHeroSlide(1)"></button>
+                                <button class="hero-indicator" onclick="goToHeroSlide(2)"></button>
+                                <button class="hero-indicator" onclick="goToHeroSlide(3)"></button>
+                                <button class="hero-indicator" onclick="goToHeroSlide(4)"></button>
+                                <button class="hero-indicator" onclick="goToHeroSlide(5)"></button>
+                                <button class="hero-indicator" onclick="goToHeroSlide(6)"></button>
+                            </div>
+                        </div>
+
+                        <div class="floating-badge">
+                            <span class="badge-text">15+ ANS</span>
+                            <span class="badge-subtext">d'expérience à Béziers</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES SECTION -->
+        <section class="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Nos Services de Menuiserie à Béziers</h2>
+                    <p class="section-subtitle">Notre équipe d'experts intervient à Béziers pour tous vos projets de menuiserie</p>
+                </div>
+
+                <div class="services-grid">
+                    <a href="../../services/fenetres-sur-mesure-herault/" class="service-card">
+                        <div class="service-image">
+                            <img src="../../Images/fenetres-sur-mesure-herault.jpg" alt="Fenêtres sur mesure Béziers">
+                        </div>
+                        <div class="service-content">
+                            <h3>Fenêtres Sur Mesure</h3>
+                            <p>PVC, Aluminium, Bois. Adaptées aux contraintes du centre historique et aux quartiers viticoles de Béziers.</p>
+                            <ul class="service-features">
+                                <li>Double et triple vitrage</li>
+                                <li>Résistance tramontane</li>
+                                <li>Isolation thermique renforcée</li>
+                            </ul>
+                            <div class="btn btn-outline" style="margin-top: auto;">Fenêtres Sur Mesure</div>
+                        </div>
+                    </a>
+
+                    <a href="../../services/portes-entree-sur-mesure-herault/" class="service-card">
+                        <div class="service-image">
+                            <img src="../../Images/portes-entree-sur-mesure-herault.jpg" alt="Portes d'entrée Béziers">
+                        </div>
+                        <div class="service-content">
+                            <h3>Portes d'Entrée</h3>
+                            <p>Sécurisées et design, résistantes au climat méditerranéen. Adaptées à l'architecture biterroise.</p>
+                            <ul class="service-features">
+                                <li>Sécurité renforcée</li>
+                                <li>Style méditerranéen</li>
+                                <li>Isolation phonique</li>
+                            </ul>
+                            <div class="btn btn-outline" style="margin-top: auto;">Portes d'Entrée</div>
+                        </div>
+                    </a>
+
+                    <a href="../../services/volets-sur-mesure-herault/" class="service-card">
+                        <div class="service-image">
+                            <img src="../../Images/volets-sur-mesure-herault.jpg" alt="Volets Béziers">
+                        </div>
+                        <div class="service-content">
+                            <h3>Volets Roulants</h3>
+                            <p>Protection solaire efficace contre la chaleur et résistance à la tramontane. Motorisés ou manuels.</p>
+                            <ul class="service-features">
+                                <li>Résistance vent fort</li>
+                                <li>Motorisation domotique</li>
+                                <li>Protection UV optimale</li>
+                            </ul>
+                            <div class="btn btn-outline" style="margin-top: auto;">Volets Roulants</div>
+                        </div>
+                    </a>
+
+                    <a href="../../services/portes-garage-herault/" class="service-card">
+                        <div class="service-image">
+                            <img src="../../Images/porte-garage-sectionnelle-herault.jpg" alt="Portes de garage Béziers">
+                        </div>
+                        <div class="service-content">
+                            <h3>Portes de Garage</h3>
+                            <p>Sectionnelles, basculantes, enroulables. Motorisation et sécurité pour vos propriétés biterroises.</p>
+                            <ul class="service-features">
+                                <li>Motorisation télécommandée</li>
+                                <li>Isolation thermique</li>
+                                <li>Sécurité anti-intrusion</li>
+                            </ul>
+                            <div class="btn btn-outline" style="margin-top: auto;">Portes de Garage</div>
+                        </div>
+                    </a>
+
+                    <a href="../../services/portails-clotures-herault/" class="service-card">
+                        <div class="service-image">
+                            <img src="../../Images/Portails Aluminium herault.jpg" alt="Portails Béziers">
+                        </div>
+                        <div class="service-content">
+                            <h3>Portails & Clôtures</h3>
+                            <p>Sécurisation de votre propriété à Béziers. Coulissants ou battants avec motorisation intelligente.</p>
+                            <ul class="service-features">
+                                <li>Motorisation intelligente</li>
+                                <li>Design sur mesure</li>
+                                <li>Contrôle d'accès</li>
+                            </ul>
+                            <div class="btn btn-outline" style="margin-top: auto;">Portails & Clôtures</div>
+                        </div>
+                    </a>
+
+                    <a href="../../services/amenagements-exterieurs-herault/" class="service-card">
+                        <div class="service-image">
+                            <img src="../../Images/amenagements-exterieurs-herault.jpg" alt="Aménagements extérieurs Béziers">
+                        </div>
+                        <div class="service-content">
+                            <h3>Aménagements Extérieurs</h3>
+                            <p>Carports, abris de jardin, terrasses. Créez votre espace de détente dans le vignoble biterrois.</p>
+                            <ul class="service-features">
+                                <li>Résistance climatique</li>
+                                <li>Design contemporain</li>
+                                <li>Solutions sur mesure</li>
+                            </ul>
+                            <div class="btn btn-outline" style="margin-top: auto;">Aménagements Extérieurs</div>
+                        </div>
+                    </a>
+
+                    <a href="../../services/amenagements-interieurs-herault/" class="service-card">
+                        <div class="service-image">
+                            <img src="../../Images/dressing-sur-mesure-herault.jpg" alt="Aménagements intérieurs Béziers">
+                        </div>
+                        <div class="service-content">
+                            <h3>Aménagements Intérieurs</h3>
+                            <p>Dressing, placards, verrières. Optimisation de l'espace dans les maisons biterroises.</p>
+                            <ul class="service-features">
+                                <li>Optimisation d'espace</li>
+                                <li>Rangements sur mesure</li>
+                                <li>Design fonctionnel</li>
+                            </ul>
+                            <div class="btn btn-outline" style="margin-top: auto;">Aménagements Intérieurs</div>
+                        </div>
+                    </a>
+
+                    <a href="../../services/amenagements-exterieurs-herault/" class="service-card">
+                        <div class="service-image">
+                            <img src="../../Images/pergola-bioclimatique-herault.jpg" alt="Pergola Béziers">
+                        </div>
+                        <div class="service-content">
+                            <h3>Pergolas</h3>
+                            <p>Créez votre espace de vie extérieur. Protection solaire et ventilation naturelle pour le climat biterrois.</p>
+                            <ul class="service-features">
+                                <li>Tous types de pergolas</li>
+                                <li>Protection UV intégrée</li>
+                                <li>Résistance vent et pluie</li>
+                            </ul>
+                            <div class="btn btn-outline" style="margin-top: auto;">Pergolas</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="section-header" style="margin-top: var(--spacing-2xl);">
+                    <h2>Types de Menuiseries à Béziers</h2>
+                    <p class="section-subtitle">Solutions adaptées au patrimoine viticole et au climat méditerranéen</p>
+                </div>
+
+                <div class="grid grid-2">
+                    <!-- Colonne 1: Types de Fenêtres -->
+                    <div>
+                        <h3 style="color: var(--primary-blue); margin-bottom: var(--spacing-lg);">Types de Fenêtres</h3>
+                        <div class="grid grid-2" style="gap: var(--spacing-md);">
+                            <div class="card">
+                                <h4>Fenêtres PVC</h4>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>✓ Double et triple vitrage</li>
+                                    <li>✓ Résistance UV</li>
+                                    <li>✓ Isolation thermique renforcée</li>
+                                    <li>✓ Coloris patrimoniaux</li>
+                                </ul>
+                            </div>
+                            <div class="card">
+                                <h4>Fenêtres Aluminium</h4>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>✓ Design contemporain</li>
+                                    <li>✓ Rupture pont thermique</li>
+                                    <li>✓ Grandes dimensions</li>
+                                    <li>✓ Couleurs RAL</li>
+                                </ul>
+                            </div>
+                            <div class="card">
+                                <h4>Fenêtres Bois</h4>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>✓ Authentique et noble</li>
+                                    <li>✓ Centre historique</li>
+                                    <li>✓ Essences durables</li>
+                                    <li>✓ Rénovation patrimoine</li>
+                                </ul>
+                            </div>
+                            <div class="card">
+                                <h4>Fenêtres Mixte</h4>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>✓ Bois intérieur / Alu extérieur</li>
+                                    <li>✓ Esthétique + Performance</li>
+                                    <li>✓ Entretien minimal</li>
+                                    <li>✓ Longévité maximale</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Colonne 2: Types de Poses -->
+                    <div>
+                        <h3 style="color: var(--primary-blue); margin-bottom: var(--spacing-lg);">Types de Poses</h3>
+                        <div class="grid grid-2" style="gap: var(--spacing-md);">
+                            <div class="card">
+                                <h4>Rénovation</h4>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>✓ Pose sur dormant existant</li>
+                                    <li>✓ Conservation des finitions</li>
+                                    <li>✓ Intervention rapide</li>
+                                    <li>✓ Moins de travaux</li>
+                                </ul>
+                            </div>
+                            <div class="card">
+                                <h4>Neuf (Dépose totale)</h4>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>✓ Remplacement complet</li>
+                                    <li>✓ Isolation optimale</li>
+                                    <li>✓ Étanchéité parfaite</li>
+                                    <li>✓ Longévité maximale</li>
+                                </ul>
+                            </div>
+                            <div class="card">
+                                <h4>Construction Neuve</h4>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>✓ Pose en applique</li>
+                                    <li>✓ Intégration parfaite</li>
+                                    <li>✓ Normes RT 2020</li>
+                                    <li>✓ Performance maximale</li>
+                                </ul>
+                            </div>
+                            <div class="card">
+                                <h4>Patrimoine Viticole</h4>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>✓ Respect architecture biterroise</li>
+                                    <li>✓ Matériaux traditionnels</li>
+                                    <li>✓ Couleurs régionales</li>
+                                    <li>✓ Intégration paysagère</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Options & Équipements -->
+                <div style="margin-top: var(--spacing-2xl);">
+                    <h3 style="color: var(--primary-blue); text-align: center; margin-bottom: var(--spacing-lg);">Options & Équipements Spécifiques Béziers</h3>
+                    <div class="grid grid-4">
+                        <div class="card text-center">
+                            <h4>Protection Tramontane</h4>
+                            <p>Renforts spéciaux contre les vents forts, fixations renforcées, volets résistants</p>
+                        </div>
+                        <div class="card text-center">
+                            <h4>Sécurité Renforcée</h4>
+                            <p>Vitrages anti-effraction, serrures multipoints, système d'alarme intégré</p>
+                        </div>
+                        <div class="card text-center">
+                            <h4>Domotique Viticole</h4>
+                            <p>Motorisation, ouverture automatique, contrôle smartphone, capteurs météo</p>
+                        </div>
+                        <div class="card text-center">
+                            <h4>Isolation Phonique</h4>
+                            <p>Protection contre les nuisances urbaines et les activités viticoles</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RÉALISATIONS SECTION -->
+        <section class="gallery-carousel-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Nos Réalisations</h2>
+                    <p class="section-subtitle">Découvrez nos menuiseries installées dans l'Hérault</p>
+                </div>
+
+                <div class="gallery-carousel-container">
+                    <div class="gallery-carousel">
+                        <div class="carousel-track" id="galleryCarouselTrack">
+                            <div class="carousel-slide">
+                                <img src="../../Images/fenetres-sur-mesure-herault.jpg" alt="Fenêtres sur mesure">
+                                <div class="carousel-caption">Fenêtres sur mesure PVC</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="../../Images/portes-entree-sur-mesure-herault.jpg" alt="Porte d'entrée">
+                                <div class="carousel-caption">Porte d'entrée sécurisée</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="../../Images/volets-sur-mesure-herault.jpg" alt="Volets roulants">
+                                <div class="carousel-caption">Volets roulants motorisés</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="../../Images/porte-garage-sectionnelle-herault.jpg" alt="Porte de garage">
+                                <div class="carousel-caption">Porte de garage sectionnelle</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="../../Images/Portails Aluminium herault.jpg" alt="Portail aluminium">
+                                <div class="carousel-caption">Portail aluminium motorisé</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="../../Images/pergola-bioclimatique-herault.jpg" alt="Pergola">
+                                <div class="carousel-caption">Pergola bioclimatique</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="../../Images/dressing-sur-mesure-herault.jpg" alt="Dressing">
+                                <div class="carousel-caption">Dressing sur mesure</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="../../Images/fenetres-pvc-herault.jpg" alt="Fenêtres PVC">
+                                <div class="carousel-caption">Fenêtres PVC double vitrage</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="../../Images/porte-entree-aluminium-herault.jpg" alt="Porte aluminium">
+                                <div class="carousel-caption">Porte d'entrée aluminium</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="../../Images/volet-roulant-herault.jpg" alt="Volet roulant">
+                                <div class="carousel-caption">Volet roulant avec coffre</div>
+                            </div>
+                        </div>
+                        <button class="carousel-nav carousel-nav-prev" onclick="moveGalleryCarousel(-1)">‹</button>
+                        <button class="carousel-nav carousel-nav-next" onclick="moveGalleryCarousel(1)">›</button>
+                    </div>
+                    <div class="carousel-indicators">
+                        <button class="indicator active" onclick="goToGallerySlide(0)"></button>
+                        <button class="indicator" onclick="goToGallerySlide(1)"></button>
+                        <button class="indicator" onclick="goToGallerySlide(2)"></button>
+                        <button class="indicator" onclick="goToGallerySlide(3)"></button>
+                        <button class="indicator" onclick="goToGallerySlide(4)"></button>
+                        <button class="indicator" onclick="goToGallerySlide(5)"></button>
+                        <button class="indicator" onclick="goToGallerySlide(6)"></button>
+                        <button class="indicator" onclick="goToGallerySlide(7)"></button>
+                        <button class="indicator" onclick="goToGallerySlide(8)"></button>
+                        <button class="indicator" onclick="goToGallerySlide(9)"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TÉMOIGNAGES SECTION -->
+        <section class="testimonials-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Témoignages Clients Béziers</h2>
+                    <p class="section-subtitle">L'avis de nos clients biterrois</p>
+                </div>
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">★★★★★</div>
+                            <p>"Intervention rapide pour ma porte de garage sectionnelle qui ne fermait plus. Dépannage efficace et prix honnête. Service client au top !"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <strong>Sylvie P.</strong>
+                            <span>Mazeran - Béziers</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">★★★★★</div>
+                            <p>"Rénovation complète des volets de notre mas familial. Résistance aux vents de tramontane garantie ! Artisans compétents et ponctuels."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <strong>François L.</strong>
+                            <span>Domaine de Bayssan - Béziers</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">★★★★★</div>
+                            <p>"Portail aluminium installé l'an dernier, toujours parfait malgré le mistral. Motorisation silencieuse et design moderne. Je recommande !"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <strong>Catherine R.</strong>
+                            <span>La Courondelle - Béziers</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ZONES COUVERTES SECTION -->
+        <section class="zones-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Zones d'Intervention à Béziers</h2>
+                    <p class="section-subtitle">Expert Menuiserie Hérault intervient dans tous les quartiers de Béziers et sa région</p>
+                </div>
+
+                <div class="zones-content">
+                    <div class="zones-info">
+                        <img src="../../Images/Nos%20Zones%20d'Intervention%20dans%20l'Hérault.jpg" alt="Carte intervention Béziers" class="intervention-map">
+
+                        <div class="zones-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">30+</span>
+                                <span class="stat-label">Quartiers couverts</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">24h</span>
+                                <span class="stat-label">Délai intervention</span>
+                            </div>
+                        </div>
+
+                        <!-- Communes Limitrophes Section -->
+                        <div class="city-zone" style="margin-top: var(--spacing-xl);">
+                            <h4 class="zone-title">Communes Limitrophes</h4>
+                            <div class="cities-grid" style="grid-template-columns: repeat(2, 1fr);">
+                                <div class="city-item">
+                                    <a href="../pezenas/">
+                                        <strong>Pézenas</strong>
+                                        <span class="city-code">34120</span>
+                                    </a>
+                                </div>
+                                <div class="city-item">
+                                    <a href="../saint-chinian/">
+                                        <strong>Saint-Chinian</strong>
+                                        <span class="city-code">34360</span>
+                                    </a>
+                                </div>
+                                <div class="city-item">
+                                    <a href="../capestang/">
+                                        <strong>Capestang</strong>
+                                        <span class="city-code">34310</span>
+                                    </a>
+                                </div>
+                                <div class="city-item">
+                                    <a href="../nissan-lez-enserune/">
+                                        <strong>Nissan-lez-Ensérune</strong>
+                                        <span class="city-code">34440</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="zones-cities">
+                        <h3>Quartiers & Communes Couverts</h3>
+
+                        <div class="city-zone">
+                            <h4 class="zone-title">Centre Historique</h4>
+                            <div class="cities-grid" style="grid-template-columns: repeat(2, 1fr);">
+                                <div class="city-item">
+                                    <div style="display: block; padding: var(--spacing-sm) var(--spacing-md); text-decoration: none; color: var(--text-dark);">
+                                        <strong>Saint-Jacques</strong>
+                                        <span class="city-code">Centre médiéval</span>
+                                    </div>
+                                </div>
+                                <div class="city-item">
+                                    <div style="display: block; padding: var(--spacing-sm) var(--spacing-md); text-decoration: none; color: var(--text-dark);">
+                                        <strong>La Madeleine</strong>
+                                        <span class="city-code">Quartier historique</span>
+                                    </div>
+                                </div>
+                                <div class="city-item">
+                                    <div style="display: block; padding: var(--spacing-sm) var(--spacing-md); text-decoration: none; color: var(--text-dark);">
+                                        <strong>Saint-Aphrodise</strong>
+                                        <span class="city-code">Patrimoine roman</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="city-zone">
+                            <h4 class="zone-title">Quartiers Viticoles</h4>
+                            <div class="cities-grid" style="grid-template-columns: repeat(2, 1fr);">
+                                <div class="city-item">
+                                    <div style="display: block; padding: var(--spacing-sm) var(--spacing-md); text-decoration: none; color: var(--text-dark);">
+                                        <strong>Domaine de Bayssan</strong>
+                                        <span class="city-code">Vignobles</span>
+                                    </div>
+                                </div>
+                                <div class="city-item">
+                                    <div style="display: block; padding: var(--spacing-sm) var(--spacing-md); text-decoration: none; color: var(--text-dark);">
+                                        <strong>Les Quilles</strong>
+                                        <span class="city-code">Zone viticole</span>
+                                    </div>
+                                </div>
+                                <div class="city-item">
+                                    <div style="display: block; padding: var(--spacing-sm) var(--spacing-md); text-decoration: none; color: var(--text-dark);">
+                                        <strong>Devèze</strong>
+                                        <span class="city-code">Domaines viticoles</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="city-zone">
+                            <h4 class="zone-title">Quartiers Résidentiels</h4>
+                            <div class="cities-grid" style="grid-template-columns: repeat(2, 1fr);">
+                                <div class="city-item">
+                                    <div style="display: block; padding: var(--spacing-sm) var(--spacing-md); text-decoration: none; color: var(--text-dark);">
+                                        <strong>Mazeran</strong>
+                                        <span class="city-code">Résidentiel</span>
+                                    </div>
+                                </div>
+                                <div class="city-item">
+                                    <div style="display: block; padding: var(--spacing-sm) var(--spacing-md); text-decoration: none; color: var(--text-dark);">
+                                        <strong>Kennedy</strong>
+                                        <span class="city-code">Moderne</span>
+                                    </div>
+                                </div>
+                                <div class="city-item">
+                                    <div style="display: block; padding: var(--spacing-sm) var(--spacing-md); text-decoration: none; color: var(--text-dark);">
+                                        <strong>La Courondelle</strong>
+                                        <span class="city-code">Pavillonnaire</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA FINAL SECTION -->
+        <section class="final-cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Votre Projet Menuiserie à Béziers</h2>
+                    <p>Devis gratuit sous 24h • Déplacement gratuit sur Béziers et région • Qualibat RGE</p>
+
+                    <div class="cta-actions">
+                        <div class="cta-phone">
+                            <a href="tel:+33759627463" class="phone-cta">📞 07 59 62 74 63</a>
+                            <span>Lun-Ven 8h-18h, Sam 8h-12h</span>
+                        </div>
+                        <a href="../../devis-gratuit/" class="btn btn-secondary btn-large">Demander un Devis Gratuit</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-main">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Colonne 1 : Entreprise -->
+                <div class="footer-column">
+                    <h3>Expert Menuiserie Hérault</h3>
+                    <p>Votre spécialiste menuiserie Qualibat RGE dans l'Hérault. Installation, réparation, dépannage 24h/7j.</p>
+                    <div class="certifications">
+                        <span class="cert-badge">🏆 Qualibat</span>
+                        <span class="cert-badge">⚡ RGE</span>
+                    </div>
+                </div>
+
+                <!-- Colonne 2 : Services -->
+                <div class="footer-column">
+                    <h4>Nos Services</h4>
+                    <ul>
+                        <li><a href="../../services/fenetres-sur-mesure-herault/">Fenêtres</a></li>
+                        <li><a href="../../services/portes-entree-sur-mesure-herault/">Portes d'Entrée</a></li>
+                        <li><a href="../../services/volets-sur-mesure-herault/">Volets</a></li>
+                        <li><a href="../../services/portes-garage-herault/">Portes de Garage</a></li>
+                        <li><a href="../../services/portails-clotures-herault/">Portails & Clôtures</a></li>
+                        <li><a href="../../services/amenagements-exterieurs-herault/">Aménagements Extérieurs</a></li>
+                        <li><a href="../../services/amenagements-interieurs-herault/">Aménagements Intérieurs</a></li>
+                    </ul>
+                </div>
+
+                <!-- Colonne 3 : Zones -->
+                <div class="footer-column">
+                    <h4>Nos Secteurs</h4>
+                    <ul>
+                        <li><a href="../../secteur/montpellier/">Montpellier</a></li>
+                        <li><a href="../../secteur/beziers/">Béziers</a></li>
+                        <li><a href="../../secteur/sete/">Sète</a></li>
+                        <li><a href="../../secteur/lunel/">Lunel</a></li>
+                        <li><a href="../../secteur/clermont-l-herault/">Clermont-l'Hérault</a></li>
+                        <li><a href="../../secteur/">Toutes nos zones</a></li>
+                    </ul>
+                </div>
+
+                <!-- Colonne 4 : Contact -->
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <div class="contact-info">
+                        <p><a href="tel:+33759627463">📞 07 59 62 74 63</a></p>
+                        <p>📍 Hérault (34)</p>
+                    </div>
+                    <a href="../../devis-gratuit/" class="btn btn-primary">Devis Gratuit</a>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; 2024 Expert Menuiserie Hérault. Tous droits réservés.</p>
+                <div class="footer-links">
+                    <a href="../../sitemap.xml">Plan du Site</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Hero Carousel
+        let heroCurrentSlide = 0;
+        const heroSlides = document.querySelectorAll('.hero-slide');
+        const heroIndicators = document.querySelectorAll('.hero-indicator');
+
+        function moveHeroCarousel(direction) {
+            heroCurrentSlide += direction;
+            if (heroCurrentSlide >= heroSlides.length) heroCurrentSlide = 0;
+            if (heroCurrentSlide < 0) heroCurrentSlide = heroSlides.length - 1;
+            updateHeroCarousel();
+        }
+
+        function goToHeroSlide(index) {
+            heroCurrentSlide = index;
+            updateHeroCarousel();
+        }
+
+        function updateHeroCarousel() {
+            const track = document.getElementById('heroCarouselTrack');
+            track.style.transform = `translateX(-${heroCurrentSlide * 100}%)`;
+
+            heroIndicators.forEach((indicator, index) => {
+                indicator.classList.toggle('active', index === heroCurrentSlide);
+            });
+        }
+
+        // Gallery Carousel
+        let galleryCurrentSlide = 0;
+        const gallerySlides = document.querySelectorAll('.carousel-slide');
+        const galleryIndicators = document.querySelectorAll('.indicator');
+
+        function moveGalleryCarousel(direction) {
+            galleryCurrentSlide += direction;
+            if (galleryCurrentSlide >= gallerySlides.length) galleryCurrentSlide = 0;
+            if (galleryCurrentSlide < 0) galleryCurrentSlide = gallerySlides.length - 1;
+            updateGalleryCarousel();
+        }
+
+        function goToGallerySlide(index) {
+            galleryCurrentSlide = index;
+            updateGalleryCarousel();
+        }
+
+        function updateGalleryCarousel() {
+            const track = document.getElementById('galleryCarouselTrack');
+            track.style.transform = `translateX(-${galleryCurrentSlide * 100}%)`;
+
+            galleryIndicators.forEach((indicator, index) => {
+                indicator.classList.toggle('active', index === galleryCurrentSlide);
+            });
+        }
+
+        // Auto-advance carousels
+        setInterval(() => {
+            moveHeroCarousel(1);
+        }, 5000);
+
+        setInterval(() => {
+            moveGalleryCarousel(1);
+        }, 4000);
+    </script>
+</body>
+</html>

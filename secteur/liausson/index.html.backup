@@ -1,0 +1,641 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menuisier Liausson | FenÃªtres Portes Volets | Expert Menuiserie HÃ©rault</title>
+    <meta name="description" content="Menuisier Qualibat RGE Ã  Liausson. Installation fenÃªtres, portes, volets sur mesure. Devis gratuit. Intervention rapide.">
+    <meta name="keywords" content="menuisier liausson, fenÃªtres liausson, portes liausson, volets roulants liausson, pergola liausson">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://expert-menuiserie-herault.fr/secteur/liausson/">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/responsive.css">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Expert Menuiserie HÃ©rault - Liausson",
+        "image": "https://expert-menuiserie-herault.fr/assets/images/menuisier-liausson.jpg",
+        "description": "Menuisier spÃ©cialisÃ© Ã  Liausson pour fenÃªtres, portes, volets sur mesure",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Liausson",
+            "postalCode": "34800",
+            "addressRegion": "HÃ©rault",
+            "addressCountry": "FR"
+        },
+        "telephone": "+33759627463",
+        "priceRange": "â‚¬â‚¬",
+        "hasCredential": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Qualibat RGE"
+        },
+        "areaServed": {
+            "@type": "City",
+            "name": "Liausson"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- HEADER NAVIGATION -->
+    <header class="header-main">
+        <div class="container">
+            <!-- Top Bar: Logo + Contact -->
+            <div class="header-top">
+                <div class="logo-section">
+                    <a href="../../" class="logo-link">
+                        <img src="../../Images/Expert Menuiserie HÃ©rault.png" alt="Expert Menuiserie HÃ©rault - Logo" class="company-logo">
+                        <span class="company-name">Expert Menuiserie HÃ©rault</span>
+                    </a>
+                </div>
+
+                <div class="header-contact">
+                    <a href="tel:+33759627463" class="btn btn-secondary phone-btn">07 59 62 74 63</a>
+                    <a href="../../devis-gratuit/" class="btn btn-primary">DEVIS GRATUIT 24H</a>
+                </div>
+            </div>
+
+            <!-- Navigation Bar -->
+            <nav class="main-nav">
+                <div class="container">
+                    <ul class="nav-menu">
+                        <li><a href="../../">Accueil</a></li>
+                        <li class="dropdown">
+                            <span class="dropdown-trigger">Services</span>
+                            <ul class="submenu">
+                                <li><a href="../../services/fenetres-sur-mesure-herault/">FenÃªtres</a></li>
+                                <li><a href="../../services/portes-entree-sur-mesure-herault/">Portes d'EntrÃ©e</a></li>
+                                <li><a href="../../services/volets-sur-mesure-herault/">Volets</a></li>
+                                <li><a href="../../services/portes-garage-herault/">Portes de Garage</a></li>
+                                <li><a href="../../services/portails-clotures-herault/">Portails & ClÃ´tures</a></li>
+                                <li><a href="../../services/amenagements-exterieurs-herault/">AmÃ©nagements ExtÃ©rieurs</a></li>
+                                <li><a href="../../services/amenagements-interieurs-herault/">AmÃ©nagements IntÃ©rieurs</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../">Nos Secteurs</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            Menuisier Ã  Liausson
+                            <span class="subtitle">Expert Qualibat RGE - Devis Gratuit 24h</span>
+                        </h1>
+                        <p class="hero-description">
+                            Installation menuiseries sur mesure Ã  Liausson au cÅ“ur du charme campagnard et tranquillitÃ©. FenÃªtres, portes, volets, pergolas adaptÃ©s aux spÃ©cificitÃ©s locales.
+                            <strong>SpÃ©cialiste des menuiseries authentiques et performantes</strong>.
+                        </p>
+
+                        <div class="hero-cta">
+                            <a href="../../devis-gratuit/" class="btn btn-primary btn-large" style="min-width: 280px; height: 60px; display: flex; align-items: center; justify-content: center;">Devis Gratuit Liausson</a>
+                            <a href="tel:+33759627463" class="btn btn-secondary btn-large" style="white-space: nowrap; min-width: 280px; height: 60px; display: flex; align-items: center; justify-content: center;">ðŸ“ž&nbsp;07&nbsp;59&nbsp;62&nbsp;74&nbsp;63</a>
+                        </div>
+                    </div>
+
+                    <div class="hero-visual">
+                        <div class="hero-carousel-container">
+                            <div class="hero-carousel-track" id="heroCarouselTrack">
+                                <div class="hero-slide">
+                                    <img src="../../Images/fenetres-sur-mesure-herault.jpg" alt="FenÃªtres sur mesure Liausson">
+                                    <div class="hero-slide-caption">
+                                        <h3>FenÃªtres Sur Mesure</h3>
+                                        <p>AdaptÃ©es au style de Liausson</p>
+                                    </div>
+                                </div>
+                                <div class="hero-slide">
+                                    <img src="../../Images/portes-entree-sur-mesure-herault.jpg" alt="Portes d'entrÃ©e Liausson">
+                                    <div class="hero-slide-caption">
+                                        <h3>Portes d'EntrÃ©e</h3>
+                                        <p>SÃ©curitÃ© et Ã©lÃ©gance</p>
+                                    </div>
+                                </div>
+                                <div class="hero-slide">
+                                    <img src="../../Images/volets-sur-mesure-herault.jpg" alt="Volets roulants Liausson">
+                                    <div class="hero-slide-caption">
+                                        <h3>Volets Roulants</h3>
+                                        <p>Protection et confort</p>
+                                    </div>
+                                </div>
+                                <div class="hero-slide">
+                                    <img src="../../Images/porte-garage-sectionnelle-herault.jpg" alt="Portes de garage Liausson">
+                                    <div class="hero-slide-caption">
+                                        <h3>Portes de Garage</h3>
+                                        <p>PraticitÃ© et design</p>
+                                    </div>
+                                </div>
+                                <div class="hero-slide">
+                                    <img src="../../Images/Portails Aluminium herault.jpg" alt="Portails Liausson">
+                                    <div class="hero-slide-caption">
+                                        <h3>Portails & ClÃ´tures</h3>
+                                        <p>SÃ©curitÃ© sur mesure</p>
+                                    </div>
+                                </div>
+                                <div class="hero-slide">
+                                    <img src="../../Images/pergola-bioclimatique-herault.jpg" alt="Pergola Liausson">
+                                    <div class="hero-slide-caption">
+                                        <h3>Pergolas Bioclimatiques</h3>
+                                        <p>Espaces de vie ombragÃ©s</p>
+                                    </div>
+                                </div>
+                                <div class="hero-slide">
+                                    <img src="../../Images/dressing-sur-mesure-herault.jpg" alt="AmÃ©nagements intÃ©rieurs Liausson">
+                                    <div class="hero-slide-caption">
+                                        <h3>AmÃ©nagements IntÃ©rieurs</h3>
+                                        <p>Optimisation sur mesure</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="hero-carousel-nav hero-carousel-prev" onclick="moveHeroCarousel(-1)">â€¹</button>
+                            <button class="hero-carousel-nav hero-carousel-next" onclick="moveHeroCarousel(1)">â€º</button>
+                            <div class="hero-carousel-indicators">
+                                <button class="hero-indicator active" onclick="goToHeroSlide(0)"></button>
+                                <button class="hero-indicator" onclick="goToHeroSlide(1)"></button>
+                                <button class="hero-indicator" onclick="goToHeroSlide(2)"></button>
+                                <button class="hero-indicator" onclick="goToHeroSlide(3)"></button>
+                                <button class="hero-indicator" onclick="goToHeroSlide(4)"></button>
+                                <button class="hero-indicator" onclick="goToHeroSlide(5)"></button>
+                                <button class="hero-indicator" onclick="goToHeroSlide(6)"></button>
+                            </div>
+                        </div>
+
+                        <div class="floating-badge">
+                            <span class="badge-text">15+ ANS</span>
+                            <span class="badge-subtext">d'expÃ©rience Ã  Liausson</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES SECTION -->
+        <section class="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Nos Services de Menuiserie Ã  Liausson</h2>
+                    <p class="section-subtitle">Menuiseries spÃ©cialisÃ©es pour l'environnement et le style de Liausson</p>
+                </div>
+
+                <div class="services-grid">
+                    <a href="../../services/fenetres-sur-mesure-herault/" class="service-card">
+                        <div class="service-image">
+                            <img src="../../Images/fenetres-sur-mesure-herault.jpg" alt="FenÃªtres sur mesure Liausson">
+                        </div>
+                        <div class="service-content">
+                            <h3>FenÃªtres Sur Mesure</h3>
+                            <p>PVC, Aluminium, Bois. Parfaitement adaptÃ©es aux spÃ©cificitÃ©s de Liausson et Ã  son charme campagnard et tranquillitÃ©.</p>
+                            <ul class="service-features">
+                                <li>style authentique</li>
+                                <li>matÃ©riaux naturels</li>
+                                <li>harmonie paysagÃ¨re</li>
+                            </ul>
+                            <div class="btn btn-outline" style="margin-top: auto;">FenÃªtres Sur Mesure</div>
+                        </div>
+                    </a>
+
+                    <a href="../../services/portes-entree-sur-mesure-herault/" class="service-card">
+                        <div class="service-image">
+                            <img src="../../Images/portes-entree-sur-mesure-herault.jpg" alt="Portes d'entrÃ©e Liausson">
+                        </div>
+                        <div class="service-content">
+                            <h3>Portes d'EntrÃ©e</h3>
+                            <p>Portes sÃ©curisÃ©es et Ã©lÃ©gantes pour les habitations de Liausson. Design respectueux du caractÃ¨re local.</p>
+                            <ul class="service-features">
+                                <li>SÃ©curitÃ© multipoints</li>
+                                <li>Design harmonieux</li>
+                                <li>Isolation thermique</li>
+                            </ul>
+                            <div class="btn btn-outline" style="margin-top: auto;">Portes d'EntrÃ©e</div>
+                        </div>
+                    </a>
+
+                    <a href="../../services/volets-sur-mesure-herault/" class="service-card">
+                        <div class="service-image">
+                            <img src="../../Images/volets-sur-mesure-herault.jpg" alt="Volets Liausson">
+                        </div>
+                        <div class="service-content">
+                            <h3>Volets Roulants</h3>
+                            <p>Protection solaire et thermique optimale pour les habitations de Liausson. MotorisÃ©s ou manuels.</p>
+                            <ul class="service-features">
+                                <li>Confort thermique</li>
+                                <li>Motorisation silencieuse</li>
+                                <li>IntÃ©gration discrÃ¨te</li>
+                            </ul>
+                            <div class="btn btn-outline" style="margin-top: auto;">Volets Roulants</div>
+                        </div>
+                    </a>
+
+                    <a href="../../services/portes-garage-herault/" class="service-card">
+                        <div class="service-image">
+                            <img src="../../Images/porte-garage-sectionnelle-herault.jpg" alt="Portes de garage Liausson">
+                        </div>
+                        <div class="service-content">
+                            <h3>Portes de Garage</h3>
+                            <p>Sectionnelles, basculantes, enroulables. Solutions pratiques et esthÃ©tiques pour garages Ã  Liausson.</p>
+                            <ul class="service-features">
+                                <li>Motorisation fiable</li>
+                                <li>Isolation performante</li>
+                                <li>Design harmonieux</li>
+                            </ul>
+                            <div class="btn btn-outline" style="margin-top: auto;">Portes de Garage</div>
+                        </div>
+                    </a>
+
+                    <a href="../../services/portails-clotures-herault/" class="service-card">
+                        <div class="service-image">
+                            <img src="../../Images/Portails Aluminium herault.jpg" alt="Portails Liausson">
+                        </div>
+                        <div class="service-content">
+                            <h3>Portails & ClÃ´tures</h3>
+                            <p>SÃ©curisation Ã©lÃ©gante de votre propriÃ©tÃ© Ã  Liausson. Coulissants ou battants avec motorisation avancÃ©e.</p>
+                            <ul class="service-features">
+                                <li>Motorisation intelligente</li>
+                                <li>Design sur mesure</li>
+                                <li>SÃ©curitÃ© optimale</li>
+                            </ul>
+                            <div class="btn btn-outline" style="margin-top: auto;">Portails & ClÃ´tures</div>
+                        </div>
+                    </a>
+
+                    <a href="../../services/amenagements-exterieurs-herault/" class="service-card">
+                        <div class="service-image">
+                            <img src="../../Images/amenagements-exterieurs-herault.jpg" alt="AmÃ©nagements extÃ©rieurs Liausson">
+                        </div>
+                        <div class="service-content">
+                            <h3>AmÃ©nagements ExtÃ©rieurs</h3>
+                            <p>Carports, abris de jardin, terrasses. CrÃ©ez vos espaces de vie extÃ©rieur dans l'esprit de Liausson.</p>
+                            <ul class="service-features">
+                                <li>Harmonie avec l'environnement</li>
+                                <li>MatÃ©riaux durables</li>
+                                <li>Conception personnalisÃ©e</li>
+                            </ul>
+                            <div class="btn btn-outline" style="margin-top: auto;">AmÃ©nagements ExtÃ©rieurs</div>
+                        </div>
+                    </a>
+
+                    <a href="../../services/amenagements-interieurs-herault/" class="service-card">
+                        <div class="service-image">
+                            <img src="../../Images/dressing-sur-mesure-herault.jpg" alt="AmÃ©nagements intÃ©rieurs Liausson">
+                        </div>
+                        <div class="service-content">
+                            <h3>AmÃ©nagements IntÃ©rieurs</h3>
+                            <p>Dressing, placards, verriÃ¨res. Optimisation intelligente de l'espace dans les habitations de Liausson.</p>
+                            <ul class="service-features">
+                                <li>Solutions gain de place</li>
+                                <li>Rangements astucieux</li>
+                                <li>Design harmonieux</li>
+                            </ul>
+                            <div class="btn btn-outline" style="margin-top: auto;">AmÃ©nagements IntÃ©rieurs</div>
+                        </div>
+                    </a>
+
+                    <a href="../../services/amenagements-exterieurs-herault/" class="service-card">
+                        <div class="service-image">
+                            <img src="../../Images/pergola-bioclimatique-herault.jpg" alt="Pergola Liausson">
+                        </div>
+                        <div class="service-content">
+                            <h3>Pergolas</h3>
+                            <p>CrÃ©ez votre espace ombragÃ© Ã  Liausson. Protection solaire et convivialitÃ© pour profiter du climat.</p>
+                            <ul class="service-features">
+                                <li>Confort bioclimatique</li>
+                                <li>Ombrage modulable</li>
+                                <li>Robustesse garantie</li>
+                            </ul>
+                            <div class="btn btn-outline" style="margin-top: auto;">Pergolas</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Options & Ã‰quipements -->
+                <div style="margin-top: var(--spacing-2xl);">
+                    <h3 style="color: var(--primary-blue); text-align: center; margin-bottom: var(--spacing-lg);">Options & Ã‰quipements SpÃ©cifiques Liausson</h3>
+                    <div class="grid grid-4">
+                        <div class="card text-center">
+                            <h4>Protection AdaptÃ©e</h4>
+                            <p>Solutions spÃ©cialement conÃ§ues pour l'environnement de Liausson</p>
+                        </div>
+                        <div class="card text-center">
+                            <h4>SÃ©curitÃ© RÃ©sidentielle</h4>
+                            <p>Vitrages anti-effraction, serrures renforcÃ©es, sÃ©curisation complÃ¨te</p>
+                        </div>
+                        <div class="card text-center">
+                            <h4>Domotique Moderne</h4>
+                            <p>Motorisation, contrÃ´le intelligent, gestion automatisÃ©e</p>
+                        </div>
+                        <div class="card text-center">
+                            <h4>Confort Acoustique</h4>
+                            <p>Isolation phonique adaptÃ©e aux spÃ©cificitÃ©s de Liausson</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TÃ‰MOIGNAGES SECTION -->
+        <section class="testimonials-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>TÃ©moignages Clients Liausson</h2>
+                    <p class="section-subtitle">L'avis de nos clients de Liausson</p>
+                </div>
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">â˜…â˜…â˜…â˜…â˜…</div>
+                            <p>"Excellent travail pour notre maison de campagne ! Les menuiseries s'intÃ¨grent parfaitement au style de Liausson. Ã‰quipe professionnelle et soignÃ©e."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <strong>Pierre C.</strong>
+                            <span>RÃ©sident - Liausson</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">â˜…â˜…â˜…â˜…â˜…</div>
+                            <p>"Installation parfaite de notre portail motorisÃ©. Travail impeccable, motorisation silencieuse. TrÃ¨s satisfaits du service Ã  Liausson."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <strong>Sylvie T.</strong>
+                            <span>PropriÃ©taire - Liausson</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">â˜…â˜…â˜…â˜…â˜…</div>
+                            <p>"RÃ©novation complÃ¨te de nos menuiseries. QualitÃ© de fabrication excellente et installation soignÃ©e. Je recommande cette Ã©quipe !"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <strong>Laurent M.</strong>
+                            <span>Habitant - Liausson</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ZONES COUVERTES SECTION -->
+        <section class="zones-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Zones d'Intervention Ã  Liausson</h2>
+                    <p class="section-subtitle">Expert Menuiserie HÃ©rault intervient dans tout Liausson et ses environs</p>
+                </div>
+
+                <div class="zones-content">
+                    <div class="zones-info">
+                        <img src="../../Images/Nos%20Zones%20d'Intervention%20dans%20l'HÃ©rault.jpg" alt="Carte intervention Liausson" class="intervention-map">
+
+                        <div class="zones-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">du territoire couvert</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">24h</span>
+                                <span class="stat-label">DÃ©lai intervention</span>
+                            </div>
+                        </div>
+
+                        <!-- Communes Limitrophes Section -->
+                        <div class="city-zone" style="margin-top: var(--spacing-xl);">
+                            <h4 class="zone-title">Communes Limitrophes</h4>
+                            <div class="cities-grid" style="grid-template-columns: repeat(2, 1fr);">
+                                <div class="city-item">
+                                    <a href="../clermont-l-herault/">
+                                        <strong>Clermont-l'HÃ©rault</strong>
+                                        <span class="city-code">34800</span>
+                                    </a>
+                                </div>                                <div class="city-item">
+                                    <a href="../aspiran/">
+                                        <strong>Aspiran</strong>
+                                        <span class="city-code">34800</span>
+                                    </a>
+                                </div>                                <div class="city-item">
+                                    <a href="../fontes/">
+                                        <strong>FontÃ¨s</strong>
+                                        <span class="city-code">34800</span>
+                                    </a>
+                                </div>                                <div class="city-item">
+                                    <a href="../cabrieres/">
+                                        <strong>CabriÃ¨res</strong>
+                                        <span class="city-code">34800</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="zones-cities">
+                        <h3>Quartiers & Zones Couverts</h3>
+
+                        <div class="city-zone">
+                            <h4 class="zone-title">Centre Ville</h4>
+                            <div class="cities-grid">
+                                <div class="city-item">
+                                    <div style="display: block; padding: var(--spacing-sm) var(--spacing-md); text-decoration: none; color: var(--text-dark);">
+                                        <strong>Centre historique</strong>
+                                        <span class="city-code">CÅ“ur de ville</span>
+                                    </div>
+                                </div>
+                                <div class="city-item">
+                                    <div style="display: block; padding: var(--spacing-sm) var(--spacing-md); text-decoration: none; color: var(--text-dark);">
+                                        <strong>Quartier central</strong>
+                                        <span class="city-code">Zone principale</span>
+                                    </div>
+                                </div>
+                                <div class="city-item">
+                                    <div style="display: block; padding: var(--spacing-sm) var(--spacing-md); text-decoration: none; color: var(--text-dark);">
+                                        <strong>Place principale</strong>
+                                        <span class="city-code">Centre nÃ©vralgique</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="city-zone">
+                            <h4 class="zone-title">Quartiers RÃ©sidentiels</h4>
+                            <div class="cities-grid" style="grid-template-columns: repeat(2, 1fr);">
+                                <div class="city-item">
+                                    <div style="display: block; padding: var(--spacing-sm) var(--spacing-md); text-decoration: none; color: var(--text-dark);">
+                                        <strong>Lotissements</strong>
+                                        <span class="city-code">Zones pavillonnaires</span>
+                                    </div>
+                                </div>
+                                <div class="city-item">
+                                    <div style="display: block; padding: var(--spacing-sm) var(--spacing-md); text-decoration: none; color: var(--text-dark);">
+                                        <strong>PÃ©riphÃ©rie</strong>
+                                        <span class="city-code">Zones rÃ©sidentielles</span>
+                                    </div>
+                                </div>
+                                <div class="city-item">
+                                    <div style="display: block; padding: var(--spacing-sm) var(--spacing-md); text-decoration: none; color: var(--text-dark);">
+                                        <strong>Hameaux</strong>
+                                        <span class="city-code">Ã‰carts</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CTA FINAL SECTION -->
+        <section class="final-cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Votre Projet Menuiserie Ã  Liausson</h2>
+                    <p>Devis gratuit sous 24h â€¢ DÃ©placement gratuit sur Liausson et environs â€¢ Qualibat RGE</p>
+
+                    <div class="cta-actions">
+                        <div class="cta-phone">
+                            <a href="tel:+33759627463" class="phone-cta">ðŸ“ž 07 59 62 74 63</a>
+                            <span>Lun-Ven 8h-18h, Sam 8h-12h</span>
+                        </div>
+                        <a href="../../devis-gratuit/" class="btn btn-secondary btn-large">Demander un Devis Gratuit</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-main">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Colonne 1 : Entreprise -->
+                <div class="footer-column">
+                    <h3>Expert Menuiserie HÃ©rault</h3>
+                    <p>Votre spÃ©cialiste menuiserie Qualibat RGE dans l'HÃ©rault. Installation, rÃ©paration, dÃ©pannage 24h/7j.</p>
+                    <div class="certifications">
+                        <span class="cert-badge">ðŸ† Qualibat</span>
+                        <span class="cert-badge">âš¡ RGE</span>
+                    </div>
+                </div>
+
+                <!-- Colonne 2 : Services -->
+                <div class="footer-column">
+                    <h4>Nos Services</h4>
+                    <ul>
+                        <li><a href="../../services/fenetres-sur-mesure-herault/">FenÃªtres</a></li>
+                        <li><a href="../../services/portes-entree-sur-mesure-herault/">Portes d'EntrÃ©e</a></li>
+                        <li><a href="../../services/volets-sur-mesure-herault/">Volets</a></li>
+                        <li><a href="../../services/portes-garage-herault/">Portes de Garage</a></li>
+                        <li><a href="../../services/portails-clotures-herault/">Portails & ClÃ´tures</a></li>
+                        <li><a href="../../services/amenagements-exterieurs-herault/">AmÃ©nagements ExtÃ©rieurs</a></li>
+                        <li><a href="../../services/amenagements-interieurs-herault/">AmÃ©nagements IntÃ©rieurs</a></li>
+                    </ul>
+                </div>
+
+                <!-- Colonne 3 : Zones -->
+                <div class="footer-column">
+                    <h4>Nos Secteurs</h4>
+                    <ul>
+                        <li><a href="../../secteur/montpellier/">Montpellier</a></li>
+                        <li><a href="../../secteur/beziers/">BÃ©ziers</a></li>
+                        <li><a href="../../secteur/sete/">SÃ¨te</a></li>
+                        <li><a href="../../secteur/lunel/">Lunel</a></li>
+                        <li><a href="../../secteur/clermont-l-herault/">Clermont-l'HÃ©rault</a></li>
+                        <li><a href="../../secteur/">Toutes nos zones</a></li>
+                    </ul>
+                </div>
+
+                <!-- Colonne 4 : Contact -->
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <div class="contact-info">
+                        <p><a href="tel:+33759627463">ðŸ“ž 07 59 62 74 63</a></p>
+                        <p>ðŸ“ HÃ©rault (34)</p>
+                    </div>
+                    <a href="../../devis-gratuit/" class="btn btn-primary">Devis Gratuit</a>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; 2024 Expert Menuiserie HÃ©rault. Tous droits rÃ©servÃ©s.</p>
+                <div class="footer-links">
+                    <a href="../../sitemap.xml">Plan du Site</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Hero Carousel
+        let heroCurrentSlide = 0;
+        const heroSlides = document.querySelectorAll('.hero-slide');
+        const heroIndicators = document.querySelectorAll('.hero-indicator');
+
+        function moveHeroCarousel(direction) {
+            heroCurrentSlide += direction;
+            if (heroCurrentSlide >= heroSlides.length) heroCurrentSlide = 0;
+            if (heroCurrentSlide < 0) heroCurrentSlide = heroSlides.length - 1;
+            updateHeroCarousel();
+        }
+
+        function goToHeroSlide(index) {
+            heroCurrentSlide = index;
+            updateHeroCarousel();
+        }
+
+        function updateHeroCarousel() {
+            const track = document.getElementById('heroCarouselTrack');
+            track.style.transform = 	ranslateX(-${heroCurrentSlide * 100}%);
+
+            heroIndicators.forEach((indicator, index) => {
+                indicator.classList.toggle('active', index === heroCurrentSlide);
+            });
+        }
+
+
+        // Gallery Carousel
+        let galleryCurrentSlide = 0;
+        const gallerySlides = document.querySelectorAll('.carousel-slide');
+        const galleryIndicators = document.querySelectorAll('.indicator');
+
+        function moveGalleryCarousel(direction) {
+            galleryCurrentSlide += direction;
+            if (galleryCurrentSlide >= gallerySlides.length) galleryCurrentSlide = 0;
+            if (galleryCurrentSlide < 0) galleryCurrentSlide = gallerySlides.length - 1;
+            updateGalleryCarousel();
+        }
+
+        function goToGallerySlide(index) {
+            galleryCurrentSlide = index;
+            updateGalleryCarousel();
+        }
+
+        function updateGalleryCarousel() {
+            const track = document.getElementById('galleryCarouselTrack');
+            track.style.transform = 	ranslateX(-${galleryCurrentSlide * 100}%);
+
+            galleryIndicators.forEach((indicator, index) => {
+                indicator.classList.toggle('active', index === galleryCurrentSlide);
+            });
+        }
+
+        // Auto-advance carousels
+        setInterval(() => {
+            moveHeroCarousel(1);
+        }, 5000);
+
+        setInterval(() => {
+            moveGalleryCarousel(1);
+        }, 4000);
+    </script>
+</body>
+</html>

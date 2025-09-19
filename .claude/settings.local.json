@@ -1,9 +1,24 @@
 {
   "permissions": {
     "allow": [
-      "Bash(mkdir:*)",
-      "Bash(find:*)",
-      "WebFetch(domain:www.expert-pergola-herault.fr)"
+      "Bash(./fix_bedarieux.bat)",
+      "Bash(for file in \"agde\" \"aniane\" \"aspiran\" \"balaruc-les-bains\" \"brignac\" \"cabrieres\" \"canet\" \"capestang\")",
+      "Bash(do echo \"Fichier: secteur/$file/index.html\")",
+      "Bash(grep:*)",
+      "Bash(rg:*)",
+      "Bash(for:*)",
+      "Bash(do echo \"Processing $file\")",
+      "Bash(dir:*)",
+      "Bash(s/â€¦/…/g)",
+      "Bash(s/â€¹/‹/g)",
+      "Bash(s/â€º/›/g)",
+      "Bash(s/â˜…/★/g)",
+      "Bash(git checkout:*)",
+      "Bash(node:*)",
+      "Bash(do if [ -f \"$dir/index.html\" ])",
+      "Bash(then if rg -q \"À\" \"$dir/index.html\")",
+      "Bash(do echo \"=== $file ===\")",
+      "Bash(head:*)"
     ],
     "deny": [],
     "ask": []
