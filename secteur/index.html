@@ -46,8 +46,15 @@
                 </div>
             </div>
 
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menu de navigation mobile" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+
             <!-- Navigation Bar -->
-            <nav class="main-nav">
+            <nav class="main-nav" id="mainNav">
                 <div class="container">
                     <ul class="nav-menu">
                         <li><a href="../">Accueil</a></li>
@@ -64,7 +71,7 @@
                             </ul>
                         </li>
                         <li><a href="../secteur/">Nos Secteurs</a></li>
-                        
+
                     </ul>
                 </div>
             </nav>
@@ -470,5 +477,40 @@
             </div>
         </div>
     </footer>
+
+    <script>
+    // Mobile Menu Functions
+    function toggleMobileMenu() {
+        const nav = document.getElementById('mainNav');
+        const toggle = document.getElementById('mobileMenuToggle');
+
+        const isOpen = nav.classList.toggle('mobile-open');
+        toggle.classList.toggle('active');
+
+        // Update aria-expanded for accessibility
+        toggle.setAttribute('aria-expanded', isOpen);
+    }
+
+    // Initialize mobile menu
+    document.addEventListener('DOMContentLoaded', function() {
+        // Mobile menu toggle
+        const mobileToggle = document.getElementById('mobileMenuToggle');
+        if (mobileToggle) {
+            mobileToggle.addEventListener('click', toggleMobileMenu);
+        }
+
+        // Close mobile menu when clicking on a link
+        const navLinks = document.querySelectorAll('.nav-menu a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                const nav = document.getElementById('mainNav');
+                const toggle = document.getElementById('mobileMenuToggle');
+                nav.classList.remove('mobile-open');
+                toggle.classList.remove('active');
+                toggle.setAttribute('aria-expanded', false);
+            });
+        });
+    });
+    </script>
 </body>
 </html>
