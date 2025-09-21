@@ -714,7 +714,7 @@
 
         function updateHeroCarousel() {
             const track = document.getElementById('heroCarouselTrack');
-            track.style.transform = 	ranslateX(-${heroCurrentSlide * 100}%);
+            track.style.transform = `translateX(-${heroCurrentSlide * 100}%)`;
 
             heroIndicators.forEach((indicator, index) => {
                 indicator.classList.toggle('active', index === heroCurrentSlide);
@@ -741,7 +741,7 @@
 
         function updateGalleryCarousel() {
             const track = document.getElementById('galleryCarouselTrack');
-            track.style.transform = 	ranslateX(-${galleryCurrentSlide * 100}%);
+            track.style.transform = `translateX(-${galleryCurrentSlide * 100}%)`;
 
             galleryIndicators.forEach((indicator, index) => {
                 indicator.classList.toggle('active', index === galleryCurrentSlide);

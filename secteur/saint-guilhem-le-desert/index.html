@@ -155,8 +155,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="hero-carousel-nav hero-carousel-prev" onclick="moveHeroCarousel(-1)">â€¹</button>
-                            <button class="hero-carousel-nav hero-carousel-next" onclick="moveHeroCarousel(1)">â€º</button>
+                            <button class="hero-carousel-nav hero-carousel-prev" onclick="moveHeroCarousel(-1)">‹</button>
+                            <button class="hero-carousel-nav hero-carousel-next" onclick="moveHeroCarousel(1)">›</button>
                             <div class="hero-carousel-indicators">
                                 <button class="hero-indicator active" onclick="goToHeroSlide(0)"></button>
                                 <button class="hero-indicator" onclick="goToHeroSlide(1)"></button>
@@ -619,7 +619,7 @@
             <div class="container">
                 <div class="cta-content">
                     <h2>Votre Projet Menuiserie à Saint-Guilhem-le-Désert</h2>
-                    <p>Devis gratuit sous 24h â€¢ Déplacement gratuit sur Saint-Guilhem-le-Désert et environs â€¢ Qualibat RGE</p>
+                    <p>Devis gratuit sous 24h • Déplacement gratuit sur Saint-Guilhem-le-Désert et environs • Qualibat RGE</p>
 
                     <div class="cta-actions">
                         <div class="cta-phone">
@@ -714,7 +714,7 @@
 
         function updateHeroCarousel() {
             const track = document.getElementById('heroCarouselTrack');
-            track.style.transform = 	ranslateX(-${heroCurrentSlide * 100}%);
+            track.style.transform = `translateX(-${heroCurrentSlide * 100}%)`;
 
             heroIndicators.forEach((indicator, index) => {
                 indicator.classList.toggle('active', index === heroCurrentSlide);
@@ -741,7 +741,7 @@
 
         function updateGalleryCarousel() {
             const track = document.getElementById('galleryCarouselTrack');
-            track.style.transform = 	ranslateX(-${galleryCurrentSlide * 100}%);
+            track.style.transform = `translateX(-${galleryCurrentSlide * 100}%)`;
 
             galleryIndicators.forEach((indicator, index) => {
                 indicator.classList.toggle('active', index === galleryCurrentSlide);
