@@ -58,7 +58,7 @@
             </div>
 
             <!-- Mobile Menu Toggle -->
-            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menu de navigation mobile" aria-expanded="false">
                 <span class="hamburger-line"></span>
                 <span class="hamburger-line"></span>
                 <span class="hamburger-line"></span>
@@ -881,8 +881,11 @@
             const nav = document.getElementById('mainNav');
             const toggle = document.getElementById('mobileMenuToggle');
 
-            nav.classList.toggle('mobile-open');
+            const isOpen = nav.classList.toggle('mobile-open');
             toggle.classList.toggle('active');
+
+            // Update aria-expanded for accessibility
+            toggle.setAttribute('aria-expanded', isOpen);
         }
 
         // Initialize when DOM is loaded
