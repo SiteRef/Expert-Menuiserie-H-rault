@@ -619,7 +619,7 @@
             <div class="container">
                 <div class="cta-content">
                     <h2>Votre Projet Menuiserie à Lodève</h2>
-                    <p>Devis gratuit sous 24h â€¢ Déplacement gratuit sur Lodève et environs â€¢ Qualibat RGE</p>
+                    <p>Devis gratuit sous 24h -  Déplacement gratuit sur Lodève et environs -  Qualibat RGE</p>
 
                     <div class="cta-actions">
                         <div class="cta-phone">
@@ -714,7 +714,7 @@
 
         function updateHeroCarousel() {
             const track = document.getElementById('heroCarouselTrack');
-            track.style.transform = 	ranslateX(-${heroCurrentSlide * 100}%);
+            track.style.transform = `translateX(-${heroCurrentSlide * 100}%)`;
 
             heroIndicators.forEach((indicator, index) => {
                 indicator.classList.toggle('active', index === heroCurrentSlide);
@@ -741,7 +741,7 @@
 
         function updateGalleryCarousel() {
             const track = document.getElementById('galleryCarouselTrack');
-            track.style.transform = 	ranslateX(-${galleryCurrentSlide * 100}%);
+            track.style.transform = `translateX(-${galleryCurrentSlide * 100}%)`;
 
             galleryIndicators.forEach((indicator, index) => {
                 indicator.classList.toggle('active', index === galleryCurrentSlide);
