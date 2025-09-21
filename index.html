@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
 
     <!-- SEO Principal -->
     <title>Expert Menuiserie Hérault | Installation Menuiseries Sur Mesure | Devis Gratuit</title>
@@ -57,8 +57,15 @@
                 </div>
             </div>
 
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+
             <!-- Navigation Bar -->
-            <nav class="main-nav">
+            <nav class="main-nav" id="mainNav">
                 <div class="container">
                     <ul class="nav-menu">
                         <li><a href="/">Accueil</a></li>
@@ -869,8 +876,84 @@
             });
         }
 
+        // Mobile Menu Functions
+        function toggleMobileMenu() {
+            const nav = document.getElementById('mainNav');
+            const toggle = document.getElementById('mobileMenuToggle');
+
+            nav.classList.toggle('mobile-open');
+            toggle.classList.toggle('active');
+        }
+
         // Initialize when DOM is loaded
         document.addEventListener('DOMContentLoaded', function() {
+            // Mobile menu toggle
+            const mobileToggle = document.getElementById('mobileMenuToggle');
+            if (mobileToggle) {
+                mobileToggle.addEventListener('click', toggleMobileMenu);
+            }
+
+            // Close mobile menu when clicking on a link
+            const navLinks = document.querySelectorAll('.nav-menu a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    const nav = document.getElementById('mainNav');
+                    const toggle = document.getElementById('mobileMenuToggle');
+                    nav.classList.remove('mobile-open');
+                    toggle.classList.remove('active');
+                });
+            });
+
+            // Add touch swipe support for carousels
+            let heroTouchStartX = 0;
+            let heroTouchEndX = 0;
+            let galleryTouchStartX = 0;
+            let galleryTouchEndX = 0;
+
+            const heroCarousel = document.getElementById('heroCarouselContainer');
+            const galleryCarousel = document.getElementById('galleryCarousel');
+
+            if (heroCarousel) {
+                heroCarousel.addEventListener('touchstart', (e) => {
+                    heroTouchStartX = e.changedTouches[0].screenX;
+                });
+
+                heroCarousel.addEventListener('touchend', (e) => {
+                    heroTouchEndX = e.changedTouches[0].screenX;
+                    handleHeroSwipe();
+                });
+            }
+
+            if (galleryCarousel) {
+                galleryCarousel.addEventListener('touchstart', (e) => {
+                    galleryTouchStartX = e.changedTouches[0].screenX;
+                });
+
+                galleryCarousel.addEventListener('touchend', (e) => {
+                    galleryTouchEndX = e.changedTouches[0].screenX;
+                    handleGallerySwipe();
+                });
+            }
+
+            function handleHeroSwipe() {
+                const swipeThreshold = 50;
+                if (heroTouchEndX < heroTouchStartX - swipeThreshold) {
+                    moveHeroCarousel(1); // Swipe left - next
+                }
+                if (heroTouchEndX > heroTouchStartX + swipeThreshold) {
+                    moveHeroCarousel(-1); // Swipe right - previous
+                }
+            }
+
+            function handleGallerySwipe() {
+                const swipeThreshold = 50;
+                if (galleryTouchEndX < galleryTouchStartX - swipeThreshold) {
+                    moveGalleryCarousel(1); // Swipe left - next
+                }
+                if (galleryTouchEndX > galleryTouchStartX + swipeThreshold) {
+                    moveGalleryCarousel(-1); // Swipe right - previous
+                }
+            }
             // Auto-slide for hero carousel
             function autoHeroSlide() {
                 moveHeroCarousel(1);

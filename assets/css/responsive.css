@@ -1016,6 +1016,56 @@
     color: var(--secondary-orange);
 }
 
+/* CONTAINER MOBILE IMPROVEMENTS */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 var(--spacing-md);
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 var(--spacing-sm);
+    }
+}
+
+/* MOBILE MENU STYLES */
+.mobile-menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: var(--spacing-sm);
+    position: absolute;
+    right: var(--spacing-md);
+    top: var(--spacing-md);
+    z-index: 1001;
+}
+
+.hamburger-line {
+    width: 25px;
+    height: 3px;
+    background: var(--primary-blue);
+    margin: 3px 0;
+    transition: all 0.3s ease;
+    border-radius: 2px;
+}
+
+.mobile-menu-toggle.active .hamburger-line:nth-child(1) {
+    transform: rotate(45deg) translate(8px, 8px);
+}
+
+.mobile-menu-toggle.active .hamburger-line:nth-child(2) {
+    opacity: 0;
+}
+
+.mobile-menu-toggle.active .hamburger-line:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+}
+
 /* RESPONSIVE DESIGN */
 @media (max-width: 1024px) {
     .hero-content {
@@ -1027,6 +1077,28 @@
     .zones-content {
         grid-template-columns: 1fr;
         gap: var(--spacing-xl);
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: var(--spacing-lg);
+    }
+
+    .advantages-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: var(--spacing-lg);
+    }
+}
+
+/* TABLET LANDSCAPE */
+@media (max-width: 900px) and (min-width: 769px) {
+    .hero-carousel-container {
+        height: 300px;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-lg);
     }
 }
 
@@ -1042,28 +1114,175 @@
 }
 
 @media (max-width: 768px) {
-    .header-content {
+    /* Show mobile menu toggle */
+    .mobile-menu-toggle {
+        display: flex;
+    }
+
+    /* Header adjustments */
+    .header-top {
         flex-direction: column;
         gap: var(--spacing-md);
+        position: relative;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo-section {
+        order: 1;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .header-contact {
+        order: 2;
+        flex-direction: row;
+        gap: var(--spacing-sm);
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .phone-btn {
+        font-size: 0.9rem;
+        padding: var(--spacing-xs) var(--spacing-sm);
+    }
+
+    .btn-primary {
+        font-size: 0.85rem;
+        padding: var(--spacing-xs) var(--spacing-sm);
+    }
+
+    /* Company name responsive */
+    .company-name {
+        font-size: 1.4rem;
+    }
+
+    .company-logo {
+        height: 45px;
+    }
+
+    /* Main navigation mobile styles */
+    .main-nav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 280px;
+        height: 100vh;
+        background: var(--white);
+        box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        transition: right 0.3s ease;
+        overflow-y: auto;
+        padding-top: 80px;
+    }
+
+    .main-nav.mobile-open {
+        right: 0;
+    }
+
+    .main-nav .container {
+        padding: var(--spacing-lg);
+        max-width: none;
+        margin: 0;
     }
 
     .main-nav .nav-menu {
         flex-direction: column;
-        gap: var(--spacing-sm);
+        gap: 0;
+        list-style: none;
+        margin: 0;
+        padding: 0;
     }
 
-    .dropdown:hover .submenu {
+    .main-nav .nav-menu > li {
+        border-bottom: 1px solid #e5e7eb;
+    }
+
+    .main-nav .nav-menu > li > a,
+    .main-nav .nav-menu > li > .dropdown-trigger {
+        display: block;
+        padding: var(--spacing-md);
+        color: var(--text-dark);
+        text-decoration: none;
+        font-weight: 500;
+        border-radius: 0;
+        background: transparent;
+        transition: all 0.3s ease;
+    }
+
+    .main-nav .nav-menu > li > a:hover,
+    .main-nav .nav-menu > li > .dropdown-trigger:hover {
+        background: var(--bg-light);
+        color: var(--primary-blue);
+    }
+
+    /* Dropdown in mobile */
+    .dropdown .submenu {
         position: static;
         opacity: 1;
         visibility: visible;
         transform: none;
         box-shadow: none;
         background: var(--bg-light);
-        margin-top: var(--spacing-sm);
+        margin: 0;
+        border-radius: 0;
+        padding: 0;
+        min-width: auto;
     }
 
+    .submenu li {
+        border-bottom: 1px solid #e5e7eb;
+    }
+
+    .submenu a {
+        padding: var(--spacing-sm) var(--spacing-lg);
+        display: block;
+        color: var(--text-gray);
+        background: var(--bg-light);
+        transition: all 0.3s ease;
+    }
+
+    .submenu a:hover {
+        background: #e2e8f0;
+        color: var(--primary-blue);
+        padding-left: calc(var(--spacing-lg) + var(--spacing-xs));
+    }
+
+    /* Mobile overlay */
+    .main-nav.mobile-open::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 280px;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: -1;
+    }
+
+    /* Hero Section Mobile */
     .hero-section {
         padding: var(--spacing-xl) 0;
+    }
+
+    .hero-content {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-xl);
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: clamp(2rem, 8vw, 2.5rem);
+    }
+
+    .hero-title .subtitle {
+        font-size: clamp(1rem, 4vw, 1.2rem);
+    }
+
+    .hero-description {
+        font-size: 1.1rem;
+        margin-bottom: var(--spacing-lg);
     }
 
     .hero-cta {
@@ -1075,33 +1294,66 @@
     .btn-large {
         width: 100%;
         text-align: center;
+        max-width: 280px;
     }
 
-    /* Carousel responsive */
-    .carousel-container {
-        height: 300px;
+    /* Hero Carousel Mobile */
+    .hero-carousel-container {
+        height: 250px;
+        margin-top: var(--spacing-lg);
     }
 
-    .carousel-btn {
+    .hero-carousel-nav {
         width: 40px;
         height: 40px;
         font-size: 1rem;
     }
 
+    .hero-carousel-prev {
+        left: 10px;
+    }
+
+    .hero-carousel-next {
+        right: 10px;
+    }
+
+    .hero-slide-caption {
+        padding: var(--spacing-md) var(--spacing-sm) var(--spacing-sm);
+    }
+
+    .hero-slide-caption h3 {
+        font-size: 1.2rem;
+        margin-bottom: var(--spacing-xs);
+    }
+
+    .hero-slide-caption p {
+        font-size: 0.9rem;
+    }
+
+    .floating-badge {
+        position: static;
+        margin-top: var(--spacing-md);
+        display: inline-block;
+    }
+
+    /* Gallery Carousel Mobile */
     .carousel-nav {
-        padding: 0 var(--spacing-xs);
-    }
-
-    .slide-caption {
-        padding: var(--spacing-md) var(--spacing-sm);
-    }
-
-    .slide-caption h3 {
+        width: 40px;
+        height: 40px;
         font-size: 1.2rem;
     }
 
-    .slide-caption p {
-        font-size: 0.9rem;
+    .carousel-nav-prev {
+        left: 10px;
+    }
+
+    .carousel-nav-next {
+        right: 10px;
+    }
+
+    .carousel-caption {
+        padding: var(--spacing-sm);
+        font-size: 1rem;
     }
 
     .services-grid {
@@ -1139,8 +1391,18 @@
 }
 
 @media (max-width: 480px) {
+    /* Extra small screens */
+    .hero-title {
+        font-size: clamp(1.8rem, 8vw, 2.2rem);
+    }
+
+    .hero-description {
+        font-size: 1rem;
+    }
+
     .services-grid {
         grid-template-columns: 1fr;
+        gap: var(--spacing-md);
     }
 
     .service-card {
@@ -1149,15 +1411,157 @@
 
     .usp-badges {
         grid-template-columns: 1fr;
+        gap: var(--spacing-xs);
     }
 
-    .header-cta {
+    .badge {
+        padding: var(--spacing-xs);
+        font-size: 0.85rem;
+    }
+
+    .header-contact {
         flex-direction: column;
-        width: 100%;
+        gap: var(--spacing-xs);
+        align-items: stretch;
     }
 
-    .phone-number {
+    .phone-btn,
+    .btn-primary {
+        font-size: 0.8rem;
+        padding: var(--spacing-xs);
         text-align: center;
+        min-height: 44px; /* Touch target */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .company-name {
+        font-size: 1.2rem;
+        display: none; /* Hide on very small screens */
+    }
+
+    .company-logo {
+        height: 40px;
+    }
+
+    /* Improve touch targets */
+    .hero-carousel-nav,
+    .carousel-nav {
+        width: 44px;
+        height: 44px;
+        font-size: 1.1rem;
+    }
+
+    .hero-indicator,
+    .indicator {
+        width: 16px;
+        height: 16px;
+        margin: 0 2px;
+    }
+
+    /* Grid layouts improvements */
+    .zones-stats {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-sm);
+        padding: var(--spacing-md);
+    }
+
+    .cities-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-xs);
+    }
+
+    .city-item {
+        padding: var(--spacing-sm);
+        min-height: 44px;
+    }
+
+    .advantages-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+
+    .advantage-item {
+        padding: var(--spacing-md);
+    }
+
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+        text-align: center;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: var(--spacing-sm);
+    }
+
+    /* CTA improvements */
+    .cta-actions {
+        gap: var(--spacing-sm);
+    }
+
+    .phone-cta {
+        font-size: 1.3rem;
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* ACCESSIBILITY & FOCUS IMPROVEMENTS */
+@media (max-width: 768px) {
+    /* Improve focus visibility */
+    button:focus,
+    a:focus,
+    .btn:focus {
+        outline: 3px solid var(--secondary-orange);
+        outline-offset: 2px;
+    }
+
+    /* Remove outline for mouse users */
+    button:focus:not(:focus-visible),
+    a:focus:not(:focus-visible),
+    .btn:focus:not(:focus-visible) {
+        outline: none;
+    }
+
+    /* Skip to content link for screen readers */
+    .skip-link {
+        position: absolute;
+        top: -40px;
+        left: 6px;
+        background: var(--primary-blue);
+        color: white;
+        padding: 8px;
+        text-decoration: none;
+        border-radius: 4px;
+        z-index: 1002;
+    }
+
+    .skip-link:focus {
+        top: 6px;
+    }
+
+    /* Improve button touch targets */
+    .btn,
+    button,
+    .mobile-menu-toggle {
+        min-height: 44px;
+        min-width: 44px;
+    }
+
+    /* Prevent horizontal scroll */
+    body {
+        overflow-x: hidden;
     }
 }
 
