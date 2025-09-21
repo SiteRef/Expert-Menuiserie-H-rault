@@ -10,6 +10,157 @@
     <link rel="canonical" href="https://expert-menuiserie-herault.fr/devis-gratuit/">
     <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="../assets/css/responsive.css">
+
+    <style>
+        .form-container {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            color: white;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: white;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 0.875rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .form-input::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: rgba(255, 255, 255, 0.5);
+            background: rgba(255, 255, 255, 0.15);
+            box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.1);
+        }
+
+        .form-select {
+            width: 100%;
+            padding: 0.875rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            font-size: 1rem;
+            backdrop-filter: blur(10px);
+        }
+
+        .form-select option {
+            background: #4c1d95;
+            color: white;
+        }
+
+        .form-textarea {
+            width: 100%;
+            padding: 0.875rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            font-size: 1rem;
+            min-height: 120px;
+            resize: vertical;
+            backdrop-filter: blur(10px);
+        }
+
+        .form-textarea::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .form-textarea:focus {
+            outline: none;
+            border-color: rgba(255, 255, 255, 0.5);
+            background: rgba(255, 255, 255, 0.15);
+            box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.1);
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 1rem 2rem;
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(245, 158, 11, 0.3);
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        .benefit-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            border-left: 4px solid var(--primary-blue);
+            transition: transform 0.3s ease;
+        }
+
+        .benefit-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .stats-section {
+            background: linear-gradient(135deg, #1f2937 0%, #374151 100%);
+            color: white;
+            padding: 3rem 0;
+            margin: 3rem 0;
+            border-radius: 12px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #f59e0b;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 1.1rem;
+            margin-top: 0.5rem;
+        }
+    </style>
 </head>
 <body>
     <!-- HEADER NAVIGATION -->
@@ -48,7 +199,6 @@
                             </ul>
                         </li>
                         <li><a href="../secteur/">Nos Secteurs</a></li>
-                        
                     </ul>
                 </div>
             </nav>
@@ -56,209 +206,233 @@
     </header>
 
     <main>
-        <section class="hero">
+        <!-- HERO SECTION -->
+        <section class="hero-section">
             <div class="container">
-                <div class="hero-content">
-                    <h1>📋 Devis Menuiserie Gratuit Hérault</h1>
-                    <p>Obtenez votre devis personnalisé sous 24h<br>Déplacement et prise de mesures inclus</p>
+                <div class="hero-content" style="text-align: center; max-width: 800px; margin: 0 auto;">
+                    <h1 class="hero-title">
+                        Devis Menuiserie Gratuit dans l'Hérault
+                        <span class="subtitle">Réponse sous 24h • Déplacement inclus • Expert Qualibat RGE</span>
+                    </h1>
+                    <p class="hero-description">
+                        Obtenez votre devis personnalisé pour vos menuiseries sur mesure : fenêtres, portes, volets, pergolas.
+                        <strong>Prise de mesures et conseils techniques inclus gratuitement</strong>.
+                    </p>
                 </div>
             </div>
         </section>
 
+        <!-- FORMULAIRE SECTION -->
         <section class="section">
             <div class="container">
-                <div class="grid grid-2" style="align-items: start;">
+                <div class="grid grid-2" style="align-items: start; gap: 3rem;">
+                    <!-- Colonne gauche : Avantages -->
                     <div>
-                        <h2>Devis Gratuit en 3 Étapes</h2>
-                        <div class="card mb-md" style="border-left: 4px solid #10b981;">
-                            <h3>1. 📞 Contactez-nous</h3>
-                            <p>Décrivez votre projet par téléphone, email ou via notre formulaire. Premier conseil gratuit immédiat.</p>
+                        <h2 style="color: var(--primary-blue); margin-bottom: 2rem;">Pourquoi Demander Votre Devis ?</h2>
+
+                        <div class="benefit-card">
+                            <h3>Contact Immédiat</h3>
+                            <p>Réponse téléphonique dans l'heure et premier conseil gratuit pour orienter votre projet.</p>
                         </div>
-                        <div class="card mb-md" style="border-left: 4px solid #f59e0b;">
-                            <h3>2. 📏 Visite Technique</h3>
-                            <p>Déplacement gratuit chez vous pour prises de mesures précises et conseils personnalisés.</p>
+
+                        <div class="benefit-card" style="margin-top: 1.5rem;">
+                            <h3>Visite Technique Gratuite</h3>
+                            <p>Déplacement gratuit dans tout l'Hérault pour prise de mesures précises et étude de faisabilité.</p>
                         </div>
-                        <div class="card" style="border-left: 4px solid #3b82f6;">
-                            <h3>3. 📄 Devis Détaillé</h3>
-                            <p>Remise de votre devis complet sous 24h avec prix, délais et options détaillées.</p>
+
+                        <div class="benefit-card" style="margin-top: 1.5rem;">
+                            <h3>Devis Détaillé 24h</h3>
+                            <p>Devis complet avec prix, délais, options et garanties. Aucun engagement de votre part.</p>
+                        </div>
+
+                        <div class="benefit-card" style="margin-top: 1.5rem;">
+                            <h3>Expertise Qualibat RGE</h3>
+                            <p>Artisan certifié avec 15+ ans d'expérience. Éligibilité aux aides de l'État garantie.</p>
                         </div>
                     </div>
+
+                    <!-- Colonne droite : Formulaire -->
                     <div>
-                        <div class="card bg-primary text-white">
-                            <h3 style="color: white;">🎯 Votre Devis Express</h3>
-                            <form style="margin-top: 1.5rem;">
-                                <div style="margin-bottom: 1rem;">
-                                    <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Type de projet *</label>
-                                    <select style="width: 100%; padding: 0.75rem; border: 1px solid #d1d5db; border-radius: 6px; background: white; color: #374151;">
-                                        <option value="">Choisir...</option>
-                                        <option value="fenetres">Fenêtres</option>
-                                        <option value="portes">Portes d'entrée</option>
-                                        <option value="volets">Volets</option>
-                                        <option value="portails">Portails</option>
-                                        <option value="pergolas">Pergolas</option>
-                                        <option value="amenagements">Aménagements</option>
+                        <div class="form-container">
+                            <h3 style="color: white; text-align: center; margin-bottom: 2rem;">
+                                Demandez Votre Devis Gratuit
+                            </h3>
+
+                            <form action="https://formspree.io/f/xeolypqb" method="POST">
+                                <div class="form-group">
+                                    <label class="form-label" for="type-projet">Type de projet *</label>
+                                    <select class="form-select" id="type-projet" name="type-projet" required>
+                                        <option value="">Choisissez votre projet...</option>
+                                        <option value="fenêtres">Fenêtres (PVC, Alu, Bois)</option>
+                                        <option value="portes-entree">Portes d'entrée</option>
+                                        <option value="volets">Volets roulants</option>
+                                        <option value="portails">Portails & Clôtures</option>
+                                        <option value="pergolas">Pergolas & Carports</option>
+                                        <option value="portes-garage">Portes de garage</option>
+                                        <option value="amenagements">Aménagements intérieurs</option>
+                                        <option value="renovation-complete">Rénovation complète</option>
+                                        <option value="autre">Autre projet</option>
                                     </select>
                                 </div>
-                                <div style="margin-bottom: 1rem;">
-                                    <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Votre ville *</label>
-                                    <input type="text" placeholder="ex: Montpellier" style="width: 100%; padding: 0.75rem; border: 1px solid #d1d5db; border-radius: 6px;">
+
+                                <div class="form-group">
+                                    <label class="form-label" for="prenom">Prénom *</label>
+                                    <input type="text" class="form-input" id="prenom" name="prenom" placeholder="Votre prénom" required>
                                 </div>
-                                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
-                                    <div>
-                                        <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Nom *</label>
-                                        <input type="text" style="width: 100%; padding: 0.75rem; border: 1px solid #d1d5db; border-radius: 6px;">
-                                    </div>
-                                    <div>
-                                        <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Téléphone *</label>
-                                        <input type="tel" style="width: 100%; padding: 0.75rem; border: 1px solid #d1d5db; border-radius: 6px;">
-                                    </div>
+
+                                <div class="form-group">
+                                    <label class="form-label" for="nom">Nom *</label>
+                                    <input type="text" class="form-input" id="nom" name="nom" placeholder="Votre nom de famille" required>
                                 </div>
-                                <div style="margin-bottom: 1rem;">
-                                    <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Email</label>
-                                    <input type="email" style="width: 100%; padding: 0.75rem; border: 1px solid #d1d5db; border-radius: 6px;">
+
+                                <div class="form-group">
+                                    <label class="form-label" for="email">Email *</label>
+                                    <input type="email" class="form-input" id="email" name="email" placeholder="votre@email.com" required>
                                 </div>
-                                <div style="margin-bottom: 1.5rem;">
-                                    <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Description du projet</label>
-                                    <textarea rows="3" placeholder="Décrivez votre projet..." style="width: 100%; padding: 0.75rem; border: 1px solid #d1d5db; border-radius: 6px; resize: vertical;"></textarea>
+
+                                <div class="form-group">
+                                    <label class="form-label" for="telephone">Téléphone *</label>
+                                    <input type="tel" class="form-input" id="telephone" name="telephone" placeholder="06 12 34 56 78" required>
                                 </div>
-                                <button type="submit" class="btn btn-secondary" style="width: 100%; font-size: 1.1rem;">
-                                    📋 Obtenir Mon Devis Gratuit
+
+                                <div class="form-group">
+                                    <label class="form-label" for="ville">Ville / Code postal *</label>
+                                    <input type="text" class="form-input" id="ville" name="ville" placeholder="Montpellier, 34000..." required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label" for="urgence">Délai souhaité</label>
+                                    <select class="form-select" id="urgence" name="urgence">
+                                        <option value="">Pas d'urgence particulière</option>
+                                        <option value="1-mois">Dans le mois</option>
+                                        <option value="3-mois">Dans les 3 mois</option>
+                                        <option value="6-mois">Dans les 6 mois</option>
+                                        <option value="etude">En phase d'étude</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label" for="budget">Budget approximatif</label>
+                                    <select class="form-select" id="budget" name="budget">
+                                        <option value="">Non défini</option>
+                                        <option value="moins-1000">Moins de 1 000€</option>
+                                        <option value="1000-3000">1 000€ - 3 000€</option>
+                                        <option value="3000-5000">3 000€ - 5 000€</option>
+                                        <option value="5000-10000">5 000€ - 10 000€</option>
+                                        <option value="plus-10000">Plus de 10 000€</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label" for="message">Description de votre projet *</label>
+                                    <textarea class="form-textarea" id="message" name="message" placeholder="Décrivez votre projet : type de menuiseries, dimensions approximatives, contraintes particulières, objectifs..." required></textarea>
+                                </div>
+
+                                <!-- Champs cachés pour traçabilité -->
+                                <input type="hidden" name="_subject" value="Nouveau devis menuiserie - Expert Menuiserie Hérault">
+                                <input type="hidden" name="_next" value="https://expert-menuiserie-herault.fr/devis-gratuit/merci/">
+                                <input type="hidden" name="_language" value="fr">
+
+                                <button type="submit" class="submit-btn">
+                                    Obtenir Mon Devis Gratuit
                                 </button>
                             </form>
+
+                            <p style="text-align: center; margin-top: 1rem; font-size: 0.9rem; opacity: 0.8;">
+                                Aucun engagement • Réponse garantie sous 24h
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section section-alt">
+        <!-- STATISTIQUES SECTION -->
+        <section class="stats-section">
             <div class="container">
-                <h2 class="text-center mb-xl">Nos Engagements Devis</h2>
-                <div class="grid grid-4">
-                    <div class="card text-center">
-                        <div class="service-icon" style="background: #10b981;">💰</div>
-                        <h3>100% Gratuit</h3>
-                        <p>Devis, déplacement et prise de mesures entièrement gratuits sans engagement.</p>
+                <h2 style="text-align: center; margin-bottom: 3rem; color: white;">Expert Menuiserie Hérault en Chiffres</h2>
+                <div class="stats-grid">
+                    <div>
+                        <span class="stat-number">500+</span>
+                        <div class="stat-label">Devis réalisés</div>
                     </div>
-                    <div class="card text-center">
-                        <div class="service-icon" style="background: #3b82f6;">⚡</div>
-                        <h3>Sous 24h</h3>
-                        <p>Remise de votre devis détaillé dans les 24h suivant notre visite technique.</p>
+                    <div>
+                        <span class="stat-number">24h</span>
+                        <div class="stat-label">Délai de réponse</div>
                     </div>
-                    <div class="card text-center">
-                        <div class="service-icon" style="background: #f59e0b;">📏</div>
-                        <h3>Mesures Précises</h3>
-                        <p>Relevé technique professionnel pour un chiffrage exact de votre projet.</p>
+                    <div>
+                        <span class="stat-number">15+</span>
+                        <div class="stat-label">Années d'expérience</div>
                     </div>
-                    <div class="card text-center">
-                        <div class="service-icon" style="background: #8b5cf6;">💎</div>
-                        <h3>Prix Fabricant</h3>
-                        <p>Tarifs directs sans intermédiaire. Rapport qualité-prix optimal garanti.</p>
+                    <div>
+                        <span class="stat-number">50+</span>
+                        <div class="stat-label">Communes couvertes</div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- PROCESSUS SECTION -->
         <section class="section">
             <div class="container">
-                <h2 class="text-center mb-xl">Zones de Devis Gratuit</h2>
-                <div class="grid grid-3">
-                    <div class="card">
-                        <h3>🏙️ Montpellier Métropole</h3>
-                        <p>Déplacement gratuit dans un rayon de 20 km autour de Montpellier :</p>
-                        <ul style="font-size: 0.9rem; color: #6b7280;">
-                            <li>Montpellier centre et quartiers</li>
-                            <li>Castelnau-le-Lez, Lattes, Pérols</li>
-                            <li>Saint-Jean-de-Védas, Jacou</li>
-                            <li>Palavas-les-Flots, Mauguio</li>
-                        </ul>
-                    </div>
-                    <div class="card">
-                        <h3>🌊 Littoral & Bassin de Thau</h3>
-                        <p>Expertise menuiserie marine incluse :</p>
-                        <ul style="font-size: 0.9rem; color: #6b7280;">
-                            <li>Sète, Marseillan, Mèze</li>
-                            <li>Frontignan, Balaruc-les-Bains</li>
-                            <li>Agde, Le Cap d'Agde, Vias</li>
-                            <li>Bouzigues, Loupian</li>
-                        </ul>
-                    </div>
-                    <div class="card">
-                        <h3>🍇 Béziers & Arrière-Pays</h3>
-                        <p>Couverture complète secteur biterrois :</p>
-                        <ul style="font-size: 0.9rem; color: #6b7280;">
-                            <li>Béziers et agglomération</li>
-                            <li>Pézenas, Roujan, Servian</li>
-                            <li>Clermont-l'Hérault, Lodève</li>
-                            <li>Lunel, Sommières</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="text-center mt-xl">
-                    <p style="color: #6b7280;">
-                        * Au-delà de ces zones, devis possible avec participation déplacement selon distance
-                    </p>
-                    <a href="../secteur/" class="btn btn-outline">Voir Toutes Nos Zones</a>
-                </div>
-            </div>
-        </section>
+                <h2 style="text-align: center; margin-bottom: 3rem; color: var(--primary-blue);">Notre Processus en 4 Étapes</h2>
 
-        <section class="section bg-primary text-white">
-            <div class="container">
-                <h2 class="text-center mb-xl" style="color: white;">Que Comprend Votre Devis ?</h2>
-                <div class="grid grid-2">
-                    <div class="card">
-                        <h3 class="text-primary">📋 Devis Détaillé</h3>
-                        <ul>
-                            <li>Descriptif technique complet</li>
-                            <li>Matériaux et finitions</li>
-                            <li>Prix unitaires et total TTC</li>
-                            <li>Délais de fabrication et pose</li>
-                            <li>Conditions de paiement</li>
-                            <li>Garanties et certifications</li>
-                        </ul>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <h3>1. Demande en Ligne</h3>
+                        <p>Remplissez notre formulaire en 2 minutes. Première validation de faisabilité par téléphone dans l'heure.</p>
                     </div>
-                    <div class="card">
-                        <h3 class="text-primary">🎨 Conseils Inclus</h3>
-                        <ul>
-                            <li>Étude thermique et phonique</li>
-                            <li>Conseils esthétiques et couleurs</li>
-                            <li>Options et accessoires</li>
-                            <li>Aides financières applicables</li>
-                            <li>Alternatives et optimisations</li>
-                            <li>Planning d'intervention</li>
-                        </ul>
+
+                    <div class="benefit-card">
+                        <h3>2. Rendez-vous Technique</h3>
+                        <p>Visite gratuite à domicile pour mesures précises, conseils techniques et étude de vos contraintes.</p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <h3>3. Devis Personnalisé</h3>
+                        <p>Remise de votre devis détaillé sous 24h avec options, garanties et planning d'intervention.</p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <h3>4. Réalisation Expert</h3>
+                        <p>Installation par nos équipes qualifiées avec respect des délais et garantie décennale incluse.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section section-alt">
+        <!-- GARANTIES SECTION -->
+        <section class="section" style="background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);">
             <div class="container">
-                <div class="text-center">
-                    <h2>Demandez Votre Devis par Téléphone</h2>
-                    <p class="mb-xl">Pour un devis ultra-rapide, appelez-nous directement</p>
-                    <div class="grid grid-3" style="max-width: 900px; margin: 0 auto;">
-                        <div class="card text-center">
-                            <h3 style="color: #10b981;">📞 Montpellier</h3>
-                            <p style="font-size: 1.2rem; font-weight: 600; margin: 1rem 0;">04 XX XX XX XX</p>
-                            <p style="font-size: 0.9rem; color: #6b7280;">Lun-Ven 8h-18h<br>Sam 8h-12h</p>
-                        </div>
-                        <div class="card text-center">
-                            <h3 style="color: #f59e0b;">📧 Email Express</h3>
-                            <p style="font-size: 1.1rem; margin: 1rem 0;">contact@expert-menuiserie-herault.fr</p>
-                            <p style="font-size: 0.9rem; color: #6b7280;">Réponse sous 4h<br>ouvrables</p>
-                        </div>
-                        <div class="card text-center">
-                            <p style="font-size: 1.2rem; font-weight: 600; margin: 1rem 0;">04 XX XX XX XX</p>
-                            <p style="font-size: 0.9rem; color: #6b7280;">24h/24 - 7j/7<br>Dépannage immédiat</p>
-                        </div>
+                <h2 style="text-align: center; margin-bottom: 3rem; color: var(--primary-blue);">Nos Garanties & Certifications</h2>
+
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <h3>Qualibat RGE</h3>
+                        <p>Certification officielle garantissant notre expertise et votre éligibilité aux aides de l'État.</p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <h3>Garantie Décennale</h3>
+                        <p>Assurance décennale complète pour tous nos travaux. Votre tranquillité d'esprit garantie.</p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <h3>Satisfaction Client</h3>
+                        <p>97% de clients satisfaits. Suivi qualité et service après-vente pour chaque intervention.</p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <h3>Devis Gratuit & Sans Engagement</h3>
+                        <p>Prise de mesures, conseils et devis entièrement gratuits. Aucune obligation d'achat.</p>
                     </div>
                 </div>
             </div>
         </section>
+
     </main>
 
+    <!-- FOOTER -->
     <footer class="footer-main">
         <div class="container">
             <div class="footer-content">
@@ -267,8 +441,8 @@
                     <h3>Expert Menuiserie Hérault</h3>
                     <p>Votre spécialiste menuiserie Qualibat RGE dans l'Hérault. Installation, réparation, dépannage 24h/7j.</p>
                     <div class="certifications">
-                        <span class="cert-badge">🏆 Qualibat</span>
-                        <span class="cert-badge">⚡ RGE</span>
+                        <span class="cert-badge">Qualibat</span>
+                        <span class="cert-badge">RGE</span>
                     </div>
                 </div>
 
@@ -276,13 +450,13 @@
                 <div class="footer-column">
                     <h4>Nos Services</h4>
                     <ul>
-                        <li><a href="services/fenetres-sur-mesure-herault/">Fenêtres</a></li>
-                        <li><a href="services/portes-entree-sur-mesure-herault/">Portes d'Entrée</a></li>
-                        <li><a href="services/volets-sur-mesure-herault/">Volets</a></li>
-                        <li><a href="services/portes-garage-herault/">Portes de Garage</a></li>
-                        <li><a href="services/portails-clotures-herault/">Portails & Clôtures</a></li>
-                        <li><a href="services/amenagements-exterieurs-herault/">Aménagements Extérieurs</a></li>
-                        <li><a href="services/amenagements-interieurs-herault/">Aménagements Intérieurs</a></li>
+                        <li><a href="../services/fenetres-sur-mesure-herault/">Fenêtres</a></li>
+                        <li><a href="../services/portes-entree-sur-mesure-herault/">Portes d'Entrée</a></li>
+                        <li><a href="../services/volets-sur-mesure-herault/">Volets</a></li>
+                        <li><a href="../services/portes-garage-herault/">Portes de Garage</a></li>
+                        <li><a href="../services/portails-clotures-herault/">Portails & Clôtures</a></li>
+                        <li><a href="../services/amenagements-exterieurs-herault/">Aménagements Extérieurs</a></li>
+                        <li><a href="../services/amenagements-interieurs-herault/">Aménagements Intérieurs</a></li>
                     </ul>
                 </div>
 
@@ -290,12 +464,12 @@
                 <div class="footer-column">
                     <h4>Nos Secteurs</h4>
                     <ul>
-                        <li><a href="secteur/montpellier/">Montpellier</a></li>
-                        <li><a href="secteur/beziers/">Béziers</a></li>
-                        <li><a href="secteur/sete/">Sète</a></li>
-                        <li><a href="secteur/lunel/">Lunel</a></li>
-                        <li><a href="secteur/clermont-l-herault/">Clermont-l'Hérault</a></li>
-                        <li><a href="secteur/">Toutes nos zones</a></li>
+                        <li><a href="../secteur/montpellier/">Montpellier</a></li>
+                        <li><a href="../secteur/beziers/">Béziers</a></li>
+                        <li><a href="../secteur/sete/">Sète</a></li>
+                        <li><a href="../secteur/lunel/">Lunel</a></li>
+                        <li><a href="../secteur/clermont-l-herault/">Clermont-l'Hérault</a></li>
+                        <li><a href="../secteur/">Toutes nos zones</a></li>
                     </ul>
                 </div>
 
@@ -303,10 +477,10 @@
                 <div class="footer-column">
                     <h4>Contact</h4>
                     <div class="contact-info">
-                        <p><a href="tel:+33759627463">📞 07 59 62 74 63</a></p>
-                        <p>📍 Hérault (34)</p>
+                        <p><a href="tel:+33759627463">07 59 62 74 63</a></p>
+                        <p>Hérault (34)</p>
                     </div>
-                    <a href="devis-gratuit/" class="btn btn-primary">Devis Gratuit</a>
+                    <a href="../devis-gratuit/" class="btn btn-primary">Devis Gratuit</a>
                 </div>
             </div>
 
@@ -314,7 +488,7 @@
             <div class="footer-bottom">
                 <p>&copy; 2024 Expert Menuiserie Hérault. Tous droits réservés.</p>
                 <div class="footer-links">
-                    <a href="sitemap.xml">Plan du Site</a>
+                    <a href="../sitemap.xml">Plan du Site</a>
                 </div>
             </div>
         </div>

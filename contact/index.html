@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Expert Menuiserie Hérault | Nous Contacter | Devis Gratuit</title>
+    <meta name="description" content="Contactez Expert Menuiserie Hérault pour vos projets de menuiserie. Formulaire de contact, téléphone, adresse. Réponse rapide garantie.">
+    <meta name="keywords" content="contact menuisier hérault, expert menuiserie contact, téléphone menuiserie montpellier">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://expert-menuiserie-herault.fr/contact/">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+
+    <style>
+        .contact-hero {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        .contact-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            margin: 4rem 0;
+        }
+
+        @media (max-width: 768px) {
+            .contact-container {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+        }
+
+        .contact-info {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 12px;
+            padding: 2rem;
+            color: white;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: white;
+        }
+
+        .form-input, .form-textarea, .form-select {
+            width: 100%;
+            padding: 0.875rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .form-input::placeholder, .form-textarea::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .form-input:focus, .form-textarea:focus, .form-select:focus {
+            outline: none;
+            border-color: rgba(255, 255, 255, 0.5);
+            background: rgba(255, 255, 255, 0.15);
+            box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.1);
+        }
+
+        .form-textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .form-select option {
+            background: #4c1d95;
+            color: white;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 1rem 2rem;
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(245, 158, 11, 0.3);
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin: 1.5rem 0;
+            padding: 1rem;
+            background: #f8fafc;
+            border-radius: 8px;
+            border-left: 4px solid var(--primary-blue);
+        }
+
+        .contact-icon {
+            background: var(--primary-blue);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+            font-weight: bold;
+        }
+
+        .hours-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        .hours-table th, .hours-table td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .hours-table th {
+            background: #f3f4f6;
+            font-weight: 600;
+        }
+
+        .map-container {
+            background: #f8fafc;
+            border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+            margin: 3rem 0;
+        }
+
+        .certifications-section {
+            background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+            padding: 3rem 0;
+            margin: 3rem 0;
+            border-radius: 12px;
+        }
+
+        .cert-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .cert-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER NAVIGATION -->
+    <header class="header-main">
+        <div class="container">
+            <!-- Top Bar: Logo + Contact -->
+            <div class="header-top">
+                <div class="logo-section">
+                    <a href="../" class="logo-link">
+                        <img src="../Images/Expert Menuiserie Hérault.png" alt="Expert Menuiserie Hérault - Logo" class="company-logo">
+                        <span class="company-name">Expert Menuiserie Hérault</span>
+                    </a>
+                </div>
+
+                <div class="header-contact">
+                    <a href="tel:+33759627463" class="btn btn-secondary phone-btn">07 59 62 74 63</a>
+                    <a href="../devis-gratuit/" class="btn btn-primary">DEVIS GRATUIT 24H</a>
+                </div>
+            </div>
+
+            <!-- Navigation Bar -->
+            <nav class="main-nav">
+                <div class="container">
+                    <ul class="nav-menu">
+                        <li><a href="../">Accueil</a></li>
+                        <li class="dropdown">
+                            <span class="dropdown-trigger">Services</span>
+                            <ul class="submenu">
+                                <li><a href="../services/fenetres-sur-mesure-herault/">Fenêtres</a></li>
+                                <li><a href="../services/portes-entree-sur-mesure-herault/">Portes d'Entrée</a></li>
+                                <li><a href="../services/volets-sur-mesure-herault/">Volets</a></li>
+                                <li><a href="../services/portes-garage-herault/">Portes de Garage</a></li>
+                                <li><a href="../services/portails-clotures-herault/">Portails & Clôtures</a></li>
+                                <li><a href="../services/amenagements-exterieurs-herault/">Aménagements Extérieurs</a></li>
+                                <li><a href="../services/amenagements-interieurs-herault/">Aménagements Intérieurs</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../secteur/">Nos Secteurs</a></li>
+                        <li><a href="../contact/">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="contact-hero">
+            <div class="container">
+                <h1 style="font-size: 2.5rem; margin-bottom: 1rem;">Contactez Expert Menuiserie Hérault</h1>
+                <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto; color: white;">
+                    Votre projet menuiserie mérite notre expertise. Contactez-nous pour un conseil personnalisé et un devis gratuit.
+                </p>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="section">
+            <div class="container">
+                <div class="contact-container">
+                    <!-- Informations de contact -->
+                    <div>
+                        <div class="contact-info">
+                            <h2 style="color: var(--primary-blue); margin-bottom: 2rem;">Nos Coordonnées</h2>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">📞</div>
+                                <div>
+                                    <h3 style="margin: 0 0 0.5rem 0;">Téléphone</h3>
+                                    <p style="margin: 0;"><a href="tel:+33759627463" style="color: var(--primary-blue); font-weight: 600;">07 59 62 74 63</a></p>
+                                    <small style="color: #6b7280;">Appel gratuit depuis un fixe</small>
+                                </div>
+                            </div>
+
+
+                            <div class="contact-item">
+                                <div class="contact-icon">📍</div>
+                                <div>
+                                    <h3 style="margin: 0 0 0.5rem 0;">Zone d'intervention</h3>
+                                    <p style="margin: 0;">Tout l'Hérault (34)</p>
+                                    <small style="color: #6b7280;">Déplacement gratuit pour devis</small>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">🏆</div>
+                                <div>
+                                    <h3 style="margin: 0 0 0.5rem 0;">Certifications</h3>
+                                    <p style="margin: 0;">Qualibat RGE • Garantie Décennale</p>
+                                    <small style="color: #6b7280;">Artisan certifié et assuré</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Horaires -->
+                        <div class="contact-info" style="margin-top: 2rem;">
+                            <h3 style="color: var(--primary-blue); margin-bottom: 1rem;">Horaires d'ouverture</h3>
+                            <table class="hours-table">
+                                <thead>
+                                    <tr>
+                                        <th>Jour</th>
+                                        <th>Horaires</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Lundi - Vendredi</td>
+                                        <td><strong>8h00 - 18h00</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Samedi</td>
+                                        <td><strong>8h00 - 12h00</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dimanche</td>
+                                        <td>Fermé</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p style="font-size: 0.9rem; color: #6b7280; margin-top: 1rem;">
+                                * Urgences et dépannages 7j/7 sur demande
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Formulaire de contact -->
+                    <div>
+                        <div class="contact-form">
+                            <h2 style="color: white; margin-bottom: 1.5rem;">Envoyez-nous un message</h2>
+                            <p style="color: rgba(255, 255, 255, 0.8); margin-bottom: 2rem;">
+                                Décrivez votre projet et nous vous recontacterons rapidement avec des conseils personnalisés.
+                            </p>
+
+                            <form action="https://formspree.io/f/xeolypqb" method="POST">
+                                <div class="form-group">
+                                    <label class="form-label" for="objet">Sujet de votre demande *</label>
+                                    <select class="form-select" id="objet" name="objet" required>
+                                        <option value="">Choisissez un sujet...</option>
+                                        <option value="devis">Demande de devis</option>
+                                        <option value="information">Demande d'information</option>
+                                        <option value="urgence">Dépannage urgent</option>
+                                        <option value="suivi">Suivi de projet</option>
+                                        <option value="reclamation">Réclamation</option>
+                                        <option value="autre">Autre</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label" for="nom">Nom complet *</label>
+                                    <input type="text" class="form-input" id="nom" name="nom" placeholder="Votre nom et prénom" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label" for="email">Email *</label>
+                                    <input type="email" class="form-input" id="email" name="email" placeholder="votre@email.com" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label" for="telephone">Téléphone</label>
+                                    <input type="tel" class="form-input" id="telephone" name="telephone" placeholder="06 12 34 56 78">
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label" for="ville">Ville</label>
+                                    <input type="text" class="form-input" id="ville" name="ville" placeholder="Votre ville (Hérault)">
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label" for="message">Votre message *</label>
+                                    <textarea class="form-textarea" id="message" name="message" placeholder="Décrivez votre projet, vos besoins, ou posez votre question..." required></textarea>
+                                </div>
+
+                                <!-- Champs cachés pour traçabilité -->
+                                <input type="hidden" name="_subject" value="Nouveau message contact - Expert Menuiserie Hérault">
+                                <input type="hidden" name="_next" value="https://expert-menuiserie-herault.fr/contact/merci/">
+                                <input type="hidden" name="_language" value="fr">
+
+                                <button type="submit" class="submit-btn">
+                                    Envoyer le Message
+                                </button>
+                            </form>
+
+                            <p style="text-align: center; margin-top: 1rem; font-size: 0.9rem; opacity: 0.8; color: white;">
+                                Réponse garantie sous 24h • Vos données sont sécurisées
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ZONE INTERVENTION -->
+        <section class="map-container">
+            <div class="container">
+                <h2 style="color: var(--primary-blue); margin-bottom: 2rem;">Notre Zone d'Intervention</h2>
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <img src="../Images/Nos%20Zones%20d'Intervention%20dans%20l'Hérault.jpg" alt="Carte d'intervention Expert Menuiserie Hérault" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                </div>
+                <p style="margin-top: 1.5rem; color: #6b7280;">
+                    Nous intervenons dans <strong>50+ communes de l'Hérault</strong> : Montpellier, Béziers, Sète, Lunel, Castelnau-le-Lez, Lattes, Palavas-les-Flots et bien d'autres...
+                </p>
+                <div style="margin-top: 2rem;">
+                    <a href="../secteur/" class="btn btn-primary">Voir Toutes Nos Zones</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CERTIFICATIONS -->
+        <section class="certifications-section">
+            <div class="container">
+                <h2 style="text-align: center; margin-bottom: 1rem; color: var(--primary-blue);">Nos Garanties & Certifications</h2>
+                <p style="text-align: center; margin-bottom: 3rem; color: #6b7280;">
+                    Faites confiance à un professionnel certifié pour vos projets menuiserie
+                </p>
+
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <h3 style="color: var(--primary-blue);">Qualibat RGE</h3>
+                        <p>Certification officielle garantissant notre expertise technique et votre éligibilité aux aides de l'État.</p>
+                    </div>
+
+                    <div class="cert-card">
+                        <h3 style="color: var(--primary-blue);">Garantie Décennale</h3>
+                        <p>Assurance décennale complète couvrant tous nos travaux pour votre sérénité totale.</p>
+                    </div>
+
+                    <div class="cert-card">
+                        <h3 style="color: var(--primary-blue);">15+ Ans d'Expérience</h3>
+                        <p>Une expertise reconnue dans l'Hérault avec des centaines de projets réalisés avec succès.</p>
+                    </div>
+
+                    <div class="cert-card">
+                        <h3 style="color: var(--primary-blue);">Satisfaction Garantie</h3>
+                        <p>97% de clients satisfaits. Suivi qualité et service après-vente pour chaque intervention.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer-main">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Colonne 1 : Entreprise -->
+                <div class="footer-column">
+                    <h3>Expert Menuiserie Hérault</h3>
+                    <p>Votre spécialiste menuiserie Qualibat RGE dans l'Hérault. Installation, réparation, dépannage 24h/7j.</p>
+                    <div class="certifications">
+                        <span class="cert-badge">Qualibat</span>
+                        <span class="cert-badge">RGE</span>
+                    </div>
+                </div>
+
+                <!-- Colonne 2 : Services -->
+                <div class="footer-column">
+                    <h4>Nos Services</h4>
+                    <ul>
+                        <li><a href="../services/fenetres-sur-mesure-herault/">Fenêtres</a></li>
+                        <li><a href="../services/portes-entree-sur-mesure-herault/">Portes d'Entrée</a></li>
+                        <li><a href="../services/volets-sur-mesure-herault/">Volets</a></li>
+                        <li><a href="../services/portes-garage-herault/">Portes de Garage</a></li>
+                        <li><a href="../services/portails-clotures-herault/">Portails & Clôtures</a></li>
+                        <li><a href="../services/amenagements-exterieurs-herault/">Aménagements Extérieurs</a></li>
+                        <li><a href="../services/amenagements-interieurs-herault/">Aménagements Intérieurs</a></li>
+                    </ul>
+                </div>
+
+                <!-- Colonne 3 : Zones -->
+                <div class="footer-column">
+                    <h4>Nos Secteurs</h4>
+                    <ul>
+                        <li><a href="../secteur/montpellier/">Montpellier</a></li>
+                        <li><a href="../secteur/beziers/">Béziers</a></li>
+                        <li><a href="../secteur/sete/">Sète</a></li>
+                        <li><a href="../secteur/lunel/">Lunel</a></li>
+                        <li><a href="../secteur/clermont-l-herault/">Clermont-l'Hérault</a></li>
+                        <li><a href="../secteur/">Toutes nos zones</a></li>
+                    </ul>
+                </div>
+
+                <!-- Colonne 4 : Contact -->
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <div class="contact-info">
+                        <p><a href="tel:+33759627463">07 59 62 74 63</a></p>
+                        <p>Hérault (34)</p>
+                    </div>
+                    <a href="../devis-gratuit/" class="btn btn-primary">Devis Gratuit</a>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; 2024 Expert Menuiserie Hérault. Tous droits réservés.</p>
+                <div class="footer-links">
+                    <a href="../sitemap.xml">Plan du Site</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

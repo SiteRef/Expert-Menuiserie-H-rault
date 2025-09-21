@@ -18,7 +18,15 @@
       "Bash(do if [ -f \"$dir/index.html\" ])",
       "Bash(then if rg -q \"À\" \"$dir/index.html\")",
       "Bash(do echo \"=== $file ===\")",
-      "Bash(head:*)"
+      "Bash(head:*)",
+      "Bash(chmod:*)",
+      "Bash(./fix_all_encoding.sh)",
+      "Bash(do if grep -q \"fen�tres\" \"$file\")",
+      "Bash(then echo \"$file: needs processing\")",
+      "Bash(else echo \"$file: processed or missing\")",
+      "Bash(LC_ALL=C sed -i 's/ðŸ\"\"/📍/g' \"C:\\Users\\cedri\\Desktop\\menuiserie site\\secteur\\carnon-plage\\index.html\")",
+      "Bash(LC_ALL=C sed -i 's/CÅ\"\"ur/Cœur/g' \"C:\\Users\\cedri\\Desktop\\menuiserie site\\secteur\\carnon-plage\\index.html\")",
+      "WebFetch(domain:expert-menuiserie-h-rault.vercel.app)"
     ],
     "deny": [],
     "ask": []
