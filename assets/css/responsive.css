@@ -862,6 +862,15 @@
     color: var(--text-dark);
 }
 
+.testimonial-content p a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.testimonial-content p a:hover {
+    text-decoration: underline;
+}
+
 .testimonial-author strong {
     color: var(--primary-blue);
     display: block;
