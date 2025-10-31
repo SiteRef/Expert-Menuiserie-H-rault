@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ========================================
+         TODO: CUSTOMIZE THESE SEO FIELDS
+         ======================================== -->
+    <title>[TITRE DU POST] | Expert Menuiserie Hérault</title>
+    <meta name="description" content="[META DESCRIPTION - 150-160 caractères]">
+    <meta name="keywords" content="[MOT-CLÉ 1], [MOT-CLÉ 2], [MOT-CLÉ 3]">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="[TITRE DU POST] | Expert Menuiserie Hérault">
+    <meta property="og:description" content="[META DESCRIPTION]">
+    <meta property="og:image" content="https://expert-menuiserie-herault.fr/Images/blog/[NOM-IMAGE].jpg">
+    <meta property="og:url" content="https://expert-menuiserie-herault.fr/blog/[SLUG-DU-POST]/">
+    <meta property="og:type" content="article">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="[TITRE DU POST]">
+    <meta name="twitter:description" content="[META DESCRIPTION]">
+    <meta name="twitter:image" content="https://expert-menuiserie-herault.fr/Images/blog/[NOM-IMAGE].jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../../Images/Expert-Menuiserie-Herault-Favicon.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/responsive.css">
+
+    <!-- Schema.org BlogPosting -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "[TITRE DU POST]",
+        "image": "https://expert-menuiserie-herault.fr/Images/blog/[NOM-IMAGE].jpg",
+        "author": {
+            "@type": "Organization",
+            "name": "Expert Menuiserie Hérault"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Expert Menuiserie Hérault",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://expert-menuiserie-herault.fr/Images/Expert Menuiserie Hérault.png"
+            }
+        },
+        "datePublished": "[DATE AU FORMAT: 2025-01-15]",
+        "description": "[META DESCRIPTION]"
+    }
+    </script>
+
+    <style>
+        /* Blog post styles */
+        .blog-post-header {
+            position: relative;
+            margin-bottom: var(--spacing-2xl);
+        }
+
+        .blog-featured-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        .blog-post-meta {
+            margin: var(--spacing-xl) 0;
+            text-align: center;
+        }
+
+        .blog-post-title {
+            font-size: clamp(2rem, 4vw, 3rem);
+            color: var(--primary-blue);
+            margin-bottom: var(--spacing-md);
+            line-height: 1.2;
+        }
+
+        .blog-post-author {
+            color: var(--text-gray);
+            font-size: 1.1rem;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .blog-post-categories {
+            display: flex;
+            gap: var(--spacing-sm);
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .category-badge {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background: linear-gradient(135deg, var(--secondary-orange), var(--accent-yellow));
+            color: var(--white);
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .blog-post-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--spacing-lg) 0;
+        }
+
+        .blog-post-content h2 {
+            color: var(--primary-blue);
+            margin-top: var(--spacing-xl);
+            margin-bottom: var(--spacing-md);
+            font-size: clamp(1.75rem, 3vw, 2.25rem);
+        }
+
+        .blog-post-content h3 {
+            color: var(--text-dark);
+            margin-top: var(--spacing-lg);
+            margin-bottom: var(--spacing-sm);
+            font-size: clamp(1.5rem, 2.5vw, 1.85rem);
+        }
+
+        .blog-post-content p {
+            margin-bottom: var(--spacing-md);
+            line-height: 1.8;
+            font-size: 1.1rem;
+            color: var(--text-gray);
+        }
+
+        .blog-post-content ul,
+        .blog-post-content ol {
+            margin-bottom: var(--spacing-md);
+            padding-left: var(--spacing-xl);
+            line-height: 1.8;
+        }
+
+        .blog-post-content li {
+            margin-bottom: var(--spacing-sm);
+            color: var(--text-gray);
+        }
+
+        .blog-post-content strong {
+            color: var(--primary-blue);
+            font-weight: 700;
+        }
+
+        .blog-post-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: var(--spacing-lg) 0;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Back to Blog Button */
+        .back-to-blog {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin: var(--spacing-xl) 0;
+            padding: var(--spacing-sm) var(--spacing-lg);
+            background: transparent;
+            border: 2px solid var(--primary-blue);
+            color: var(--primary-blue);
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .back-to-blog:hover {
+            background: var(--primary-blue);
+            color: var(--white);
+            transform: translateX(-5px);
+        }
+
+        /* CTA Section */
+        .blog-cta {
+            background: linear-gradient(135deg, var(--bg-light) 0%, #e0f2fe 100%);
+            padding: var(--spacing-2xl);
+            border-radius: 16px;
+            text-align: center;
+            margin: var(--spacing-2xl) 0;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .blog-cta h2 {
+            color: var(--primary-blue);
+            font-size: clamp(1.75rem, 3vw, 2.5rem);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .blog-cta p {
+            font-size: 1.15rem;
+            color: var(--text-gray);
+            max-width: 700px;
+            margin: 0 auto var(--spacing-xl);
+            line-height: 1.7;
+        }
+
+        .blog-cta .btn {
+            font-size: 1.2rem;
+            padding: var(--spacing-md) var(--spacing-2xl);
+        }
+
+        /* Related Posts Section */
+        .related-posts {
+            margin: var(--spacing-2xl) 0;
+        }
+
+        .related-posts h2 {
+            text-align: center;
+            color: var(--primary-blue);
+            margin-bottom: var(--spacing-xl);
+            font-size: clamp(1.75rem, 3vw, 2.5rem);
+        }
+
+        .related-posts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: var(--spacing-lg);
+        }
+
+        .related-post-card {
+            background: var(--white);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .related-post-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+        }
+
+        .related-post-image {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .related-post-content {
+            padding: var(--spacing-md);
+        }
+
+        .related-post-category {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background: linear-gradient(135deg, var(--secondary-orange), var(--accent-yellow));
+            color: var(--white);
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .related-post-title {
+            font-size: 1.25rem;
+            color: var(--primary-blue);
+            margin-bottom: var(--spacing-sm);
+            line-height: 1.3;
+        }
+
+        .related-post-preview {
+            color: var(--text-gray);
+            font-size: 0.95rem;
+            margin-bottom: var(--spacing-sm);
+            line-height: 1.5;
+        }
+
+        .related-post-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--primary-blue);
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .related-post-card:hover .related-post-link {
+            gap: 0.75rem;
+            color: var(--secondary-orange);
+        }
+
+        /* Social Share */
+        .social-share {
+            display: flex;
+            gap: var(--spacing-sm);
+            justify-content: center;
+            margin: var(--spacing-xl) 0;
+        }
+
+        .social-share-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: var(--spacing-sm) var(--spacing-md);
+            border: 2px solid var(--primary-blue);
+            background: transparent;
+            color: var(--primary-blue);
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .social-share-btn:hover {
+            background: var(--primary-blue);
+            color: var(--white);
+            transform: translateY(-2px);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .blog-featured-image {
+                height: 250px;
+            }
+
+            .blog-post-content {
+                padding: var(--spacing-md);
+            }
+
+            .related-posts-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .social-share {
+                flex-direction: column;
+            }
+
+            .social-share-btn {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header-main">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo-section">
+                    <a href="../../" class="logo-link">
+                        <img src="../../Images/Expert Menuiserie Hérault.png" alt="Expert Menuiserie Hérault - Logo" class="company-logo">
+                        <span class="company-name">Expert Menuiserie Hérault</span>
+                    </a>
+                </div>
+
+                <div class="header-contact">
+                    <a href="tel:+33759627463" class="btn btn-secondary phone-btn">07 59 62 74 63</a>
+                    <a href="../../devis-gratuit/" class="btn btn-primary">DEVIS GRATUIT 24H</a>
+                </div>
+            </div>
+
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menu de navigation mobile" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+
+            <nav class="main-nav" id="mainNav">
+                <div class="container">
+                    <ul class="nav-menu">
+                        <li><a href="../../">Accueil</a></li>
+                        <li class="dropdown">
+                            <span class="dropdown-trigger">Services</span>
+                            <ul class="submenu">
+                                <li><a href="../../services/fenetres-sur-mesure-herault/">Fenêtres</a></li>
+                                <li><a href="../../services/portes-entree-sur-mesure-herault/">Portes d'Entrée</a></li>
+                                <li><a href="../../services/volets-sur-mesure-herault/">Volets</a></li>
+                                <li><a href="../../services/portes-garage-herault/">Portes de Garage</a></li>
+                                <li><a href="../../services/portails-clotures-herault/">Portails & Clôtures</a></li>
+                                <li><a href="../../services/amenagements-exterieurs-herault/">Aménagements Extérieurs</a></li>
+                                <li><a href="../../services/amenagements-interieurs-herault/">Aménagements Intérieurs</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../../secteur/">Nos Secteurs</a></li>
+                        <li><a href="../" class="active">Blog</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- BLOG POST -->
+    <article class="section">
+        <div class="container">
+            <!-- Featured Image -->
+            <!-- TODO: REMPLACER [NOM-IMAGE].jpg PAR LE NOM DE VOTRE IMAGE -->
+            <div class="blog-post-header">
+                <img src="../../Images/blog/[NOM-IMAGE].jpg" alt="[TITRE DU POST]" class="blog-featured-image" loading="lazy">
+            </div>
+
+            <!-- Post Meta -->
+            <div class="blog-post-meta">
+                <!-- TODO: REMPLACER [TITRE DU POST] -->
+                <h1 class="blog-post-title">[TITRE DU POST]</h1>
+
+                <p class="blog-post-author">Par Expert Menuiserie Hérault</p>
+
+                <!-- TODO: AJOUTER VOS CATÉGORIES -->
+                <div class="blog-post-categories">
+                    <span class="category-badge">[CATÉGORIE 1]</span>
+                    <span class="category-badge">[CATÉGORIE 2]</span>
+                </div>
+            </div>
+
+            <!-- Social Share -->
+            <div class="social-share">
+                <!-- TODO: REMPLACER [SLUG-DU-POST] ET [TITRE-URL-ENCODE] -->
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://expert-menuiserie-herault.fr/blog/[SLUG-DU-POST]/" target="_blank" class="social-share-btn">
+                    Partager sur Facebook
+                </a>
+                <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://expert-menuiserie-herault.fr/blog/[SLUG-DU-POST]/" target="_blank" class="social-share-btn">
+                    Partager sur LinkedIn
+                </a>
+                <a href="mailto:?subject=[TITRE-URL-ENCODE]&body=Découvrez cet article : https://expert-menuiserie-herault.fr/blog/[SLUG-DU-POST]/" class="social-share-btn">
+                    Partager par Email
+                </a>
+            </div>
+
+            <!-- Post Content -->
+            <!-- ========================================
+                 TODO: REMPLACER CE CONTENU PAR VOTRE ARTICLE
+                 ======================================== -->
+            <div class="blog-post-content">
+                <p>
+                    [INTRODUCTION - Premier paragraphe de votre article qui présente le sujet et accroche le lecteur...]
+                </p>
+
+                <h2>[TITRE DE SECTION 1]</h2>
+                <p>
+                    [Contenu de la première section...]
+                </p>
+
+                <h3>[SOUS-TITRE 1.1]</h3>
+                <p>
+                    [Contenu du sous-titre...]
+                </p>
+
+                <ul>
+                    <li><strong>Point 1 :</strong> Description du point 1</li>
+                    <li><strong>Point 2 :</strong> Description du point 2</li>
+                    <li><strong>Point 3 :</strong> Description du point 3</li>
+                </ul>
+
+                <h2>[TITRE DE SECTION 2]</h2>
+                <p>
+                    [Contenu de la deuxième section...]
+                </p>
+
+                <h3>[SOUS-TITRE 2.1]</h3>
+                <p>
+                    [Contenu du sous-titre...]
+                </p>
+
+                <ol>
+                    <li>Premier élément de la liste numérotée</li>
+                    <li>Deuxième élément de la liste numérotée</li>
+                    <li>Troisième élément de la liste numérotée</li>
+                </ol>
+
+                <h2>[TITRE DE SECTION 3]</h2>
+                <p>
+                    [Conclusion de votre article...]
+                </p>
+            </div>
+            <!-- FIN DU CONTENU À PERSONNALISER -->
+
+            <!-- Back to Blog -->
+            <a href="../" class="back-to-blog">← Retour au blog</a>
+
+            <!-- CTA SECTION -->
+            <div class="blog-cta">
+                <h2>Prêt à concrétiser votre projet de menuiserie ?</h2>
+                <p>Notre équipe d'experts est à votre disposition pour transformer vos idées en réalité. Contactez-nous pour un devis gratuit et personnalisé.</p>
+                <a href="../../devis-gratuit/" class="btn btn-primary btn-large">Contactez-nous</a>
+            </div>
+
+            <!-- RELATED POSTS SECTION -->
+            <div class="related-posts">
+                <h2>Articles similaires</h2>
+                <div class="related-posts-grid" id="relatedPostsGrid">
+                    <!-- Populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- FOOTER -->
+    <footer class="footer-main">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Colonne 1 : Entreprise -->
+                <div class="footer-column">
+                    <h3>Expert Menuiserie Hérault</h3>
+                    <p>Votre spécialiste menuiserie Qualibat RGE dans l'Hérault. Installation, réparation, dépannage 24h/7j.</p>
+                    <div class="certifications">
+                        <span class="cert-badge">127942 Qualibat</span>
+                        <span class="cert-badge">9889 RGE</span>
+                    </div>
+                </div>
+
+                <!-- Colonne 2 : Services -->
+                <div class="footer-column">
+                    <h4>Nos Services</h4>
+                    <ul>
+                        <li><a href="../../services/fenetres-sur-mesure-herault/">Fenêtres</a></li>
+                        <li><a href="../../services/portes-entree-sur-mesure-herault/">Portes d'Entrée</a></li>
+                        <li><a href="../../services/volets-sur-mesure-herault/">Volets</a></li>
+                        <li><a href="../../services/portes-garage-herault/">Portes de Garage</a></li>
+                        <li><a href="../../services/portails-clotures-herault/">Portails & Clôtures</a></li>
+                        <li><a href="../../services/amenagements-exterieurs-herault/">Aménagements Extérieurs</a></li>
+                        <li><a href="../../services/amenagements-interieurs-herault/">Aménagements Intérieurs</a></li>
+                    </ul>
+                </div>
+
+                <!-- Colonne 3 : Zones -->
+                <div class="footer-column">
+                    <h4>Nos Secteurs</h4>
+                    <ul>
+                        <li><a href="../../secteur/montpellier/">Montpellier</a></li>
+                        <li><a href="../../secteur/beziers/">Béziers</a></li>
+                        <li><a href="../../secteur/sete/">Sète</a></li>
+                        <li><a href="../../secteur/lunel/">Lunel</a></li>
+                        <li><a href="../../secteur/clermont-l-herault/">Clermont-l'Hérault</a></li>
+                        <li><a href="../../secteur/">Toutes nos zones</a></li>
+                    </ul>
+                </div>
+
+                <!-- Colonne 4 : Contact -->
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <div class="contact-info">
+                        <p><a href="tel:+33759627463">07 59 62 74 63</a></p>
+                        <p>128205 Hérault (34)</p>
+                    </div>
+                    <a href="../../devis-gratuit/" class="btn btn-primary">Devis Gratuit</a>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; 2024 Expert Menuiserie Hérault. Tous droits réservés.</p>
+                <div class="footer-links">
+                    <a href="../../sitemap.xml">Plan du Site</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT FOR RELATED POSTS -->
+    <script>
+        // TODO: REMPLACER [SLUG-DU-POST-ACTUEL] PAR LE SLUG DE CE POST
+        const currentPostSlug = '[SLUG-DU-POST-ACTUEL]';
+
+        // Load related posts
+        async function loadRelatedPosts() {
+            try {
+                const response = await fetch('../../data/blogs.json');
+                const data = await response.json();
+
+                // Find current post to get its categories
+                const currentPost = data.posts.find(post => post.slug === currentPostSlug);
+                if (!currentPost) return;
+
+                // Find posts with same categories (exclude current post)
+                let relatedPosts = data.posts.filter(post =>
+                    post.slug !== currentPostSlug &&
+                    post.categories.some(cat => currentPost.categories.includes(cat))
+                );
+
+                // If less than 3 related posts, fill with other recent posts
+                if (relatedPosts.length < 3) {
+                    const otherPosts = data.posts.filter(post =>
+                        post.slug !== currentPostSlug &&
+                        !relatedPosts.includes(post)
+                    );
+                    relatedPosts = [...relatedPosts, ...otherPosts];
+                }
+
+                // Limit to 3 posts
+                relatedPosts = relatedPosts.slice(0, 3);
+
+                // Render related posts
+                const grid = document.getElementById('relatedPostsGrid');
+                let gridHTML = '';
+
+                relatedPosts.forEach(post => {
+                    gridHTML += `
+                        <a href="../${post.slug}/" class="related-post-card">
+                            <img src="../../Images/blog/${post.image}" alt="${post.title}" class="related-post-image" loading="lazy">
+                            <div class="related-post-content">
+                                <span class="related-post-category">${post.categories[0]}</span>
+                                <h3 class="related-post-title">${post.title}</h3>
+                                <p class="related-post-preview">${post.contentPreview}</p>
+                                <span class="related-post-link">Lire l'article →</span>
+                            </div>
+                        </a>
+                    `;
+                });
+
+                grid.innerHTML = gridHTML;
+            } catch (error) {
+                console.error('Error loading related posts:', error);
+            }
+        }
+
+        // Mobile menu toggle
+        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+        const mainNav = document.getElementById('mainNav');
+
+        if (mobileMenuToggle) {
+            mobileMenuToggle.addEventListener('click', function() {
+                mainNav.classList.toggle('active');
+                const isExpanded = mainNav.classList.contains('active');
+                this.setAttribute('aria-expanded', isExpanded);
+            });
+        }
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', loadRelatedPosts);
+    </script>
+</body>
+</html>

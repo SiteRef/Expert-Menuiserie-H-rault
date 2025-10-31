@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Blog Main Page -->
+    <url>
+        <loc>https://expert-menuiserie-herault.fr/blog/</loc>
+        <lastmod>2025-01-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Blog Post: Fenêtres PVC, Aluminium ou Bois -->
+    <url>
+        <loc>https://expert-menuiserie-herault.fr/blog/choisir-fenetres-pvc-alu-bois/</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Blog Post: Portes de Garage Tendances 2025 -->
+    <url>
+        <loc>https://expert-menuiserie-herault.fr/blog/tendances-portes-garage-2025/</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Blog Post: Idées de Verrières Intérieures -->
+    <url>
+        <loc>https://expert-menuiserie-herault.fr/blog/idees-verrieres-amenagement-interieur/</loc>
+        <lastmod>2025-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!--
+    ========================================
+    INSTRUCTIONS POUR AJOUTER DE NOUVEAUX ARTICLES
+    ========================================
+
+    Lorsque vous ajoutez un nouvel article, ajoutez une nouvelle entrée <url> comme suit :
+
+    <url>
+        <loc>https://expert-menuiserie-herault.fr/blog/[SLUG-DE-LARTICLE]/</loc>
+        <lastmod>[DATE AU FORMAT: 2025-01-30]</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    Remplacez :
+    - [SLUG-DE-LARTICLE] par le slug de votre article (nom du dossier)
+    - [DATE AU FORMAT: 2025-01-30] par la date de publication au format AAAA-MM-JJ
+
+    Après modification, soumettez ce sitemap à Google Search Console :
+    https://search.google.com/search-console
+    -->
+
+</urlset>

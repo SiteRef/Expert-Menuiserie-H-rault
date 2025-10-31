@@ -26,7 +26,12 @@
       "Bash(else echo \"$file: processed or missing\")",
       "Bash(LC_ALL=C sed -i 's/ðŸ\"\"/📍/g' \"C:\\Users\\cedri\\Desktop\\menuiserie site\\secteur\\carnon-plage\\index.html\")",
       "Bash(LC_ALL=C sed -i 's/CÅ\"\"ur/Cœur/g' \"C:\\Users\\cedri\\Desktop\\menuiserie site\\secteur\\carnon-plage\\index.html\")",
-      "WebFetch(domain:expert-menuiserie-h-rault.vercel.app)"
+      "WebFetch(domain:expert-menuiserie-h-rault.vercel.app)",
+      "WebFetch(domain:www.expert-menuiserie-herault.fr)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(find:*)",
+      "Bash(ls \"C:\\Users\\cedri\\Desktop\\menuiserie site\\blog\"\" | grep -v \"index.html \")"
     ],
     "deny": [],
     "ask": []

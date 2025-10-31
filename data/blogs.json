@@ -1,0 +1,70 @@
+{
+  "posts": [
+    {
+      "slug": "choisir-fenetres-pvc-alu-bois",
+      "title": "Fenêtres PVC, Aluminium ou Bois : Comment Choisir ?",
+      "author": "Expert Menuiserie Hérault",
+      "image": "fenetres-comparaison.jpg",
+      "excerpt": "Guide complet pour choisir le matériau idéal de vos fenêtres : PVC, aluminium ou bois. Comparatif détaillé, avantages, inconvénients et conseils d'experts.",
+      "contentPreview": "Le choix du matériau de vos fenêtres impacte durablement votre confort, vos économies d'énergie et l'esthétique...",
+      "categories": ["Fenêtres", "Conseils"],
+      "metaDescription": "Fenêtres PVC, alu ou bois : guide complet pour choisir. Comparatif performances, prix, entretien. Conseils d'experts menuiserie Hérault.",
+      "metaKeywords": "fenêtres pvc, fenêtres aluminium, fenêtres bois, comparatif fenêtres, choisir fenêtres, menuiserie hérault"
+    },
+    {
+      "slug": "tendances-portes-garage-2025",
+      "title": "Porte de Garage : Les Tendances 2025 dans l'Hérault",
+      "author": "Expert Menuiserie Hérault",
+      "image": "portes-garage-tendances.jpg",
+      "excerpt": "Découvrez les dernières tendances en matière de portes de garage pour 2025 : design moderne, motorisation, sécurité et intégration domotique.",
+      "contentPreview": "Les portes de garage évoluent avec les nouvelles technologies et les attentes esthétiques modernes...",
+      "categories": ["Portes de Garage", "Inspiration"],
+      "metaDescription": "Tendances portes de garage 2025 : design, motorisation, sécurité, domotique. Guide complet pour votre projet dans l'Hérault.",
+      "metaKeywords": "porte de garage 2025, tendances portes garage, porte garage motorisée, porte garage sectionnelle, domotique garage"
+    },
+    {
+      "slug": "idees-verrieres-amenagement-interieur",
+      "title": "Aménagement Intérieur : 5 Idées de Verrières pour Votre Maison",
+      "author": "Expert Menuiserie Hérault",
+      "image": "verrieres-amenagement.jpg",
+      "excerpt": "5 idées inspirantes pour intégrer des verrières dans votre intérieur. Style industriel, moderne ou classique, découvrez comment valoriser vos espaces.",
+      "contentPreview": "Les verrières d'intérieur transforment radicalement vos espaces de vie en apportant lumière et caractère...",
+      "categories": ["Aménagements Intérieurs", "Inspiration"],
+      "metaDescription": "5 idées de verrières intérieures : style industriel, moderne, classique. Créez des espaces lumineux et design dans votre maison.",
+      "metaKeywords": "verrière intérieure, verrière atelier, séparation pièce, cloison vitrée, aménagement intérieur, verrière sur mesure"
+    },
+    {
+      "slug": "guide-renovation-menuiserie-herault",
+      "title": "Guide Complet de Rénovation de Menuiserie dans l'Hérault",
+      "author": "Expert Menuiserie Hérault",
+      "image": "renovation-menuiserie.jpg",
+      "excerpt": "Découvrez notre guide complet pour réussir votre projet de rénovation de menuiserie : fenêtres, portes, volets. Conseils, prix, aides financières dans l'Hérault.",
+      "contentPreview": "La rénovation de menuiserie améliore significativement le confort thermique, l'isolation phonique et la valeur de votre bien immobilier...",
+      "categories": ["Conseils", "Rénovation"],
+      "metaDescription": "Guide rénovation menuiserie Hérault : fenêtres, portes, volets. Budget, aides financières (MaPrimeRénov'), conseils d'experts RGE Qualibat.",
+      "metaKeywords": "rénovation menuiserie, rénovation fenêtres, rénovation portes, menuiserie hérault, artisan RGE, MaPrimeRénov', isolation thermique"
+    },
+    {
+      "slug": "valoriser-propriete-menuiserie-exterieure-montpellier",
+      "title": "Comment Valoriser Votre Propriété avec une Menuiserie Extérieure de Qualité",
+      "author": "Expert Menuiserie Hérault",
+      "image": "valoriser-propriete-exterieure.jpg",
+      "excerpt": "Augmentez la valeur de votre bien immobilier avec une menuiserie extérieure de qualité. Découvrez comment portes, fenêtres, volets et portails valorisent votre propriété.",
+      "contentPreview": "L'apparence extérieure d'une propriété joue un rôle crucial dans sa valeur perçue et réelle sur le marché immobilier...",
+      "categories": ["Conseils", "Valorisation"],
+      "metaDescription": "Valorisez votre propriété à Montpellier avec une menuiserie extérieure de qualité : portes, fenêtres, volets, portails. ROI et plus-value immobilière.",
+      "metaKeywords": "valoriser propriété, plus-value immobilière, menuiserie extérieure, porte d'entrée montpellier, fenêtres qualité, portail design"
+    },
+    {
+      "slug": "projets-amenagement-interieur-sur-mesure-2025",
+      "title": "10 Projets d'Aménagement Intérieur Sur Mesure Tendance en 2025",
+      "author": "Expert Menuiserie Hérault",
+      "image": "amenagements-interieurs-2025.jpg",
+      "excerpt": "Découvrez 10 projets d'aménagement intérieur sur mesure qui transformeront votre maison en 2025 : dressings, placards, bibliothèques, bureaux et plus encore.",
+      "contentPreview": "En 2025, l'aménagement intérieur sur mesure s'impose comme la solution privilégiée pour optimiser chaque mètre carré...",
+      "categories": ["Aménagements Intérieurs", "Inspiration"],
+      "metaDescription": "10 projets d'aménagement intérieur sur mesure 2025 : dressings, placards, verrières, bibliothèques. Tendances, matériaux et budget dans l'Hérault.",
+      "metaKeywords": "aménagement intérieur sur mesure, dressing sur mesure, placard sur mesure, bibliothèque sur mesure, bureau sur mesure, tendances 2025"
+    }
+  ]
+}
