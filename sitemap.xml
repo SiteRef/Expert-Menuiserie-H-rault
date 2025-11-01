@@ -4,405 +4,591 @@
   <!-- Homepage -->
   <url>
     <loc>https://expert-menuiserie-herault.fr/</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2025-11-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>1</priority>
   </url>
 
-  <!-- Main Services -->
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/services/fenetres-sur-mesure-herault/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/services/portes-entree-sur-mesure-herault/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/services/volets-sur-mesure-herault/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/services/portes-garage-herault/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/services/portails-clotures-herault/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  <!-- Service: amenagements-exterieurs-herault -->
   <url>
     <loc>https://expert-menuiserie-herault.fr/services/amenagements-exterieurs-herault/</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2025-10-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
+
+  <!-- Service: amenagements-interieurs-herault -->
   <url>
     <loc>https://expert-menuiserie-herault.fr/services/amenagements-interieurs-herault/</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2025-10-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Service: fenetres-sur-mesure-herault -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/services/fenetres-sur-mesure-herault/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Service: portails-clotures-herault -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/services/portails-clotures-herault/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Service: portes-entree-sur-mesure-herault -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/services/portes-entree-sur-mesure-herault/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Service: portes-garage-herault -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/services/portes-garage-herault/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Service: volets-sur-mesure-herault -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/services/volets-sur-mesure-herault/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
 
   <!-- Secteurs Main Page -->
   <url>
     <loc>https://expert-menuiserie-herault.fr/secteur/</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2025-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Main Cities -->
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/montpellier/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/beziers/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/sete/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/lunel/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/frontignan/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/palavas-les-flots/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/lattes/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/castelnau-le-lez/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/mauguio/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  <!-- Secteur: agde -->
   <url>
     <loc>https://expert-menuiserie-herault.fr/secteur/agde/</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2025-10-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/pezenas/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/clermont-l-herault/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/lodeve/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/saint-jean-de-vedas/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/perols/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Emergency Services -->
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/urgence/reparation-menuiserie-urgence-herault/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/urgence/depannage-volet-roulant-herault/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/urgence/reparation-fenetre-urgence-herault/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/urgence/menuisier-urgence-weekend-herault/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Contact & Devis -->
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/devis-gratuit/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/contact/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Additional Cities (Top 35 more) -->
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/jacou/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/le-cres/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/villeneuve-les-maguelone/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/marseillan/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/meze/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/saint-gely-du-fesc/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/grabels/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/clapiers/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/saint-clement-de-riviere/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/baillargues/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/castries/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/fabregues/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/cournonterral/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/pignan/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/gigean/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/poussan/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/balaruc-les-bains/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/bouzigues/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/loupian/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/florensac/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/vias/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/serignan/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/valras-plage/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/capestang/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/olonzac/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/saint-chinian/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/roujan/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/gignac/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
+  <!-- Secteur: aniane -->
   <url>
     <loc>https://expert-menuiserie-herault.fr/secteur/aniane/</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2025-10-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.7</priority>
   </url>
+
+  <!-- Secteur: aspiran -->
   <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/ganges/</loc>
-    <lastmod>2024-01-15</lastmod>
+    <loc>https://expert-menuiserie-herault.fr/secteur/aspiran/</loc>
+    <lastmod>2025-10-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.7</priority>
   </url>
+
+  <!-- Secteur: balaruc-les-bains -->
   <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/saint-martin-de-londres/</loc>
-    <lastmod>2024-01-15</lastmod>
+    <loc>https://expert-menuiserie-herault.fr/secteur/balaruc-les-bains/</loc>
+    <lastmod>2025-10-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/montarnaud/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
+
+  <!-- Secteur: bedarieux -->
   <url>
     <loc>https://expert-menuiserie-herault.fr/secteur/bedarieux/</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2025-10-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.7</priority>
   </url>
+
+  <!-- Secteur: beziers -->
   <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/saint-pons-de-thomieres/</loc>
-    <lastmod>2024-01-15</lastmod>
+    <loc>https://expert-menuiserie-herault.fr/secteur/beziers/</loc>
+    <lastmod>2025-10-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.9</priority>
   </url>
+
+  <!-- Secteur: brignac -->
   <url>
-    <loc>https://expert-menuiserie-herault.fr/secteur/lamalou-les-bains/</loc>
-    <lastmod>2024-01-15</lastmod>
+    <loc>https://expert-menuiserie-herault.fr/secteur/brignac/</loc>
+    <lastmod>2025-10-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.7</priority>
   </url>
+
+  <!-- Secteur: cabrieres -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/cabrieres/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: canet -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/canet/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: capestang -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/capestang/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: carnon-plage -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/carnon-plage/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: castelnau-le-lez -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/castelnau-le-lez/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Secteur: clermont-l-herault -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/clermont-l-herault/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Secteur: florensac -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/florensac/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: frontignan -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/frontignan/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Secteur: ganges -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/ganges/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: gignac -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/gignac/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: jacou -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/jacou/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: lattes -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/lattes/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Secteur: le-cres -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/le-cres/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: le-pouget -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/le-pouget/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: liausson -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/liausson/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: lieuran-cabrieres -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/lieuran-cabrieres/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: lodeve -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/lodeve/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Secteur: lunel -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/lunel/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Secteur: marseillan -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/marseillan/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: mauguio -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/mauguio/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Secteur: meze -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/meze/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: montpellier -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/montpellier/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Secteur: moureze -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/moureze/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: nebian -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/nebian/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: octon -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/octon/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: palavas-les-flots -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/palavas-les-flots/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Secteur: paulhan -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/paulhan/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: peret -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/peret/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: perols -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/perols/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Secteur: pezenas -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/pezenas/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Secteur: pignan -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/pignan/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: saint-andre-de-sangonis -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/saint-andre-de-sangonis/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: saint-felix-de-lodez -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/saint-felix-de-lodez/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: saint-guilhem-le-desert -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/saint-guilhem-le-desert/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: saint-jean-de-fos -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/saint-jean-de-fos/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: saint-jean-de-vedas -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/saint-jean-de-vedas/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Secteur: saint-mathieu-de-treviers -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/saint-mathieu-de-treviers/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: salasc -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/salasc/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: servian -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/servian/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: sete -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/sete/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Secteur: valras-plage -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/valras-plage/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: vendargues -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/vendargues/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: vias -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/vias/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secteur: villeneuve-les-maguelone -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/secteur/villeneuve-les-maguelone/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog Main Page -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/blog/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog: choisir-fenetres-pvc-alu-bois -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/blog/choisir-fenetres-pvc-alu-bois/</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: entretien-menuiserie-guide-saisonnier-herault -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/blog/entretien-menuiserie-guide-saisonnier-herault/</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: guide-renovation-menuiserie-herault -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/blog/guide-renovation-menuiserie-herault/</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: idees-verrieres-amenagement-interieur -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/blog/idees-verrieres-amenagement-interieur/</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: isolation-thermique-phonique-menuiserie -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/blog/isolation-thermique-phonique-menuiserie/</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: projets-amenagement-interieur-sur-mesure-2025 -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/blog/projets-amenagement-interieur-sur-mesure-2025/</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: securite-maison-menuiserie-herault -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/blog/securite-maison-menuiserie-herault/</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: tendances-portes-garage-2025 -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/blog/tendances-portes-garage-2025/</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: valoriser-propriete-menuiserie-exterieure-montpellier -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/blog/valoriser-propriete-menuiserie-exterieure-montpellier/</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Devis Gratuit -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/devis-gratuit/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/contact/</loc>
+    <lastmod>2025-09-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!--
+  ============================================
+  SITEMAP AUTO-GENERATED
+  ============================================
+  Generated: 2025-11-01
+  Total URLs: 72
+
+  To regenerate this sitemap, run:
+  node generate-sitemap.js
+
+  This will automatically scan all pages and update the sitemap.
+  ============================================
+  -->
 
 </urlset>

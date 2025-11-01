@@ -4,31 +4,79 @@
     <!-- Blog Main Page -->
     <url>
         <loc>https://expert-menuiserie-herault.fr/blog/</loc>
-        <lastmod>2025-01-25</lastmod>
+        <lastmod>2025-10-31</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
-    <!-- Blog Post: Fenêtres PVC, Aluminium ou Bois -->
+    <!-- Blog Post: Fenêtres PVC, Aluminium ou Bois : Comment Choisir ? -->
     <url>
         <loc>https://expert-menuiserie-herault.fr/blog/choisir-fenetres-pvc-alu-bois/</loc>
-        <lastmod>2025-01-15</lastmod>
+        <lastmod>2025-11-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
 
-    <!-- Blog Post: Portes de Garage Tendances 2025 -->
+    <!-- Blog Post: Entretien de Votre Menuiserie : Guide Saisonnier pour l'Hérault -->
     <url>
-        <loc>https://expert-menuiserie-herault.fr/blog/tendances-portes-garage-2025/</loc>
-        <lastmod>2025-01-20</lastmod>
+        <loc>https://expert-menuiserie-herault.fr/blog/entretien-menuiserie-guide-saisonnier-herault/</loc>
+        <lastmod>2025-11-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
 
-    <!-- Blog Post: Idées de Verrières Intérieures -->
+    <!-- Blog Post: Guide Complet de Rénovation de Menuiserie dans l'Hérault -->
+    <url>
+        <loc>https://expert-menuiserie-herault.fr/blog/guide-renovation-menuiserie-herault/</loc>
+        <lastmod>2025-11-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Blog Post: Aménagement Intérieur : 5 Idées de Verrières pour Votre Maison -->
     <url>
         <loc>https://expert-menuiserie-herault.fr/blog/idees-verrieres-amenagement-interieur/</loc>
-        <lastmod>2025-01-25</lastmod>
+        <lastmod>2025-11-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Blog Post: Isolation Thermique et Phonique : Le Rôle Crucial de la Menuiserie -->
+    <url>
+        <loc>https://expert-menuiserie-herault.fr/blog/isolation-thermique-phonique-menuiserie/</loc>
+        <lastmod>2025-11-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Blog Post: 10 Projets d'Aménagement Intérieur Sur Mesure Tendance en 2025 -->
+    <url>
+        <loc>https://expert-menuiserie-herault.fr/blog/projets-amenagement-interieur-sur-mesure-2025/</loc>
+        <lastmod>2025-11-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Blog Post: Sécurité de la Maison : Quel Type de Menuiserie Choisir dans l'Hérault ? -->
+    <url>
+        <loc>https://expert-menuiserie-herault.fr/blog/securite-maison-menuiserie-herault/</loc>
+        <lastmod>2025-11-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Blog Post: Porte de Garage : Les Tendances 2025 dans l'Hérault -->
+    <url>
+        <loc>https://expert-menuiserie-herault.fr/blog/tendances-portes-garage-2025/</loc>
+        <lastmod>2025-11-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Blog Post: Comment Valoriser Votre Propriété avec une Menuiserie Extérieure de Qualité -->
+    <url>
+        <loc>https://expert-menuiserie-herault.fr/blog/valoriser-propriete-menuiserie-exterieure-montpellier/</loc>
+        <lastmod>2025-11-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
@@ -38,21 +86,20 @@
     INSTRUCTIONS POUR AJOUTER DE NOUVEAUX ARTICLES
     ========================================
 
-    Lorsque vous ajoutez un nouvel article, ajoutez une nouvelle entrée <url> comme suit :
+    Ce sitemap est généré automatiquement. Pour mettre à jour :
 
-    <url>
-        <loc>https://expert-menuiserie-herault.fr/blog/[SLUG-DE-LARTICLE]/</loc>
-        <lastmod>[DATE AU FORMAT: 2025-01-30]</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
+    1. Ajoutez votre nouvel article dans /blog/[slug]/index.html
+    2. Ajoutez l'entrée dans /data/blogs.json
+    3. Exécutez : node generate-blog-sitemap.js
+    4. Le sitemap sera automatiquement régénéré !
 
-    Remplacez :
-    - [SLUG-DE-LARTICLE] par le slug de votre article (nom du dossier)
-    - [DATE AU FORMAT: 2025-01-30] par la date de publication au format AAAA-MM-JJ
+    OU utilisez le script complet :
+    node generate-all-sitemaps.js
 
-    Après modification, soumettez ce sitemap à Google Search Console :
-    https://search.google.com/search-console
+    ========================================
+    Auto-generated: 2025-11-01
+    Total blog posts: 9
+    ========================================
     -->
 
 </urlset>

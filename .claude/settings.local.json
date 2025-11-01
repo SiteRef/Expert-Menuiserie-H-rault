@@ -6,7 +6,8 @@
       "Bash(else echo \"✗ MISSING: $dir/index.html\")",
       "Bash(fi)",
       "Bash(done)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "Bash(xmllint:*)"
     ],
     "deny": [],
     "ask": []
