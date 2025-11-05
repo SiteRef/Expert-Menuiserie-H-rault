@@ -484,7 +484,7 @@
   <!-- Blog Main Page -->
   <url>
     <loc>https://expert-menuiserie-herault.fr/blog/</loc>
-    <lastmod>2025-10-31</lastmod>
+    <lastmod>2025-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -493,6 +493,46 @@
   <url>
     <loc>https://expert-menuiserie-herault.fr/blog/choisir-fenetres-pvc-alu-bois/</loc>
     <lastmod>2025-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: marche-menuiserie-france-2024-2025 -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/blog/marche-menuiserie-france-2024-2025/</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: maprimerenov-2025-herault-guide-complet -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/blog/maprimerenov-2025-herault-guide-complet/</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: menuiseries-climat-mediterraneen-herault -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/blog/menuiseries-climat-mediterraneen-herault/</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: pvc-aluminium-bois-2025-comparatif -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/blog/pvc-aluminium-bois-2025-comparatif/</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: renovation-energetique-herault-2025 -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/blog/renovation-energetique-herault-2025/</loc>
+    <lastmod>2025-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -581,8 +621,8 @@
   ============================================
   SITEMAP AUTO-GENERATED
   ============================================
-  Generated: 2025-11-01
-  Total URLs: 72
+  Generated: 2025-11-05
+  Total URLs: 77
 
   To regenerate this sitemap, run:
   node generate-sitemap.js
