@@ -8,7 +8,11 @@
       "Bash(done)",
       "Bash(cat:*)",
       "Bash(xmllint:*)",
-      "Bash(md5sum:*)"
+      "Bash(md5sum:*)",
+      "Bash(do:*)",
+      "Bash(if [ -f \"$dir/index.html\" ])",
+      "Bash(then)",
+      "Bash(if ! grep -q \"Favicon\" \"$dir/index.html\")"
     ],
     "deny": [],
     "ask": []
