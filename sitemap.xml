@@ -489,6 +489,22 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Blog: menuiserie-montpellier-guide-quartiers -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/blog/menuiserie-montpellier-guide-quartiers/</loc>
+    <lastmod>2025-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: menuiseries-agde-cap-agde -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/blog/menuiseries-agde-cap-agde/</loc>
+    <lastmod>2025-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- Blog: menuiseries-patrimoine-herault -->
   <url>
     <loc>https://expert-menuiserie-herault.fr/blog/menuiseries-patrimoine-herault/</loc>
@@ -645,8 +661,8 @@
   ============================================
   SITEMAP AUTO-GENERATED
   ============================================
-  Generated: 2025-11-05
-  Total URLs: 79
+  Generated: 2025-11-06
+  Total URLs: 82
 
   To regenerate this sitemap, run:
   node generate-sitemap.js

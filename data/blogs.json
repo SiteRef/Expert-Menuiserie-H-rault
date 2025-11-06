@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "slug": "menuiseries-agde-cap-agde",
+      "title": "Menuiseries à Agde et au Cap d'Agde : Guide Complet pour Résidences Principales, Secondaires et Locations Saisonnières",
+      "author": "Expert Menuiserie Hérault",
+      "image": "menuiseries-agde-cap-agde.jpg",
+      "excerpt": "Guide menuiseries Agde et Cap d'Agde : locations saisonnières, résidences secondaires, climat maritime. PVC marine-grade, rentabilité locative, ROI. Expert côtier RGE.",
+      "contentPreview": "Que vous soyez propriétaire d'une résidence principale dans le centre historique d'Agde, investisseur dans une location saisonnière au Cap d'Agde...",
+      "categories": ["Secteurs", "Locations Saisonnières"],
+      "metaDescription": "Guide complet menuiseries Agde et Cap d'Agde : locations saisonnières, résidences secondaires, climat maritime. PVC, aluminium marine-grade. Expert RGE.",
+      "metaKeywords": "menuiserie agde, menuiserie cap agde, fenetre agde, location saisonniere, residence secondaire, menuiserie bord de mer, volet roulant agde, porte agde"
+    },
+    {
+      "slug": "menuiserie-montpellier-guide-quartiers",
+      "title": "Menuiserie à Montpellier : Guide Complet Quartier par Quartier (2025)",
+      "author": "Expert Menuiserie Hérault",
+      "image": "menuiserie-montpellier-quartiers.jpg",
+      "excerpt": "Guide menuiserie Montpellier par quartier : Écusson (ABF), Antigone, Port Marianne, Beaux-Arts, Hôpitaux-Facultés, Mosson. Conseils techniques, budget 2025 et études de cas.",
+      "contentPreview": "Montpellier, avec ses 300 000 habitants et son patrimoine architectural exceptionnel, nécessite une approche spécifique de la menuiserie...",
+      "categories": ["Secteurs", "Conseils"],
+      "metaDescription": "Guide menuiserie Montpellier par quartier : Écusson, Antigone, Port Marianne, Beaux-Arts. Conseils techniques, ABF, budget. Expert RGE.",
+      "metaKeywords": "menuiserie montpellier, fenetre montpellier, porte montpellier, volet montpellier, ecusson, antigone, port marianne, ABF montpellier, renovation montpellier"
+    },
+    {
       "slug": "menuiseries-patrimoine-herault",
       "title": "Menuiseries et Patrimoine dans l'Hérault : Guide Complet pour Pézenas, Lodève, Saint-Guilhem-le-Désert et Clermont-l'Hérault",
       "author": "Expert Menuiserie Hérault",
