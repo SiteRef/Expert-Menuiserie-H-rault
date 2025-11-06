@@ -489,6 +489,22 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Blog: menuiseries-patrimoine-herault -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/blog/menuiseries-patrimoine-herault/</loc>
+    <lastmod>2025-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: menuiseries-bord-mer-sete-bassin-thau -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/blog/menuiseries-bord-mer-sete-bassin-thau/</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- Blog: choisir-fenetres-pvc-alu-bois -->
   <url>
     <loc>https://expert-menuiserie-herault.fr/blog/choisir-fenetres-pvc-alu-bois/</loc>
@@ -500,6 +516,14 @@
   <!-- Blog: marche-menuiserie-france-2024-2025 -->
   <url>
     <loc>https://expert-menuiserie-herault.fr/blog/marche-menuiserie-france-2024-2025/</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: menuiserie-beziers-guide-complet -->
+  <url>
+    <loc>https://expert-menuiserie-herault.fr/blog/menuiserie-beziers-guide-complet/</loc>
     <lastmod>2025-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -622,7 +646,7 @@
   SITEMAP AUTO-GENERATED
   ============================================
   Generated: 2025-11-05
-  Total URLs: 77
+  Total URLs: 79
 
   To regenerate this sitemap, run:
   node generate-sitemap.js

@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "slug": "menuiseries-patrimoine-herault",
+      "title": "Menuiseries et Patrimoine dans l'Hérault : Guide Complet pour Pézenas, Lodève, Saint-Guilhem-le-Désert et Clermont-l'Hérault",
+      "author": "Expert Menuiserie Hérault",
+      "image": "menuiseries-patrimoine-herault.jpg",
+      "excerpt": "Guide exhaustif menuiseries patrimoine : ABF autorisation, Pézenas secteur sauvegardé, Saint-Guilhem UNESCO, Lodève, Clermont-l'Hérault. Techniques traditionnelles, performances modernes.",
+      "contentPreview": "Propriétaires de biens patrimoniaux dans les centres historiques de l'Hérault, ce guide exhaustif vous accompagne dans vos projets de rénovation de fenêtres, portes et volets...",
+      "categories": ["Patrimoine", "Conseils"],
+      "metaDescription": "Guide exhaustif menuiseries patrimoine : ABF autorisation, Pézenas secteur sauvegardé, Saint-Guilhem UNESCO, Lodève, Clermont-l'Hérault. Techniques traditionnelles, performances modernes.",
+      "metaKeywords": "menuiserie patrimoine herault, ABF pezenas, fenetre patrimoine, secteur sauvegarde, unesco saint guilhem, menuiserie historique, renovation patrimoine"
+    },
+    {
+      "slug": "menuiseries-bord-mer-sete-bassin-thau",
+      "title": "Menuiseries en Bord de Mer : Guide Complet pour Sète, Frontignan, Mèze et le Bassin de Thau",
+      "author": "Expert Menuiserie Hérault",
+      "image": "menuiseries-bord-mer-sete-bassin-thau.jpg",
+      "excerpt": "Guide technique menuiseries bord de mer : aluminium Qualimarine, résistance sel marin, UV, vents. Conseils expert Sète, Frontignan, Mèze, Bassin de Thau. Entretien côtier.",
+      "contentPreview": "Vivre face à la Méditerranée dans l'Hérault offre un cadre de vie exceptionnel, mais impose des contraintes techniques spécifiques...",
+      "categories": ["Climat Méditerranéen", "Conseils Techniques"],
+      "metaDescription": "Guide technique complet menuiseries bord de mer : aluminium Qualimarine, résistance au sel marin, UV et vents. Expert côtier Sète, Frontignan, Mèze, Bassin de Thau.",
+      "metaKeywords": "menuiserie bord de mer, fenetre sete, porte frontignan, aluminium qualimarine, corrosion saline, menuiserie bassin thau, fenetre cote mediterranee"
+    },
+    {
+      "slug": "menuiserie-beziers-guide-complet",
+      "title": "Guide Complet Menuiserie à Béziers : Spécificités Architecturales, Climat Méditerranéen et Solutions Sur Mesure",
+      "author": "Expert Menuiserie Hérault",
+      "image": "menuiserie-beziers-guide.jpg",
+      "excerpt": "Guide complet menuiserie Béziers : architecture (Haussmannien, mas, années 60-70), climat méditerranéen, quartiers (Devèze, Iranget), aides MaPrimeRénov'. Expert RGE.",
+      "contentPreview": "Béziers, deuxième ville de l'Hérault avec ses 80 815 habitants, se distingue par une richesse architecturale unique...",
+      "categories": ["Secteurs", "Conseils"],
+      "metaDescription": "Guide complet menuiserie Béziers : spécificités architecturales (Haussmannien, mas, années 60-70), climat méditerranéen, quartiers, aides financières. Expert RGE.",
+      "metaKeywords": "menuiserie beziers, fenêtres beziers, portes beziers, volets beziers, renovation beziers, RGE beziers, maprimerenov beziers"
+    },
+    {
       "slug": "marche-menuiserie-france-2024-2025",
       "title": "Marché de la Menuiserie en France 2024-2025 : Analyse et Perspectives pour l'Hérault",
       "author": "Expert Menuiserie Hérault",
