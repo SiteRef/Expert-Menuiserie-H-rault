@@ -12,7 +12,14 @@
       "Bash(do:*)",
       "Bash(if [ -f \"$dir/index.html\" ])",
       "Bash(then)",
-      "Bash(if ! grep -q \"Favicon\" \"$dir/index.html\")"
+      "Bash(if ! grep -q \"Favicon\" \"$dir/index.html\")",
+      "Bash(ls -d */)",
+      "Bash(grep -rn '\\\\${post\\\\.slug}' --include=\"*.html\")",
+      "Bash(grep \"\\\\.html$\")",
+      "Bash(ls -1d */)",
+      "Bash(ls \"C:/Users/cedri/Desktop/menuiserie site/\"*.xml)",
+      "Bash(ls \"C:/Users/cedri/Desktop/menuiserie site/sitemap\"*)",
+      "Bash(echo \"Exit: $?\")"
     ],
     "deny": [],
     "ask": []
