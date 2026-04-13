@@ -19,7 +19,9 @@
       "Bash(ls -1d */)",
       "Bash(ls \"C:/Users/cedri/Desktop/menuiserie site/\"*.xml)",
       "Bash(ls \"C:/Users/cedri/Desktop/menuiserie site/sitemap\"*)",
-      "Bash(echo \"Exit: $?\")"
+      "Bash(echo \"Exit: $?\")",
+      "Bash(powershell -Command ':*)",
+      "Bash(powershell:*)"
     ],
     "deny": [],
     "ask": []
