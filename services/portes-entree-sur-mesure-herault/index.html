@@ -18,15 +18,77 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "Portes d'entrée sur mesure Hérault",
-        "description": "Fabrication et installation de portes d'entrée sur mesure PVC, aluminium, bois, acier",
-        "provider": {
-            "@type": "LocalBusiness",
-            "name": "Expert Menuiserie Hérault"
-        },
-        "serviceType": "Menuiserie",
-        "areaServed": "Hérault"
+        "@graph": [
+            {
+                "@type": "Service",
+                "name": "Portes d'entrée sur mesure Hérault",
+                "description": "Fabrication et installation de portes d'entrée sur mesure PVC, aluminium, bois, acier dans l'Hérault.",
+                "serviceType": "Installation de portes d'entrée sur mesure",
+                "provider": {
+                    "@type": "LocalBusiness",
+                    "name": "Expert Menuiserie Hérault",
+                    "url": "https://www.expert-menuiserie-herault.fr/"
+                },
+                "areaServed": {
+                    "@type": "Place",
+                    "name": "Hérault"
+                }
+            },
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Accueil",
+                        "item": "https://www.expert-menuiserie-herault.fr/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Portes d'entrée sur mesure",
+                        "item": "https://www.expert-menuiserie-herault.fr/services/portes-entree-sur-mesure-herault/"
+                    }
+                ]
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Quelles aides financières pour une porte d'entrée ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Étant certifiés RGE, nos installations ouvrent droit à : MaPrimeRénov', éco-PTZ, TVA réduite à 5,5%, aides locales. Les portes performantes énergétiquement sont éligibles aux aides."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Vos portes sont-elles garanties ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Toutes nos portes bénéficient d'une garantie de 10 ans sur les parties fixes et 2 ans sur la pose. Les serrures et mécanismes sont garantis 5 ans. Service après-vente réactif assuré."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Comment choisir le niveau de sécurité ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Nous évaluons vos besoins selon votre environnement : zone urbaine/rurale, type d'habitation, valeur des biens. Nous proposons des solutions adaptées du standard à la haute sécurité A2P."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Intervenez-vous dans tout l'Hérault ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Oui, nous intervenons dans tout le département de l'Hérault : Montpellier, Béziers, Sète, Lunel, Lodève, Clermont-l'Hérault et toutes les communes. Déplacement gratuit pour devis."
+                        }
+                    }
+                ]
+            }
+        ]
     }
     </script>
 </head>
