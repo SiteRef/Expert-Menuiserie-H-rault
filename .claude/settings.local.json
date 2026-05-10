@@ -21,7 +21,12 @@
       "Bash(ls \"C:/Users/cedri/Desktop/menuiserie site/sitemap\"*)",
       "Bash(echo \"Exit: $?\")",
       "Bash(powershell -Command ':*)",
-      "Bash(powershell:*)"
+      "Bash(powershell:*)",
+      "Bash(grep -n \"post\\\\.slug\\\\|blog.*slug\\\\|\\\\${\" \"C:/Users/cedri/Desktop/menuiserie site/sitemap.xml\")",
+      "Bash(grep -n \"post\\\\.slug\\\\|blog.*slug\\\\|\\\\${\" \"C:/Users/cedri/Desktop/menuiserie site/blog-sitemap.xml\")",
+      "Bash(grep -n \"blog\\\\|post\\\\.slug\\\\|\\\\${\" \"C:/Users/cedri/Desktop/menuiserie site/sitemap.xml\")",
+      "Bash(grep -n \"\\\\${\" \"C:/Users/cedri/Desktop/menuiserie site/sitemap.xml\")",
+      "Bash(grep -rn \"\\\\${post\" --include=\"*.json\" \"C:/Users/cedri/Desktop/menuiserie site/\")"
     ],
     "deny": [],
     "ask": []
