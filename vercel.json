@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "expert-menuiserie-herault.fr"
+        }
+      ],
+      "destination": "https://www.expert-menuiserie-herault.fr/:path*",
+      "permanent": true
+    }
+  ]
+}
